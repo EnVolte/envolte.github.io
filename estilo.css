@@ -1,4 +1,4 @@
 body {background: #fff; margin: 0px; font-family: Helvetica;}
 
-#text {width: 80%; background: #222; color: #fff; padding: 1%; border: 1px solid #111; border-radius: 5px; margin: 100px auto 0px;}
+#text {width: 80%; background: #222; color: #fff; text-shadow: 1px 1px 0px rgba(0,0,0,0.2); padding: 1%; border: 1px solid #111; border-radius: 5px; margin: 100px auto 0px;}
 #text span.desc {width: 100%; background: #444; color: #ddd; padding: 3px 5px; border-radius: 5px; margin-bottom: 0px;}
