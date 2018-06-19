@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bem vindos!"
-date:   2018-18-06 07:40:00
+date:   2018-06-19 07:40:00
 categories: Recado
 ---
 
