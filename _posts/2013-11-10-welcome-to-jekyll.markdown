@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-11-10 10:18:00
-categories: Thriller Comedy Horror
+title:  "Bem vindos!"
+date:   2018-19-06 07:40:00
+categories: Recado
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
+Sejam bem-vindos ao Envolte, um blog destinado a dar uma ajuda para quem enfrenta problemas com a criação de blogs, sites ou páginas estáticas, como esta.
+Nosso blog está hospedado no Github, e esperamos que tenham uma boa experiência nos visitando ;)
 
 {% highlight ruby %}
 def print_hi(name)
