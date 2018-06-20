@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bem vindos!"
+title:  "Bem-vindos!"
 date:   2018-06-19 07:40:00
 categories: Recado
 ---
