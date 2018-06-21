@@ -17,10 +17,14 @@ about: 'about.html'
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-                <span style="border: 1px solid rgba(0,0,0,0.5); background: rgba(0,0,0,0.4); border-radius: 2px; padding: 8px 20px; text-decoration: none; font-weight: bold; overflow: hidden; margin-top: 20px; margin-right: 20px;" id="titulo"></span><br>
-                {% if page.about %} <br><br><div><a style='overflow: hidden;' href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a></div> {% endif %}
+            <h2 class="page-description"><br>
+                <span style="border: 1px solid rgba(0,0,0,0.5); background: rgba(0,0,0,0.4); border-radius: 2px; padding: 8px 20px; text-decoration: none; font-weight: bold; overflow: hidden; margin-right: 20px;" id="titulo"></span><br>
             </h2>
+                {% if page.about %} 
+                <br><br><div>
+            <a style='overflow: hidden;' href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a>
+                </div> {% endif %}
+     
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
