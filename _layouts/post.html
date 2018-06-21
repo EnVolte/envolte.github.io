@@ -1,7 +1,6 @@
 ---
 layout: default
 cover: assets/images/blogcapa4.png
-disqus: false
 archive: false
 post_class: post-template
 ---
@@ -37,11 +36,11 @@ post_class: post-template
 
     <article class="post">
 
-        <header class="post-header">
+      
             <section class="post-meta">
-            <time datetime="">Se gostou do conteúdo e quiser contribuir, não esqueça de <b><a class="scroll-down icon-arrow-left" href="#comentarios">comentar</a></b>!</time>
+            <time datetime="">Se gostou do conteúdo, não deixe de <b><a href="#comentarios">comentar</a></b>!</time>
             </section>
-        </header>
+        <br>
 
 <!--         <header class="post-header">
             <a id="blog-logo" href="{{site.url}}">
@@ -96,9 +95,7 @@ post_class: post-template
 
             <!-- Disqus comments -->
             <div id="comentarios" class="comentarios">
-            {% if page.disqus %}
                 {% include disqus.html %}
-            {% endif %}
             </div>
 
         </footer>
