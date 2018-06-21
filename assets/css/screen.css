@@ -35,7 +35,7 @@ audio:not([controls]) { display: none; height: 0; }
 html {
    font-family: sans-serif;
    -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%; text-decoration: none;
 }
 body { margin: 0; }
 a { background: transparent; }
