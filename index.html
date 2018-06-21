@@ -21,10 +21,10 @@ about: 'about.html'
                 <span style="border: 1px solid rgba(0,0,0,0.5); background: rgba(0,0,0,0.4); border-radius: 2px; padding: 8px 20px; text-decoration: none; font-weight: bold; overflow: hidden; margin-right: 20px;" id="titulo"></span><br>
             </h2>
             
-            <h2>
+            <h2 class="page-description"><br>
                 {% if page.about %} 
                 <div>
-            <a style='overflow: hidden;' href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a>
+            <a style='z-index: 999; overflow: hidden;' href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a>
                 </div> {% endif %}
             </h2>
      
