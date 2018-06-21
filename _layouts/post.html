@@ -39,10 +39,7 @@ post_class: post-template
 
         <header class="post-header">
             <section class="post-meta">
-                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-                {% if page.categories.size > 0 %}
-                    {{ page.categories | array_to_sentence_string | prepend: 'em ' }}
-                {% endif %}
+            <time datetime="">Se gostou do conteúdo e quiser contribuir, não esqueça de <b><a class="scroll-down icon-arrow-left" href="#comentarios">comentar</a></b>!</time>
             </section>
         </header>
 
