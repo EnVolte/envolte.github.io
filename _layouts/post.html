@@ -18,9 +18,9 @@ post_class: post-template
             <h1 class="page-title" style="font-size: 3.2rem;">{{ page.title }}</h1>
             <h2 style="text-decoration: none;" class="page-description"><br>
                 <span style="border: 1px solid rgba(0,0,0,0.4); background: rgba(0,0,0,0.3); border-radius: 2px; font-size: 1.6rem; padding: 8px 20px; text-decoration: none; letter-spacing: 1px; font-weight: normal; overflow: hidden; margin-right: 20px;">
-                <time class="post-date" datetime="{{ page.date date:"%Y-%m-%d" }}">{{ page.date date_to_string }}</time>
+                <time datetime="{{ page.date | date:"%Y-%m-%d" }}">Publicado em {{ page.date | date_to_string }}</time>
                 {% if page.categories.size > 0 %}
-                    {{ page.categories | array_to_sentence_string | prepend: 'em ' }}
+                    {{ page.categories | array_to_sentence_string | prepend: 'na categoria ' }}
                 {% endif %}
                 </span><br>
             </h2>
