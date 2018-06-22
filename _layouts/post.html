@@ -16,7 +16,7 @@ post_class: post-template
     <div class="main-header-content inner">
             <h1 class="page-title" style="font-size: 3.2rem;">{{ page.title }}</h1>
             <h2 style="text-decoration: none;" class="page-description"><br>
-                <span style="border: 1px solid rgba(0,0,0,0.4); background: rgba(0,0,0,0.3); border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 1.3rem; padding: 8px 20px; text-decoration: none; letter-spacing: 1px; overflow: hidden;">
+                <span style="font-family: Open Sans; border: 1px solid rgba(0,0,0,0.3); text-decoration-color: rgba(0,0,0,0.2); background: rgba(0,0,0,0.2); border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 1.3rem; padding: 8px 20px; letter-spacing: 1px; overflow: hidden;">
                 <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time> em <b>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: ' ' }}
