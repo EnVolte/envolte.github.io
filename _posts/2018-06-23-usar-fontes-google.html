@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Como usar fontes do Google em seu site"
+date:   2018-06-19 08:00:00
+categories: Ajuda
+---
+
+<p>Um bom designer sabe a importância de se manter um padrão em cada projeto e de sempre estar se reinventando. São coisas simples aos nossos olhos, mas que, para quem está por trás de tudo, cada detalhe pode ser uma dor de cabeça.</p>
+<p>As fontes ("letras") mudam completamente a cara dos nossos projeto e podem, até mesmo, se tornar elementos de destaque na página. Foi-se o tempo em que utilizar fontes personalizadas custava tempo e dinheiro, já que hoje em dia podemos escolher uma e adicionar ao nosso projeto em menos de 5 minutos. Não acredita?</p>
+<a>A Google oferece um sistema bem interessante e completo de fontes gratuítas, o <b><a href="http://fonts.google.com">Google Fonts</a></b>, que podem tanto ser baixadas para o seu computador (no caso de usar em programas, como o Photoshop), quanto serem utilizadas em sites, blogs etc. E o melhor, as fontes são todas de alta qualidade!</a>
+
+<p><h3>Como eu uso?</h3></p>
+<p>É bem simples. Vamos lá.</p>
+<p><ol>
+<li>Primero, acesse <b><a href="http://fonts.google.com" title="Clique aqui">fonts.google.com</a></b> e escolha uma fonte. São vários tipos, de varias categorias, e você ainda pode testar com o texto e tamanho que quiser. No meu caso, selecionei a Open Sans.</li>
+<li>Após selecionar, você vai ver que apareceu um aviso com a fonte selecionada. Clique nele e vão aparecer as opções de download e links para incluir no seu site.</li>
+<li>A importação tradicional é feita dentro da tag <i><head></i>, veja:</li>
+</ul></p>
+
+<code>
+<head>
+[...]<br>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+</code>
+
+<p>
+<ol>
+<li>Para incluir no CSS, usaremos:</li>
+</ol>
+</p>
+
+<code>
+font-family: 'Open Sans', sans-serif;
+</code>
