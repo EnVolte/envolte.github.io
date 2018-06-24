@@ -1781,7 +1781,7 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 
-#aviso {position: fixed; z-index: 99; top: 160px; display: none; width: 235px; line-height: 1.5em; background: #222; color: #fff; font-size: 15px; text-align: center; font-family: Open Sans; padding: 10px 20px; margin-left: 15px;}
+#aviso {position: fixed; z-index: 99; top: 160px; display: none; width: 235px; line-height: 1.5em; background: #222; color: #fff; font-size: 15px; text-align: center; font-family: Open Sans; padding: 10px 20px 0px; margin-left: 15px;}
 #aviso a {color: #fff; text-decoration: underline;}
 #aviso p {background: rgba(0,0,0,0.2); border-radius: 5px; padding: 10px 0px;}
 #aviso h3 {color: #fff; font-size: 18px;}
