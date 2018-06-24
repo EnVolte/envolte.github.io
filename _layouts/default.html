@@ -18,6 +18,23 @@
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#aviso").fadeToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+	$("#hide").click(function(){
+		$('#aviso').hide();
+});
+});
+   
+</script>
+    
     <script type="text/javascript">
         window.onload = function(){
       var txtTitulo = 'O melhor professor é aquele que te faz aprender de verdade ;)';
@@ -40,6 +57,14 @@
 
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
+    
+<button id="show" title="Clique aqui">Ei!</button>
+
+<div id="aviso">
+<button id="hide">X</button>
+<h3>Gostou do blog?</h3>
+<p>Veja como <a href="https://envolte.github.io/colabore.html"><b>contribuir com o conteúdo!</b></a>
+</div>
 
     {{ content }}
     <footer class="site-footer clearfix">
