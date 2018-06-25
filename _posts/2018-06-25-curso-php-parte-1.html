@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Curso de PHP (Parte 1)"
+date:   2018-06-25 08:00:00
+categories: Ajuda
+---
+
+<p>Desde que comecei a estudar <b>PHP</b> fiquei surpreso em como estou aprendendo tudo com facilidade. Eu já possuia um conhecimento básico desta <i>linguagem de programação</i> pela experiência que tive com o Wordpress, mas não fazia ideia de como tudo funcionava antes de ingressar na aprendizagem do mesmo. Nem mesmo sabia direito o que era uma <i>linguagem de programação</li>, pode-se dizer.</p>
+
+<p>O <b>PHP</p>, <i>Hypertext Preprocessor</i>, é uma linguagem de programação <i>server-side</i> muito popular, gratuita e de código aberto. Para se ter uma noção, PHP é a 8º linguagem de programação mais popular do mundo em Junho de 2018, segundo o <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a>. Apesar de já ter alcançado posições mais populares, e de já ter sido utilizada em mais de 80% dos websites, ela ainda é muito relevante para os programadores e para o mercado de trabalho. Ela aparece atrás de linguagens como Java (a atual mais popular), Python, C++ etc. Então, sem dúvidas, é uma boa linguagem para se aprender hoje mesmo. Afinal, conhecimento nunca é demais, não é?</p>
+
+<p>Uma breve lista do que se pode fazer com PHP:</p>
+<p>
+<ul>
+<li>Gerar páginas dinâmicas.</li>
+<li>Criar, abrir, ler, escrever, deletar e fechar arquivos no servidor.</li>
+<li>Coletar dados de um formulário HTML.</li>
+<li>Adicionar, modificar e deletar informações gravadas no banco de dados.</li>
+<li>Controlar acesso de usuários pelo seu programa.</li>
+</ul>
+</p>
+
+<p>Várias plataformas, incluindo Windows, Linux, Unix e Mac OS X, são capazes de executar PHP. Ele é compatível com boa parte dos servidores, como Apache, IIS, e também suporta vários banco de dados. As vantagens são grandes, apesar de possuir algumas desvantagens também. Mas isso é assunto para outro post.</p>
+
+<p>Não me considero capaz de se autointitular "professor", mas decidi criar este <i>curso básico</i> para introduzir quem tiver interesse em aprender esta linguagem ao mundo da programação. Ensino aqui aquilo que eu sei, e se houver, em algum momento, algum equivoco de minha parte, peço que você comente aí embaixo para que eu possa corrigir o mais rápido possível.</p>
+
+<p>Esta primeira parte é apenas uma introdução, para que você se familiarize com a sintaxe do PHP. Todos os scripts em php iniciam com <b><?php</b> e terminam com <b>?></b>.</p>
+
+<code>
+<?php
+// Código vem aqui
+?>
+</code>
+
+<p>Agora, para iniciarmos a nossa parte prática, é preciso que você faça o download de alguns programas. O primeiro deles será um bom editor de códigos. Eu recomendo o <i>Sublime</i>, mas você poderá baixar aquele que te agradar mais. Com o editor em mãos, agora precisamos transformar o nosso computador em um servidor capaz de executar o PHP, porque como eu expliquei, ele é uma linguagem <b>server-side</b>, que funciona ao lado do servidor e precisa do mesmo para interpretar os códigos e enviar para o seu navegador apenas o HTML, CSS e Javascript. Posso recomendar o WAMP (para Windows) ou XAMPP (Windows, Linux e OS X). Faça uma breve pesquisa e descubra qual dos dois melhor te servirá. Basicamente, esses programas instalarão o Apache + PHP + MySQL (ou outro banco de dados).</p>
+
+<p>Com os dois programas em mãos, inicie o Apache e abra seu editor de códigos. Cada programa possui uma pasta padrão onde os projetos serão desenvolvidos. Indentifique-as, apague o conteúdo dela (sem apagar a pasta) e vamos criar um arquivo chamado <i>ola.php</i>. Não se esqueça de que quando damos nomes aos arquivos, não se usa espaçamentos ou acentuações, apenas letras, números e "-" ou "_".</p>
+
+<p>Se tudo estiver intalado corretamente, seu site estará funcionando em <a href="http://localhost">http://localhost</a>. Lembrando que este endereço funciona apenas no seu computador.</p>
+
+<p>A primeira função que usaremos é o <i>echo</i>, lê-se "eco", que irá reproduzir a frase que colocaremos. Uma boa dica para melhorar a sua aprendizagem é saber a tradução das palavras, já que o PHP utiliza comados em inglês.</p>
+
+<script src="https://gist.github.com/luislorente/fc69efa9f0d91e45f69d16a73c3a5067.js"></script>
+
+<p>Agora abra <i>http://localhost/ola.php</i> e você verá o resultado da sua função. Gostou?</p>
+
+<p>Todo mundo começa com um "Olá, mundo!", então não se desespere, pois ainda há muitas coisas para aprender. Por exemplo, e se você quiser comentar o código em PHP para lembrar de algo? Você não pode simplesmente escrever em qualquer linha. Sempre que você precisar fazer comentários de apenas uma linha, use <b>//</b>. Abra o seu editor e digite a linha a seguir dentro do seu código:</p>
+
+<code>//Este é um comentário</code>
+
+<p>Mas e se eu precisar comentar algo em várias linhas? É simples, utilize o <b>/*</b> e <b>*/</b>.</p>
+
+<code>
+/* Eu começo o comentário.
+Termino na outra linha.
+E posso adicionar mais esta.
+*/
+</code>
+
+Viu como é fácil? Esta foi primeira parte do nosso curso de PHP (básico). Se está com alguma dúvida, quer sugerir alguma coisa ou simplesmente elogiar ;), deixe seu comentário abaixo!
+
