@@ -24,9 +24,9 @@
 $(window).scroll(function() {
     nScrollPosition = $( window ).scrollTop();
     if(nScrollPosition>=400){
-         $( "#show" ).fadeIn("duration", "800").css( "display", "block" );
+         $( "#show" ).fadeIn(1000).css( "display", "block" );
     }else{
-         $( "#show" ).css( "display", "none" );
+         $( "#show" ).fadeOut(1000).css( "display", "none" );
     }
 });
 	    
