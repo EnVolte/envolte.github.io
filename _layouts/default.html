@@ -24,7 +24,7 @@
 $(window).scroll(function() {
     nScrollPosition = $( window ).scrollTop();
     if(nScrollPosition>=300){
-         $( "#show" ).css( "display", "block" );
+         $( "#show" ).fadeIn (.css( "display", "block" ));
     }else{
          $( "#show" ).css( "display", "none" );
     }
