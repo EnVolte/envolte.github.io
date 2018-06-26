@@ -64,6 +64,14 @@ about: 'about.html'
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
+                
+                
+                {% if page.category == 'curso' %}
+                    <span>aveaaaaaaaaaa</span>
+                {% endif %}
+                
+                
+                
             </time> 
         </footer>
     </article>
