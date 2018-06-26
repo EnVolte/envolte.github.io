@@ -5,7 +5,7 @@ archive: false
 post_class: post-template
 ---
 
-<header class="main-header post-head" {% if page.categories contains "Curso" %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa5.png" {% else %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa4.png')" {% endif %}>
+<header class="main-header post-head" {% if page.categories contains "Curso" %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa6.png" {% else %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa4.png')" {% endif %}>
     <nav class="main-nav overlay clearfix">
         <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
@@ -17,11 +17,19 @@ post_class: post-template
             <h1 class="page-title" style="font-size: 3.2rem;">{{ page.title }}</h1>
             <h2 style="text-decoration: none;" class="page-description"><br>
                 <span style="font-family: Open Sans; border: 1px solid rgba(0,0,0,0.3); text-decoration-color: rgba(0,0,0,0.2); background: rgba(0,0,0,0.2); border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 1.3rem; padding: 8px 20px; letter-spacing: 1px; overflow: hidden;">
-                <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time> em <b>
+                    {% if page.categories contains "Curso" %}
+                    Você está vendo um curso
+                    </span>
+                {% else %}
+                <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+                    
+                    {{ page.date | date_to_string }}</time> em <b>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: ' ' }}
                 {% endif %}
-                    </b></span>
+                    </b>
+                {% endif %}
+                </span>
             </h2>
      
         </div>
