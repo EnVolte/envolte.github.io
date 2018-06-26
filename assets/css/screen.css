@@ -1787,11 +1787,11 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 
-#aviso {position: fixed; z-index: 99; top: 250px; display: none; width: 250px; line-height: 1.5em; background: #222; color: #fff; font-size: 15px; text-align: center; font-family: Open Sans; padding: 10px 20px 0px; margin-left: 15px; border-radius: 5px;}
+#aviso {position: fixed; z-index: 99; top: 260px; display: none; width: 250px; line-height: 1.5em; background: #000; color: #fff; font-size: 15px; text-align: center; font-family: Open Sans; padding: 10px 20px 0px; margin-left: 15px; border-radius: 2px;}
 #aviso a {color: #fff; text-decoration: underline;}
-#aviso p {background: rgba(0,0,0,0.2); border-radius: 5px; padding: 10px 0px;}
+#aviso p {background: #222; border-radius: 2px; padding: 10px 0px;}
 #aviso h3 {color: #fff; font-size: 18px; margin-bottom: 20px;}
-button#show {position: fixed; color: #222; font-weight: bold; font-size: 25px; top: 200px; width: 65px; height: 40px; background: #fff; border-right: 7px solid #30687f; border-left: 0px; border-top: 0px; border-bottom: 0px; border-top-right-radius: 5px; cursor: pointer; border-bottom-right-radius: 5px; outline: none; transition: 0.3s linear;}
+button#show {position: fixed; color: #222; font-weight: bold; font-size: 24px; top: 200px; width: 65px; height: 40px; background: #fff; border-right: 7px solid #30687f; border-left: 0px; border-top: 0px; border-bottom: 0px; border-top-right-radius: 2px; cursor: pointer; border-bottom-right-radius: 2px; outline: none; transition: 0.3s linear;}
 button#show:hover, button#show:focus {width: 75px; color: #fff; background: #30687f; border: none;}
 
 button#hide {border-radius: 20px; outline: none; font-weight: normal; color: #fff; background: transparent; border: none; font-size: 20px; position: absolute; right: 10px; cursor: pointer;}
