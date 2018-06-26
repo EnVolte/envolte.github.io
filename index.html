@@ -64,7 +64,7 @@ about: 'about.html'
             {% endif %}
             
             {% if post.categories contains "Curso" %}
-                <span style="text-transform: uppercase; font-size: 11px; font-weight: bold; color: #30687f;"><a href="https://envolve.github.io/cursos.html">outros cursos</a></span>
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687f;"><a  style="color: #fff;" href="https://envolve.github.io/cursos.html">outros cursos</a></span>
                 {% endif %}
             
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
