@@ -5,7 +5,7 @@ archive: false
 post_class: post-template
 ---
 
-<header class="main-header post-head" style="background-image: url('https://envolte.github.io/assets/images/blogcapa4.png')">
+<header class="main-header post-head" {% if page.categories contains "Curso" %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa.png" {% else %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa4.png')" {% endelse %}>
     <nav class="main-nav overlay clearfix">
         <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
@@ -39,9 +39,6 @@ post_class: post-template
             <section class="post-meta">
             <time datetime="">Se gostou do conteúdo, não deixe de <b><a href="#comentarios">comentar</a></b>! <a href="#disqus_thread" data-disqus-identifier="article_1_identifier"></a></time>
                 
-                {% if page.categories contains "Curso" %}
-        <span>aveaaaaaaaaaa</span>
-                {% endif %}
                 
             </section>
         <br>
