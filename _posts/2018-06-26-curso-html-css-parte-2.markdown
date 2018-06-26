@@ -21,7 +21,7 @@ Salve e abra. Você verá que o código retornou uma página em branco. Agora va
 
 #### Tag ``<title>``
 
-Como o nome já diz, esta tag faz referência ao titulo da página. Ela é inserida dentro da tag **head*.
+Como o nome já diz, esta tag faz referência ao titulo da página. Ela é inserida dentro da tag **head**.
 
 #### Tag ``<style>``
 
