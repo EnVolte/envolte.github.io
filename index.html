@@ -67,6 +67,10 @@ about: 'about.html'
                 <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687f;"><a  style="color: #fff;" href="https://envolve.github.io/cursos.html">outros cursos</a></span>
                 {% endif %}
             
+            {% if post.categories contains "Ajuda" %}
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato.html">sugira uma edição</a></span>
+                {% endif %}
+            
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
                 
