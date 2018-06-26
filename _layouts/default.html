@@ -23,8 +23,8 @@
     <script>
 $(window).scroll(function() {
     nScrollPosition = $( window ).scrollTop();
-    if(nScrollPosition>=300){
-         $( "#show" ).fadeIn().css( "display", "block" );
+    if(nScrollPosition>=400){
+         $( "#show" ).fadeIn("duration", "800").css( "display", "block" );
     }else{
          $( "#show" ).css( "display", "none" );
     }
