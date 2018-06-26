@@ -7,7 +7,9 @@ categories: Curso
 
 Na [primeira parte](https://envolte.github.io/curso/2018/06/26/curso-html-css-parte-1.html) do nosso curso, aprendemos um pouco sobre as tags básicas, como ``<html>``, ``<head>`` e ``<body>``. Agora, com intuito de praticar, vamos começar a montar uma página inteira em HTML. Por enquanto, ainda sem nenhuma estilização.
 
-Vamos começar criando um arquivo chamado *index.html*. Salve-o em uma pasta de fácil acesso. Este arquivo poderá ser aberto no seu navegador sem problemas.
+Todo esse processo que iremos iniciar agora é extremamente necessário para que você possa ir se acostumando com essas tags, pois, se você esquecer de fechar qualquer uma delas, um problema enorme pode surgir no seu código. Na verdade, esse tipo de problema é realmente bem comum, mas a página fica tão bagunçada, que faz parecer que se trata de algo maior. Mas não se desespere, abra seu *editor de códigos* e vamos colocar a *mão na massa*!
+
+Comece criando um arquivo chamado *index.html*. Salve-o em uma pasta de fácil acesso. Este arquivo poderá ser aberto no seu navegador sem problemas, e sem que você precise instalar um programa adicional. Adicione o código a seguir:
 
     <html>
     <head></head>
@@ -17,11 +19,11 @@ Vamos começar criando um arquivo chamado *index.html*. Salve-o em uma pasta de 
     </body>
     </html>
     
-Salve e abra. Você verá que o código retornou uma página em branco. Agora vamos adicionar mais algumas tags, mas antes, vou explicar um pouco sobre elas.
+Recomendo que você digite o código ao invés de **copiar** e **colar**. Salve o arquivo e abra. Veja que o código retornou uma página em branco. Agora vamos adicionar mais algumas tags, mas antes, vou explicar um pouco sobre elas.
 
 #### Tag ``<title>``
 
-Como o nome já diz, esta tag faz referência ao titulo da página. Ela é inserida dentro da tag **head**.
+Como o nome já diz, esta tag faz referência ao título da página. Ela é inserida dentro da tag **head**, e sua ausência faz com que a página fique sem indentificação no navegador.
 
 #### Tag ``<style>``
 
