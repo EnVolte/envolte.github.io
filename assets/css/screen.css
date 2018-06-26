@@ -1796,4 +1796,4 @@ button#show:hover, button#show:focus {width: 75px; color: #fff; background: #306
 
 button#hide {border-radius: 20px; outline: none; font-weight: normal; color: #fff; background: transparent; border: none; font-size: 20px; position: absolute; right: 10px; cursor: pointer;}
 
-div#titulo {font-family: Open Sans; color: #fff; background: #30687f; border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 12px; padding: 8px 20px; overflow: hidden;}
+div#titulo {width: auto;font-family: Open Sans; color: #fff; background: #30687f; border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 13px; padding: 3px 0px; overflow: hidden; margin-top: 30px;}
