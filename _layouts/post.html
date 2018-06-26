@@ -43,12 +43,20 @@ post_class: post-template
 
     <article class="post">
 
-      
+      {% if page.categories contains "Curso" %}
+        
             <section class="post-meta">
-            <time datetime="">Se gostou do conteúdo, não deixe de <b><a href="#comentarios">comentar</a></b>! <a href="#disqus_thread" data-disqus-identifier="article_1_identifier"></a></time>
-                
-                
+            <time datetime="">Se gostou do conteúdo, <b><a href="https://envolte.github.io/cursos.html">inscreva-se no curso</a></b>!</a></time>
             </section>
+                
+      {% else %}
+    
+            <section class="post-meta">
+            <time datetime="">Se gostou do conteúdo, não deixe de <b><a href="#comentarios">comentar</a></b>!</a></time>
+            </section>
+                
+                {% endif %}
+                
         <br>
 
 <!--         <header class="post-header">
