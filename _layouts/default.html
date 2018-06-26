@@ -21,6 +21,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <script>
+$(window).scroll(function() {
+    nScrollPosition = $( window ).scrollTop();
+    if(nScrollPosition>=300){
+         $( "#show" ).css( "display", "block" ).fadeToggle("slow");
+    }else{
+         $( "#show" ).css( "display", "none" );
+    }
+});
+	    
 $(document).ready(function(){
     $("#show").click(function(){
         $("#aviso").fadeToggle("slow");
