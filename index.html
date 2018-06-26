@@ -66,8 +66,8 @@ about: 'about.html'
                 {{ post.date | date_to_string }}
                 
                 
-                {% if page.category == 'Curso' or page.featured %}
-                <span style="text-transform: uppercase; color: #30687f;"><a href="https://envolve.github.io/cursos.html">outros cursos</a></span>
+                {% if page.categories contains "Curso" %}
+                <span style="text-transform: uppercase; font-size: 11px; font-weight: bold; color: #30687f;"><a href="https://envolve.github.io/cursos.html">outros cursos</a></span>
                 {% endif %}
                 
                 
