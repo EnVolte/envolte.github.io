@@ -17,11 +17,11 @@ Atributos proveem informações adicionais sobre um elemento ou tag, enquanto ta
       Este texto está alinhado no centro.
      </p>
    
-Neste exemplo, o valor **center** indica que o conteúdo dentro do elemento *p* deve ser alinhado no centro. Os atributos sempre são especificados na tag de abertura, e sua estrutura geralmente é ``**nome="valor"**``.
+Neste exemplo, o valor **center** indica que o conteúdo dentro do elemento *p* deve ser alinhado no centro. Os atributos sempre são especificados na tag de abertura, e sua estrutura geralmente é ``nome="valor"``.
 
 #### Atributo de tamanho
 
-Nós também podemos mudar o tamanho de uma ```div`` ou outra tag HTML (não todas) incluindo o atributo **width**.
+Nós também podemos mudar o tamanho de uma ``div`` ou outra tag HTML (não todas) incluindo o atributo **width**.
 
     <hr width="100px">
     <!-- width = largura -->
@@ -60,9 +60,7 @@ No caso de sua imagem não ser mostrada, seja por um erro de carregamento ou end
 Para definir o tamanho de uma imagem, use os atributos **width** e **height**, largura e altura, respectivamente. O valor pode ser especificado em *pixels* ou *porcentagem*.
 
     <img src="imagem.jpg" width="50%" height="50%" alt="" />
-    
     <!-- ou -->
-    
     <img src="imagem.jpg" width="50px" height="50px" alt="" />
     
 **Dica**: Se sua imagem não for quadrada, é recomendado que você use apenas o atributo *width*, para não deformá-la.
@@ -89,7 +87,7 @@ O atributo ´´target´´ permite especificar onde abrir o link. Se colocarmos o
     
 ### Listas ordenadas
 
-Uma lista ordenada inicia com ``<ol>``, e cada elemento listado é definido pela tag ```<li>``.
+Uma lista ordenada inicia com ``<ol>``, e cada elemento listado é definido pela tag ``<li>``.
     
     <ol>
         <li>Primeiro</li>
@@ -111,7 +109,7 @@ Uma lista não ordenada começa com a tag ``<ul>``. Os itens desta lista serão 
     
 ### Criando uma tabela
 
-As tabelas servem para organizar conteúdo em uma página. São definidas pela tag ```<table>``. As tabelas são dividas em linhas com a tag ```<tr>``, que significa "table row", ou *fileira da tabela*. As linhas são divididas em colunas com a tag ``td``, "table data", ou *dados da tabela*.
+As tabelas servem para organizar conteúdo em uma página. São definidas pela tag ``<table>``. As tabelas são dividas em linhas com a tag ``<tr>``, que significa "table row", ou *fileira da tabela*. As linhas são divididas em colunas com a tag ``td``, "table data", ou *dados da tabela*.
     
     <table>
         <tr><!-- Inicia uma linha -->
@@ -142,7 +140,7 @@ O atributo ``colspan``, "col" de *coluna*, e "span", de ocupação, pode fazer a
                 <td colspan="2"></td><!-- Indicamos que ela deve usar o tamanho de duas colunas -->
             </tr>
             
-Para fazer uma fileira se adaptar a mais de uma coluna, utilizamos o atributo ```rowspan`` na tag **<tr>**. Isso significa, basicamente, que uma fileira vai se adaptar ao número de colunas. O número de colunas deve ser o valor do atributo.
+Para fazer uma fileira se adaptar a mais de uma coluna, utilizamos o atributo ``rowspan`` na tag **<tr>**. Isso significa, basicamente, que uma fileira vai se adaptar ao número de colunas. O número de colunas deve ser o valor do atributo.
 
 #### Os atributos ``align`` e ``bgcolor``
 
