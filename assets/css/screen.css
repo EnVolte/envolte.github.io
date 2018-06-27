@@ -1294,7 +1294,7 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
+    margin: 0 0 0 0;
     padding: 1rem 35px;
     border-top: #EBF2F6 1px solid;
     font-family: "Open Sans", sans-serif;
@@ -1799,10 +1799,10 @@ button#hide {border-radius: 20px; outline: none; font-weight: normal; color: #ff
 div#titulo {max-width: 76%; margin-left: auto; margin-right: auto; border: 1px solid rgba(0,0,0,0.4); font-family: Open Sans; color: #fff; background: #30687f; border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 13px; padding: 1px 0px; overflow: hidden; margin-top: 50px;}
 
 
-footer#baixo {width: 100%; border-top: 1px solid #eee; background: #fff; height: 160px; position: relative;}
-footer#baixo ul {line-height: 1.7em;}
-footer#baixo ul h3 {font-family: ; margin-bottom: 10px;}
+footer#baixo {width: 100%; border-top: 1px solid #eee; background: #fff; height: 160px; margin-top: 8rem; position: relative;}
+footer#baixo ul {line-height: 1.7em; padding: 20px 0px;}
+footer#baixo ul h3 {font-family: ; margin-bottom: 10px; font-size: 16px;}
 footer#baixo ul li {float: left; width: 100%; list-style: none;}
-footer#baixo ul li a {color: #333; font-family: Open Sans; font-size: 15px; text-decoration: none;}
+footer#baixo ul li a {color: #333; font-family: Open Sans; font-size: 15px; font-weight: bold; text-decoration: none;}
 footer#baixo .alignleft {width: 45%; float: left; margin-left: 2%;}
 footer#baixo .alignright {width: 45%; float: right; margin-right: 2%;}
