@@ -31,9 +31,9 @@ Como o nome já diz, esta tag faz referência ao título da página. Ela é inse
 
 A tag **style** indica que todo conteúdo que estiver dentro dela será em CSS. Neste primeiro momento, não iremos criar uma folha de estilos.
 
-#### Tag ``<h1>``
+#### Tags ``<h1>``, ``<h2>``, ``<h3>``, ``<h4>``, ``<h5>`` e ``<h6>``
 
-**h1** é uma *heading tag*, um recurso utilizado para destacar títulos e subtitulos de uma página. H1 é uma abreviação para "Header 1", ou "Cabeçalho 1". Ele é precedido por **h2**, **h3**, **h4**, **h5** e **h6**. Assim como suas posições, essas tags também possuem tamanhos diferente, sendo a *h1* a maior.
+**h1** é uma *heading tag*, um recurso utilizado para destacar títulos e subtitulos de uma página. H1 é uma abreviação para "Header 1", ou "Cabeçalho 1". Ele é precedido por **h2**, **h3**, **h4**, **h5** e **h6**. Assim como suas posições, essas tags também possuem tamanhos diferente, sendo *h1* a maior. Não é recomendado o uso dessas tags apenas para aumentar o texto, visto que os motores de busca utilizam esses cabeçalhos para indexar o conteúdo de uma página.
 
 #### Tag ``<p>``
 
@@ -42,3 +42,52 @@ Para iniciar parágrafos em HTML, nos usamos a tag **p** para abertura e fechame
 #### Quebra de linha
 
 Usa-se **<br>** para fazer uma quebra de linha sem iniciar um novo parágrafo. Isso significa que após adicionar esta tag, o conteúdo seguinte inciará em uma nova linha.
+
+### Formatando elementos
+
+Em HTML, há uma lista de elementos que especificam o estilo de um texto. Vejamos alguns:
+
+##### ``<b>`` e ``<strong>``
+
+Essas duas tags são responsáveis por colocar os textos em **negrito**. Os navegadores mostram **strong** como **b**. Mas há uma diferença entre os dois: enquanto **b** deixa transforma em negrito, **strong** indica que o texto é importante.
+
+##### ``<i>`` e ``<em>``
+
+Essas duas tags transformam em *itálico*, outro elemento importante quando estamos destacando um texto. Os navegadores mostram *em* como *i*. A diferença é a mesma do item acima: *em* indica que o texto é importante.
+
+##### Linha horizontal
+
+Para criar uma linha horizontal, use a tag <hr>.
+
+#### Comentários
+
+Os navegadores não mostram comentários dentro das páginas, mas eles ficam dentro do seu HTML. Você pode adicionar comentários, descrições, instruções e notas para que você não se perca no código. É uma ótima dica para iniciantes!
+
+        <!-- Este é um comentário -->
+        
+O ponto de exclamação (**!**) deve ir logo após "**<**" na tag de abertura, mas não é necessário na tag de fechamento.
+
+### Exercício
+
+Agora que conhecemos um pouco sobre as tags do HTML, vamos colocá-las em prática fazendo nossa primeira página. Lembra do nosso arquivo *index.html*? Vamos editá-lo agora. Por enquanto, não iremos colocar nenhum código para download, já que estamos apenas fazendo exercícios simples.
+
+    <html>
+    <head>
+    <title>Meu site</title>
+    
+    <style>
+    /* Por enquanto, ficará vazio */
+    </style>
+    </head>
+ 
+    <body>
+    <h1>Meu site</h1>
+    
+    <h2>Titulo de uma postagem</h2>
+    <p>Aqui escreveremos o conteúdo.</p>
+    </body>
+    </html>
+
+
+
+
