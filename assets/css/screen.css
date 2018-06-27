@@ -1800,9 +1800,9 @@ div#titulo {max-width: 76%; margin-left: auto; margin-right: auto; border: 1px s
 
 
 footer#baixo {width: 100%; border-top: 1px solid #eee; background: #fff; height: 190px; margin-top: 8rem; position: relative;}
-footer#baixo ul {line-height: 1.2em; padding: 30px 0px 0px;}
+footer#baixo ul {line-height: 1.2em; padding: 30px 0px 5px;}
 footer#baixo ul h3 {color: #555; font-family: "Merriweather", serif; margin-bottom: 10px; font-size: 17px;}
 footer#baixo ul li {float: left; width: 100%; list-style: none;}
-footer#baixo ul li a {color: #777; font-family: Open Sans; font-size: 15px; font-weight: normal; text-decoration-color: #f0f0f0;}
+footer#baixo ul li a {color: #777; font-family: "Merriweather", serif; font-size: 15px; font-weight: normal; text-decoration-color: #f0f0f0;}
 footer#baixo .alignleft {width: 45%; float: left; margin-left: 6%;}
 footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
