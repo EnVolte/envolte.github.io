@@ -140,7 +140,7 @@ O atributo ``colspan``, "col" de *coluna*, e "span", de ocupação, pode fazer a
                 <td colspan="2"></td><!-- Indicamos que ela deve usar o tamanho de duas colunas -->
             </tr>
             
-Para fazer uma fileira se adaptar a mais de uma coluna, utilizamos o atributo ``rowspan`` na tag **<tr>**. Isso significa, basicamente, que uma fileira vai se adaptar ao número de colunas. O número de colunas deve ser o valor do atributo.
+Para fazer uma fileira se adaptar a mais de uma coluna, utilizamos o atributo ``rowspan`` na tag **<td>**. O número de fileiras deve ser o valor do atributo.
 
 #### Os atributos ``align`` e ``bgcolor``
 
@@ -198,4 +198,8 @@ Outros elementos podem ser usados como *elementos em bloco*. Isso inclui os segu
 * **OBJECT**: Um objeto embutido.
 * **SCRIPT**: Um script dentro do HTML.
 
-Agora que já aprendemos mais um pouco, vamos iniciar o desenvolvimento da nossa página. Lembra que no começo do post eu prometi ensinar a fazer **menus simples** e **dividir** o conteúdo? Vamos colocar isso em prática!
+Agora que já aprendemos mais um pouco, vamos iniciar o desenvolvimento da nossa página. Lembra que no começo do post eu prometi ensinar a fazer um **menu simples** e **dividir** o conteúdo? Vamos colocar isso em prática!
+
+<script src="https://gist.github.com/luislorente/03d1b4901899f65534387e6efc78cefe.js"></script>
+
+O código acima pode ser acessado para ser estudado. Lembre-se de que **copiar** e **colar** é ruim para o aprendizado. Faça sua própria página com base no que foi ensinado. Não se preocupe tanto com a aparência, pois em breve iniciaremos em CSS.
