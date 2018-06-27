@@ -41,7 +41,17 @@ about: 'about.html'
 
 <main id="content" class="content" role="main">
     
-    <div style="margin: 0px auto; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 5px; width: auto; height: auto">
+
+
+    <div class="extra-pagination inner">
+        {% include pagination.html %}
+    </div>
+
+    {% for post in paginator.posts %}
+
+    <article class="post">
+	    
+	    <div style="margin: 0px auto; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 5px; width: auto; height: auto">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- EnVolte -->
 <ins class="adsbygoogle"
@@ -53,15 +63,8 @@ about: 'about.html'
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 	</div>
-
-
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
-
-    {% for post in paginator.posts %}
-
-    <article class="post">
+	    
+	    
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
