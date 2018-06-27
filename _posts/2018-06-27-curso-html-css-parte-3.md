@@ -71,7 +71,7 @@ Carregar imagens leva tempo. Usar imagens pesadas pode fazer sua página demorar
 
 Por padrão, as imagens não têm borda. Use o atributo **border** para criar uma borda ao redor da imagem.
 
-    <img src="imagem.jgp" width="50px" border="1px" alt="" />
+    <img src="imagem.jpg" width="50px" border="1px" alt="" />
     
 #### A tag ``<a>``
 
@@ -202,4 +202,4 @@ Agora que já aprendemos mais um pouco, vamos iniciar o desenvolvimento da nossa
 
 <script src="https://gist.github.com/luislorente/03d1b4901899f65534387e6efc78cefe.js"></script>
 
-O código acima pode ser acessado para ser estudado. Lembre-se de que **copiar** e **colar** é ruim para o aprendizado. Faça sua própria página com base no que foi ensinado. Não se preocupe tanto com a aparência, pois em breve iniciaremos em CSS.
+O código acima [pode ser acessado](https://gist.github.com/luislorente/03d1b4901899f65534387e6efc78cefe#file-index-html) para ser estudado. Lembre-se de que **copiar** e **colar** é ruim para o aprendizado. Faça sua própria página com base no que foi ensinado. Não se preocupe tanto com a aparência, pois em breve iniciaremos em **CSS**.
