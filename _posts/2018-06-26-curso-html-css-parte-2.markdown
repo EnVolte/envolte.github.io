@@ -33,15 +33,15 @@ A tag **style** indica que todo conteúdo que estiver dentro dela será em CSS. 
 
 #### Tags ``<h1>``, ``<h2>``, ``<h3>``, ``<h4>``, ``<h5>`` e ``<h6>``
 
-**h1** é uma *heading tag*, um recurso utilizado para destacar títulos e subtitulos de uma página. H1 é uma abreviação para "Header 1", ou "Cabeçalho 1". Ele é precedido por **h2**, **h3**, **h4**, **h5** e **h6**. Assim como suas posições, essas tags também possuem tamanhos diferente, sendo *h1* a maior. Não é recomendado o uso dessas tags apenas para aumentar o texto, visto que os motores de busca utilizam esses cabeçalhos para indexar o conteúdo de uma página.
+**h1** é uma *heading tag*, um recurso utilizado para destacar títulos e subtitulos de uma página. H1 é uma abreviação para "Header 1", ou "Cabeçalho 1". Ele é precedido por **h2**, **h3**, **h4**, **h5** e **h6**. Assim como suas posições, essas tags também possuem tamanhos diferente, sendo **h1** a maior. Não é recomendado o uso dessas tags apenas para aumentar o texto, visto que os motores de busca utilizam esses cabeçalhos para indexar o conteúdo de uma página.
 
 #### Tag ``<p>``
 
-Para iniciar parágrafos em HTML, nos usamos a tag **p** para abertura e fechamento. Os navegadores adicionam uma linha em branco antes e depois de um parágrafo.
+Para parágrafos em HTML, nós usamos a tag **p** para abertura e fechamento. Os navegadores adicionam uma linha em branco antes e depois de um parágrafo.
 
-#### Quebra de linha
+#### Quebra de linha ``<br>``
 
-Usa-se **<br>** para fazer uma quebra de linha sem iniciar um novo parágrafo. Isso significa que após adicionar esta tag, o conteúdo seguinte inciará em uma nova linha.
+Usa-se **br** para fazer uma quebra de linha sem iniciar um novo parágrafo. Isso significa que após adicionar esta tag, o conteúdo seguinte inciará em uma nova linha.
 
 ### Formatando elementos
 
@@ -49,7 +49,7 @@ Em HTML, há uma lista de elementos que especificam o estilo de um texto. Vejamo
 
 ##### ``<b>`` e ``<strong>``
 
-Essas duas tags são responsáveis por colocar os textos em **negrito**. Os navegadores mostram **strong** como **b**. Mas há uma diferença entre os dois: enquanto **b** deixa transforma em negrito, **strong** indica que o texto é importante.
+Essas duas tags são responsáveis por colocar os textos em **negrito**. Os navegadores mostram **strong** como **b**. Mas há uma diferença entre os dois: enquanto **b** apenas deixa em negrito, **strong** indica que o texto é importante.
 
 ##### ``<i>`` e ``<em>``
 
@@ -57,11 +57,11 @@ Essas duas tags transformam em *itálico*, outro elemento importante quando esta
 
 ##### Linha horizontal
 
-Para criar uma linha horizontal, use a tag <hr>.
+Para criar uma linha horizontal, use a tag **<hr>**.
 
 #### Comentários
 
-Os navegadores não mostram comentários dentro das páginas, mas eles ficam dentro do seu HTML. Você pode adicionar comentários, descrições, instruções e notas para que você não se perca no código. É uma ótima dica para iniciantes!
+Os navegadores não mostram comentários dentro das páginas, mas eles ficam no HTML. Você pode adicionar comentários, descrições, instruções e notas para que você não se perca no código. É uma ótima dica para iniciantes!
 
         <!-- Este é um comentário -->
         
@@ -88,6 +88,5 @@ Agora que conhecemos um pouco sobre as tags do HTML, vamos colocá-las em práti
     </body>
     </html>
 
-
-
+O código acima é apenas um exemplo. Monte sua página com título e texto que quiser. Utilize as **tags de formatação** e o máximo de elementos ensinados que conseguir. Na próxima parte do curso, iremos colocar mais alguns itens dentro da página, incluiremos um **menu**, e aprenderemos a separar o conteúdo em ``divs``.
 
