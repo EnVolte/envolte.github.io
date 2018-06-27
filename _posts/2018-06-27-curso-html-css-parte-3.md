@@ -97,9 +97,9 @@ Uma lista ordenada inicia com ``<ol>``, e cada elemento listado é definido pela
 
 Este código resultará em uma lista com itens ordenados automaticamente por números (1, 2, 3).
 
-### Listas não ordenadas
+### Listas não-ordenadas
 
-Uma lista não ordenada começa com a tag ``<ul>``. Os itens desta lista serão marcados por bolinhas.
+Uma lista não-ordenada começa com a tag ``<ul>``. Os itens desta lista serão marcados por bolinhas.
 
     <ul>
         <li>Azul</li>
@@ -117,13 +117,13 @@ As tabelas servem para organizar conteúdo em uma página. São definidas pela t
         </tr><!-- Fecha uma linha -->
     </table>
     
- #### Bordas e o atributo Colspan
+#### Bordas e o atributo Colspan
  
  Uma borda pode ser adicionada utilizando o atributo ``border``.
  
         <table border="2">
         
- ##### Colspan
+##### Colspan
  
 Se você testar o código da nossa tabela, perceberá que ela é bem divida. Porém, se você colocar, por exemplo, uma fileira com apenas uma divisão, enquanto as outras têm 2 ou mais, ela ocupará apenas o seu tamanho, e isso pode ser um incomodo.
 
