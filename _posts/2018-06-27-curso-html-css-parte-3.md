@@ -186,3 +186,16 @@ Teste este código e você verá que a palavra **Amazônia** ficou da cor verde.
 > O elemento **div** define uma *seção em nível de blocos*.
 >
 > O elemento **span** define uma *seção em linha*.
+
+### Tipos de elementos
+
+Outros elementos podem ser usados como *elementos em bloco*. Isso inclui os seguintes:
+
+* **APPLET**: Miniaplicativo Java embutido.
+* **IFRAME**: Uma frame (quadro) de alguma coisa.
+* **INS**: Texto inserido.
+* **MAP**: Mapeamento de imagem.
+* **OBJECT**: Um objeto embutido.
+* **SCRIPT**: Um script dentro do HTML.
+
+Agora que já aprendemos mais um pouco, vamos iniciar o desenvolvimento da nossa página. Lembra que no começo do post eu prometi ensinar a fazer **menus simples** e **dividir** o conteúdo? Vamos colocar isso em prática!
