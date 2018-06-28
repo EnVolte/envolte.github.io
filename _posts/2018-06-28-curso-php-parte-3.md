@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Curso de PHP (Parte 3)"
-date:   2018-06-28 10:00:00
+date:   2018-06-28 15:00:00
 categories: Curso
 ---
 
