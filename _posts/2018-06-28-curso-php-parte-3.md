@@ -126,5 +126,5 @@ and       | "e"      | $x and $y   |Retorna *true* se **$x** e **$y** <br>forem 
 or        | "ou"     | $x or $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
 xor       | "Xor"    | $x xor $y   |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros, mas não os dois
 &&        | "e"      | $x && $y    |Retorna *true* se **$x** e **$y** <br>forem verdadeiros
-||        | "ou"     | $x || $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
+&brvbar;&brvbar;        | "ou"     | $x &brvbar;&brvbar; $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
 !         | "não"    | !$x         |Retorna *true* se **$x** for falso
