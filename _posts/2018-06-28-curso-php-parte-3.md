@@ -129,6 +129,8 @@ xor       | "Xor"    | $x xor $y   |Retorna *true* se **$x** ou **$y** <br>forem
 &brvbar;&brvbar;        | "ou"     | $x &brvbar;&brvbar; $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
 !         | "não"    | !$x         |Retorna *true* se **$x** for falso
 
-Esta foi a parte 3 do nosso *curso básico* de **PHP**. Na próxima "aula", vou falar sobre os **arrays**.
+Esta foi a parte 3 do nosso *curso básico* de **PHP**. Em breve ensinarei como usar os operadores de **comparações** e **lógicos**. 
 
-Para que você possa aprender mais rápido, pratique bastante. *Some*, *divida*, *subtraia* e brinque com os códigos que aprendemos hoje. Se encontrar algum erro ou tiver alguma dúvida, deixe seu comentário abaixo.
+Para que você possa aprender mais rápido, pratique bastante. *Some*, *divida*, *subtraia* e brinque com os códigos que aprendemos hoje. Na próxima "aula", vou falar sobre os **arrays**, ou *vetores*.
+
+Se encontrar algum erro ou tiver alguma dúvida, deixe seu comentário abaixo.
