@@ -90,7 +90,7 @@ Os **operadores de atribuição** são usados para escrever valores para as vari
     
 No exemplo acima, foi atribuído o valor **2** à variável **$num1**, e **$num2** recebeu o valor de **$num1**.
 
-Também podem ser usados em conjunto com os operadores aritiméticos. Veja:
+Também podem ser usados em conjunto com os operadores aritiméticos, facilitando o código. Veja:
 
 Exemplo | Mesmo que... | Tipo
 :------:|:------------:|:-----:
@@ -99,3 +99,23 @@ x -= y  | x = x - y    |Subtração
 x &#42;= y  | x = x * y    |Multiplicação
 x /= y  | x = x / y    |Divisão
 x %= y  | x = x % y    |Módulo
+
+#### Operadores de comparação
+
+Esse tipo de operador compara dois valores (números ou string). Geralmente, são usados para fazer declarações condicionais, que vão avaliar entre **TRUE** e **FALSE**, ou verdadeiro e falso.
+
+Operador  |   Nome   |   Exemplo   | Resultado
+:--------:|:--------:|:-----------:|:--------------------:
+==        | Igual    | $x == $y    |Retorna *true* se **$x** for igual a **$y**
+===       | Idêntico | $x === $y   |Retorna *true* se **$x** for igual a **$y** e do mesmo tipo
+!=        | Diferente| $x =! $y    |Retorna *true* se **$x** for diferente de **$y**
+<>        | Diferente| $x <> $y    |Retorna *true* se **$x** for diferente de **$y**
+!==       | Não idêntico | $x !== $y |Retorna *true* se **$x** e **$y** forem diferentes e não do mesmo tipo
+>         | Maior que| $x > $y     |Retorna *true* se **$x** for maior que **$y**
+<         | Menor que| $x < $y     |Retorna *true* se **$x** for menor que **$y**
+>=        | Maior ou igual| $x >= $y|Retorna *true* se **$x** for maior ou igual a **$y**
+<=        | Menor ou igual| $x <= $y|Retorna *true* se **$x** for menor ou igual a **$y**
+
+#### Operadores lógicos
+
+
