@@ -104,21 +104,17 @@ x %= y  | x = x % y    |Módulo
 
 Esse tipo de operador compara dois valores (números ou string). Geralmente, são usados para fazer declarações condicionais, que vão avaliar entre **TRUE** e **FALSE**, ou verdadeiro e falso.
 
-<div style="font-size: 10px;">
-
 Operador  |   Nome   |   Exemplo   | Resultado
-:--------:|:--------:|:-----------:|:--------------------:
-==        | Igual    | $x == $y    |Retorna *true* se **$x** for igual a **$y**
-===       | Idêntico | $x === $y   |Retorna *true* se **$x** for igual a **$y** e do mesmo tipo
-!=        | Diferente| $x =! $y    |Retorna *true* se **$x** for diferente de **$y**
-<>        | Diferente| $x <> $y    |Retorna *true* se **$x** for diferente de **$y**
-!==       | Não idêntico | $x !== $y |Retorna *true* se **$x** e **$y** forem diferentes e não do mesmo tipo
->         | Maior que| $x > $y     |Retorna *true* se **$x** for maior que **$y**
-<         | Menor que| $x < $y     |Retorna *true* se **$x** for menor que **$y**
->=        | Maior ou igual| $x >= $y|Retorna *true* se **$x** for maior ou igual a **$y**
-<=        | Menor ou igual| $x <= $y|Retorna *true* se **$x** for menor ou igual a **$y**
-
-</div>
+:--------:|:--------:|:-----------:|--------------------
+==        | Igual    | $x == $y    |Retorna *true* se<br> **$x** for igual a **$y**
+===       | Idêntico | $x === $y   |Retorna *true* se<br> **$x** for igual a **$y** e do mesmo tipo
+!=        | Diferente| $x =! $y    |Retorna *true* se<br> **$x** for diferente de **$y**
+<>        | Diferente| $x <> $y    |Retorna *true* se<br> **$x** for diferente de **$y**
+!==       | Não idêntico | $x !== $y |Retorna *true* se<br> **$x** e **$y** forem diferentes e não do mesmo tipo
+>         | Maior que| $x > $y     |Retorna *true* se<br> **$x** for maior que **$y**
+<         | Menor que| $x < $y     |Retorna *true* se<br> **$x** for menor que **$y**
+>=        | Maior ou igual| $x >= $y|Retorna *true* se<br> **$x** for maior ou igual a **$y**
+<=        | Menor ou igual| $x <= $y|Retorna *true* se<br> **$x** for menor ou igual a **$y**
 
 #### Operadores lógicos
 
