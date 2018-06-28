@@ -13,7 +13,7 @@ Gostaria de lembrar que este é um *curso básico* para quem tem interesse inici
 
 ### Operadores arítiméticos
 
-Como o próprio nome já diz, estes são operadores que realizam operações matemáticas. Os **operadores aritiméticos** funcionam com valores numericos para realizar operações comuns. Veja:
+Como o próprio nome já diz, estes são operadores que realizam operações matemáticas. Os **operadores aritiméticos** funcionam com valores numéricos para realizar operações comuns. Veja:
 
   Operador   |   Nome   |   Exemplo
 :----------: | :------: | :---------:
@@ -23,7 +23,7 @@ Como o próprio nome já diz, estes são operadores que realizam operações mat
 /            |Divisão   |   $x / $y
 %            |Módulo    |   $x % $y
 
-Abra seu programa, ligue o **Apache** e crie um arquivo chamado operacoes.php. Digite o seguinte código:
+Abra seu programa, ligue o **Apache** e crie um arquivo chamado *operacoes.php*. Digite o seguinte código:
 
     <?php
       $num1 = 10;
@@ -79,4 +79,23 @@ A diferença é que o **pós-incremento** retorna o valor original *antes* de mu
     $i = 2; $f = $i++; // $i = 3, $f = 2
     $i = 2; $f = ++$a; // $i = 3, $f = 3
     
-Por enquanto, pode ser um pouco confuso, mas logo você entenderá como funciona. Não esqueça que a melhor forma de aprender é na prática, então teste todos os códigos aqui ensinados.
+Por enquanto, será um pouco confuso, mas logo você entenderá como funciona. Não esqueça que a melhor forma de aprender é na prática, então teste todos os códigos aqui no seu editor.
+
+#### Operadores de atribuição
+
+Os **operadores de atribuição** são usados para escrever valores para as variáveis.
+
+    $num1 = 2;
+    $num2 = $num;
+    
+No exemplo acima, foi atribuído o valor **2** à variável **$num1**, e **$num2** recebeu o valor de **$num1**.
+
+Também podem ser usados em conjunto com os operadores aritiméticos. Veja:
+
+Exemplo | Mesmo que... | Tipo
+:------:|:------------:|:-----:
+x += y  | x = x + y    |Adição
+x -= y  | x = x - y    |Subtração
+x &#42;= y  | x = x * y    |Multiplicação
+x /= y  | x = x / y    |Divisão
+x %= y  | x = x % y    |Módulo
