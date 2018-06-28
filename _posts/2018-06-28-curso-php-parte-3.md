@@ -102,7 +102,7 @@ x %= y  | x = x % y    |Módulo
 
 #### Operadores de comparação
 
-Esse tipo de operador compara dois valores (números ou string). Geralmente, são usados para fazer declarações condicionais, que vão avaliar entre **TRUE** e **FALSE**, ou verdadeiro e falso.
+Esse tipo de operador compara dois valores (números ou string). Geralmente, são usados para fazer declarações condicionais, que vão avaliar entre **TRUE** e **FALSE**, ou *verdadeiro* e *falso*.
 
 Operador  |   Nome   |   Exemplo   | Resultado
 :--------:|:--------:|:-----------:|--------------------
@@ -118,4 +118,13 @@ Operador  |   Nome   |   Exemplo   | Resultado
 
 #### Operadores lógicos
 
+Os operadores **lógicos** são usados para combinar declarações condicionais.
 
+Operador  |   Nome   |   Exemplo   | Resultado
+:--------:|:--------:|:-----------:|--------------------
+and       | "e"      | $x and $y   |Retorna *true* se **$x** e **$y** <br>forem verdadeiros
+or        | "ou"     | $x or $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
+xor       | "Xor"    | $x xor $y   |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros, mas não os dois
+&&        | "e"      | $x && $y    |Retorna *true* se **$x** e **$y** <br>forem verdadeiros
+||        | "ou"     | $x || $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
+!         | "não"    | !$x         |Retorna *true* se **$x** for falso
