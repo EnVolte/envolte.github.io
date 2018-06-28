@@ -9,7 +9,7 @@ Agora, que já iniciamos o desenvolvimento da nossa página e aprendemos mais al
 
 Se você fez o exercício da aula anterior, deve ter percebido que nossa página ainda está sem identidade alguma. Isso, porque não inciamos a parte de **CSS** ainda. Ela também está bem crua, de modo que parece mais um texto, do que um site. Agora, vamos aprender sobre mais alguns itens antes de incluí-los no layout. Leia com atenção!
 
-### Atributos HTML
+### Atributos do HTML
 
 Atributos proveem informações adicionais sobre um elemento ou tag, enquanto também modificam eles. Os atributos tem um valor; o valor modifica os atributos.
 
@@ -186,8 +186,6 @@ Teste este código e você verá que a palavra **Amazônia** ficou da cor verde.
 > O elemento **div** define uma *seção em nível de blocos*.
 >
 > O elemento **span** define uma *seção em linha*.
-
-### Tipos de elementos
 
 Outros elementos podem ser usados como *elementos em bloco*. Isso inclui os seguintes:
 
