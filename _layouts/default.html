@@ -17,7 +17,18 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
-    
+	
+    <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+	
+    <script type="text/javascript">
+	SimpleJekyllSearch({
+	  search-input: document.querySelector('.search-input'),
+ 	  resultsContainer: document.getElementById('results-container'),
+ 	  json: '/search.json',
+	  searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+})
+</script>
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <script>
@@ -58,7 +69,9 @@ $(document).ready(function(){
 
     {{ content }}
 	
-	
+<input type="text" id="search-input" placeholder="Procure por um conteúdo...">
+<br/>
+<div id="results-container"></div>
 	
 	<footer id="baixo">
 
