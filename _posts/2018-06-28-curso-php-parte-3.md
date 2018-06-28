@@ -118,7 +118,7 @@ Operador  |   Nome   |   Exemplo   | Resultado
 
 #### Operadores lógicos
 
-Os operadores **lógicos** são usados para combinar declarações condicionais.
+Os **operadores lógicos** são usados para combinar declarações condicionais.
 
 Operador  |   Nome   |   Exemplo   | Resultado
 :--------:|:--------:|:-----------:|--------------------
@@ -128,3 +128,7 @@ xor       | "Xor"    | $x xor $y   |Retorna *true* se **$x** ou **$y** <br>forem
 &&        | "e"      | $x && $y    |Retorna *true* se **$x** e **$y** <br>forem verdadeiros
 &brvbar;&brvbar;        | "ou"     | $x &brvbar;&brvbar; $y    |Retorna *true* se **$x** ou **$y** <br>forem verdadeiros
 !         | "não"    | !$x         |Retorna *true* se **$x** for falso
+
+Esta foi a parte 3 do nosso *curso básico* de **PHP**. Na próxima "aula", vou falar sobre os **arrays**.
+
+Para que você possa aprender mais rápido, pratique bastante. *Some*, *divida*, *subtraia* e brinque com os códigos que aprendemos hoje. Se encontrar algum erro ou tiver alguma dúvida, deixe seu comentário abaixo.
