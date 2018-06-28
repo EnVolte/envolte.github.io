@@ -78,3 +78,5 @@ A diferença é que o **pós-incremento** retorna o valor original *antes* de mu
 
     $i = 2; $f = $i++; // $i = 3, $f = 2
     $i = 2; $f = ++$a; // $i = 3, $f = 3
+    
+Por enquanto, pode ser um pouco confuso, mas logo você entenderá como funciona. Não esqueça que a melhor forma de aprender é na prática, então teste todos os códigos aqui ensinados.
