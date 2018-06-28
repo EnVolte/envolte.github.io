@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Curso de HTML & CSS (Parte 4)"
-date:   2018-06-28 10:00:00
+date:   2018-06-28 12:00:00
 categories: Curso
 ---
 
