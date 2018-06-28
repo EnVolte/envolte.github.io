@@ -13,9 +13,68 @@ Gostaria de lembrar que este é um *curso básico* para quem tem interesse inici
 
 ### Operadores arítiméticos
 
-Como o próprio nome já diz, estes são operadores que realizam operações matemáticas. Os **operadores aritiméticos** funcionam com valores numericos para realizar operações comuns.
+Como o próprio nome já diz, estes são operadores que realizam operações matemáticas. Os **operadores aritiméticos** funcionam com valores numericos para realizar operações comuns. Veja:
 
   Operador   |   Nome   |   Exemplo
 :----------: | :------: | :---------:
 +            |Adição    |   $x + $y
 -            |Subtração |   $x - $y
+*            |Multiplicação| $x * $y
+/            |Divisão   |   $x / $y
+%            |Módulo    |   $x % $y
+
+Abra seu programa, ligue o **Apache** e crie um arquivo chamado operacoes.php. Digite o seguinte código:
+
+    <?php
+      $num1 = 10;
+      $num2 = 8;
+      
+      // Adição
+      echo $num1 + $num2; // 18
+      
+      // Subtração
+      echo $num1 - $num2; // 2
+      
+      // Multiplicação
+      echo $num1 * $num2; // 80
+      
+      // Divisão
+      echo $num1 / $num2; // 1,25
+    ?>
+      
+Como eu disse acima, as *variáveis* estão presentes no código a todo instante, por isso é importante se familiarizar com elas. Não se esqueça de sempre fechar com ``;`` para não causar nenhum erro. 
+
+Quando usamos o comando ``echo``, normalmente ele é acompanhado de aspas simples ``'`` ou aspas duplas ``"``. Porém, se estivermos trabalhando com variáveis, não precisamos colocar.
+
+#### Módulo
+
+O operador de **módulo**, representado pelo sinal **%**, retorna o valor restante da divisão entre dois números. 
+
+Caso não tenha entendido bem o que é *módulo*, vou tentar explicar melhor. Se dividirmos o número **14** por **3**, por exemplo, o resultado será **4,6666**... Transformando este número em um número *inteiro*, ficaríamos com **4**. **3 x 4 = 12**. O que resta? Isso mesmo, **2**, que é o nosso módulo. Veja em prática:
+
+    <?php
+      $x = 14;
+      $y = 3;
+      echo $x % $y; // 2
+    ?>
+    
+> Se você usar números com pontos (float) com o operador de módulo, eles serão convertidos em **inteiros** antes da operação.
+
+#### Incremento & Decremento
+
+O operador de **incremento** é usado para incrementar o valor de um variável. O operador de **decremento** é usado para decrementar (diminuir) o valor de uma variável.
+
+    $x++; // Equivale a $x = $x+1;
+    $x--; // Equivale a $x = $x-1;
+    
+Estes operadores podem anteceder ou suceder uma variável.
+
+    $x++; // Pós-incremento
+    $x--; // Pós-decremento
+    ++$x; // Pré-incremento
+    --$x; // Pré-decremento
+    
+A diferença é que o **pós-incremento** retorna o valor original *antes* de mudar a variável, enquanto o **pré-decremento** muda a variável primeiro, depois retorna o valor.
+
+    $i = 2; $f = $i++; // $i = 3, $f = 2
+    $i = 2; $f = ++$a; // $i = 3, $f = 3
