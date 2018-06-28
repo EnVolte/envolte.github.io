@@ -13,4 +13,9 @@ Gostaria de lembrar que este é um *curso básico* para quem tem interesse inici
 
 ### Operadores arítiméticos
 
-Como o próprio nome já diz, estes são operadores que realizam operações matemáticas.
+Como o próprio nome já diz, estes são operadores que realizam operações matemáticas. Os **operadores aritiméticos** funcionam com valores numericos para realizar operações comuns.
+
+  Operador   |   Nome   |   Exemplo
+:----------: | :------: | :---------:
++            |Adição    |   $x + $y
+-            |Subtração |   $x - $y
