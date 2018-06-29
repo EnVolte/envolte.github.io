@@ -1,0 +1,117 @@
+---
+# busca.html
+
+layout: custom
+permalink: /busca.html
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Home - EnVolte - O melhor professor é aquele que te faz aprender ;)</title>
+    <meta name="description" content="Um blog para te ajudar com coisas sobre blogs e sites ;)" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" href="https://envolte.github.io/assets/images/faviconev.png"/>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <!-- Customisation  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+$(window).scroll(function() {
+    nScrollPosition = $( window ).scrollTop();
+    if(nScrollPosition>=400){
+         $( "#show" ).fadeIn(1000);
+    }else{
+         $( "#show" ).fadeOut(1000);
+    }
+});
+	    
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#aviso").fadeToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+	$("#hide").click(function(){
+		$('#aviso').hide();
+});
+});
+   
+</script>
+
+</head>
+<body class="home-template">
+
+    
+<button id="show" title="Clique aqui">Ow!</button>
+
+<div id="aviso">
+<button id="hide">X</button>
+<h3>Gostou do blog?</h3>
+<p>Veja como <a href="https://envolte.github.io/colabore.html"><b>contribuir com o conteúdo!</b></a>
+</div>
+
+    <!-- blogcapa4.png -->
+
+<header class="main-header post-head" style="text-decoration: none; background-image: url(assets/images/blogcapa7.png)">
+    <nav class="main-nav overlay clearfix">
+            
+                <a class="blog-logo" href="http://envolte.github.io/">
+                    <img src="assets/images/logoev.png" alt="Blog Logo" />
+                </a>
+            
+        <a class="subscribe-button icon-feed" href="http://envolte.github.io/feed.xml">Inscreva-se</a>
+    </nav>
+    
+    <div class="vertical">
+        <div class="main-header-content inner"><br>
+            <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">EnVolte</h1>
+      
+                <div id="titulo">o melhor professor é aquele que te faz aprender de verdade ;)</div><br>
+            
+            <h2 class="page-description"><br><br>
+                 
+                <div style="text-decoration: none;">
+            <a style='z-index: 999; left: 0; position: absolute; overflow: hidden; text-transform: uppercase; background: #fff; color: #555; font-weight: bold; padding: 0px 20px; font-family: Open Sans; text-decoration-color: #fff; font-size: 13px;' href='http://envolte.github.io/about.html'>Sobre mim</a>
+                    
+            <a style='z-index: 999; right: 0; position: absolute; overflow: hidden; text-transform: uppercase; background: #fff; color: #555; font-weight: bold; padding: 0px 20px; font-family: Open Sans; text-decoration-color: #fff; font-size: 13px;' href='https://envolte.github.io/cursos.html'>Cursos</a>
+                </div> 
+            </h2>
+     
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
+</header>
+
+
+<main id="content" class="content" role="main">
+
+<script>
+  (function() {
+    var cx = '016326426234586802782:_wurw9nl9wm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>
+
+</main>
+
+<body>
+</html>
