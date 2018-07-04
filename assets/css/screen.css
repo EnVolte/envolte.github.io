@@ -1810,8 +1810,8 @@ footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
 
 section#about {width: 100%; height: auto; position: relative; display: inline-block; background-color: #fdfdfd; padding: 35px 0px; border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
 section#about #centre {width: 80%; margin: 0px auto;}
-section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1.2em; color: #333; transition: 0.7s ease; text-align: center;}
-section#about p {font-family: Merriweather; line-height: 1.7em; color: #333; transition: 0.7s ease; text-align: center; margin: 15px 0px 0px;}
+section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1.1em; color: #333; transition: 0.7s ease; text-align: center;}
+section#about p {font-family: Merriweather; line-height: 1.7em; font-size: 0.9em; color: #333; transition: 0.7s ease; text-align: center; margin: 15px 0px 0px;}
 section#about span.icon {width: 20px; height: 20px; background-size: 20px; position: absolute; margin-top: 4px; margin-left: -30px; display: inline-block; opacity: 0.9;}
 section#about a {color: #30687f; font-weight: bold;}
 
