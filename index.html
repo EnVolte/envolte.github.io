@@ -60,7 +60,7 @@ about: 'about.html'
         {% include pagination.html %}
     </div>
 
-    {% for post in paginator.posts where post.categories contains "Ajuda" %}
+    {% for post in paginator.posts %}
 
     <article class="post">
 	    
