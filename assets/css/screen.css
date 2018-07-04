@@ -1799,7 +1799,7 @@ button#hide {border-radius: 20px; outline: none; font-weight: normal; color: #ff
 div#titulo {max-width: 76%; margin-left: auto; margin-right: auto; border: 1px solid rgba(0,0,0,0.4); font-family: Open Sans; color: #fff; background: #30687f; border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 13px; padding: 1px 0px; overflow: hidden; margin-top: 50px;}
 
 
-footer#baixo {width: 100%; background: #30687f; height: 190px; margin-top: 8rem; position: relative;}
+footer#baixo {width: 100%; background: #30687f; height: 190px; margin-top: 3rem; position: relative;}
 footer#baixo ul {line-height: 1.2em; padding: 30px 0px 5px;}
 footer#baixo ul h3 {padding-left: 7px; border-left: 7px solid #fff; color: #fff; font-family: Open Sans; text-transform: uppercase; font-style: normal; font-weight: bold; margin-bottom: 10px; font-size: 15px;}
 footer#baixo ul li {float: left; width: 100%; list-style: none;}
@@ -1808,10 +1808,10 @@ footer#baixo .alignleft {width: 45%; float: left; margin-left: 6%;}
 footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
 
 
-section#about {width: 100%; height: auto; position: relative; display: inline-block; background-color: #fdfdfd; padding: 35px 0px; border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
+section#about {width: 100%; height: auto; position: relative; display: inline-block; background-color: #fdfdfd; padding: 35px 0px; border-top: 1px solid #eee; border-bottom: 1px solid #eee; margin-top: 2rem;}
 section#about #centre {width: 80%; margin: 0px auto;}
-section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1.1em; color: #333; transition: 0.7s ease; text-align: center;}
-section#about p {font-family: Merriweather; line-height: 1.7em; font-size: 0.9em; color: #333; transition: 0.7s ease; text-align: center; margin: 15px 0px 0px;}
+section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1em; color: #333; transition: 0.7s ease; text-align: center;}
+section#about p {font-family: Merriweather; line-height: 1.7em; font-size: 0.8em; color: #333; transition: 0.7s ease; text-align: center; margin: 15px 0px 0px;}
 section#about span.icon {width: 20px; height: 20px; background-size: 20px; position: absolute; margin-top: 4px; margin-left: -30px; display: inline-block; opacity: 0.9;}
 section#about a {color: #30687f; font-weight: bold;}
 
