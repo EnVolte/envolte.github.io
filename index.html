@@ -56,20 +56,20 @@ about: 'about.html'
 	
 	
 	
-	<h3 class="titlep"><span style="background: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> + Cursos</h1>
+	<h3 class="titlep"><span style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> + Cursos</h1>
 	
 	
 	<ul id="curso">
   {% for curso in site.cursos %}
     <li>
       <a href="{{ curso.url }}">{{ curso.title }}</a><br>
-	    {{ curso.subtitulo }}
+	    <p>{{ curso.subtitulo }}</p>
     </li>
   {% endfor %}
 </ul>
 	
 	
-	<div></div>
+	<div></div><br><br>
 	
 	
 
@@ -78,7 +78,7 @@ about: 'about.html'
         {% include pagination.html %}
     </div>
 	
-	<h3 class="titlep"><span style="background: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_chrome_reader_mode_black_48dp.png');"></span> + Blog</h1>
+	<h3 class="titlep"><span style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_chrome_reader_mode_black_48dp.png');"></span> + Blog</h1>
 
     {% for post in paginator.posts %}
 
