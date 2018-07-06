@@ -27,7 +27,7 @@ pagination:
 collections:
   cursos:
     output: true
-    permalink: /curso/:path/:name
+    permalink: /curso/:path
 
 defaults:
   - scope:
