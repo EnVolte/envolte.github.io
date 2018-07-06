@@ -5,7 +5,6 @@ meta_description: "Um blog para te ajudar com coisas sobre blogs e sites ;)"
 markdown: kramdown
 highlighter: pygments
 logo: true
-paginate: 2
 baseurl: 'http://envolte.github.io/'
 domain_name: 'http://envolte.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
