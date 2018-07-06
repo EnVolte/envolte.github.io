@@ -1300,11 +1300,11 @@ body:not(.post-template) .post-title {
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #555;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #30687F;
     text-decoration: none;
     font-weight: bold;
 }
@@ -1807,7 +1807,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30687f', end
 footer#baixo ul {line-height: 1.2em; padding: 30px 0px 5px;}
 footer#baixo ul h3 {padding-left: 7px; border-left: 7px solid #fff; color: #fff; font-family: Open Sans; text-transform: uppercase; font-style: normal; font-weight: bold; margin-bottom: 10px; font-size: 15px;}
 footer#baixo ul li {float: left; width: 100%; list-style: none;}
-footer#baixo ul li a {color: #eee; font-family: "Merriweather", serif; text-decoration: none; font-size: 15px; font-weight: normal;}
+footer#baixo ul li a {color: #eee; font-family: "Merriweather", serif; text-decoration: none; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); font-size: 15px; font-weight: normal;}
 footer#baixo .alignleft {width: 45%; float: left; margin-left: 6%;}
 footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
 
@@ -1828,11 +1828,11 @@ section#about a {color: #30687f; font-weight: bold;}
 #right {width: 30%; float: right; position: relative;}
 #right:hover p, #right:hover h2 {color: #000;}
 
-.titlep {width: 70%; margin: 0px auto; font-size: 1.2em; color: #000; position: relative;}
-.titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 5px; font-weight: bold; margin-left: 0px; margin-right: 10px; display: block; opacity: 0.9;}
+.titlep {width: 70%; margin: 0px auto; font-size: 1.2em; color: #000; position: relative; font-weight: bold;}
+.titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 5px; margin-left: 0px; margin-right: 10px; display: block; opacity: 1;}
 
 #alin {width: 70%; margin: 2rem auto 4rem; position: relative;}
-ul#curso {float: left; width: 96%; margin: 0px; position: relative; line-height: 1em;}
-ul#curso li {float: left; width: 50%; height: 80px; padding: 0 1%; font-size: auto; list-style: none;}
+ul#curso {float: left; width: 100%; margin: 0px; position: relative; line-height: 1em;}
+ul#curso li {float: left; width: 48%; height: 80px; padding: 0 1%; font-size: auto; list-style: none;}
 ul#curso li a {color: #333; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em;}
