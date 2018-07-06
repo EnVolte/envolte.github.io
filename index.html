@@ -6,7 +6,6 @@ cover: assets/images/blogcapa7.png
 about: 'about.html'
 pagination: 
   enabled: true
-  category: Ajuda
 ---
 
 <!-- blogcapa4.png -->
@@ -105,20 +104,19 @@ pagination:
 
     {% endfor %}
 
-    {% if site.categories.total_pages > 1 %}
-<ul>
-  {% if site.categories.previous_page %}
-  <li>
-    <a href="{{ site.categories.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  </li>
-  {% endif %}
-  {% if site.categories.next_page %}
-  <li>
-    <a href="{{ site.categories.next_page_path | prepend: site.baseurl }}">Older</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+    <nav class="pagination" role="pagination">
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+            <a class="newer-posts" href="/" title="Previous Page">&laquo; Página Anterior</a>
+        {% else %}
+            <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Pagina Anterior</a>
+      {% endif %}
+    {% endif %}
+    <span class="page-number"> Página {{paginator.page}} de {{paginator.total_pages}} </span>
+    {% if paginator.next_page %} 
+        <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Próxima Página &raquo;</a>
+    {% endif %} 
+</nav>
 	
 
 </main>
