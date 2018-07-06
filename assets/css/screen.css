@@ -1832,7 +1832,7 @@ section#about a {color: #30687f; font-weight: bold;}
 .titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 5px; margin-left: 0px; margin-right: 10px; display: block; opacity: 1;}
 
 #alin {width: 70%; margin: 2rem auto 6rem; position: relative;}
-ul#curso {float: left; width: 100%; margin: 0px 0px 30px; position: relative; line-height: 1.2em;}
+ul#curso {float: left; width: 100%; margin: 0px 0px 100px; position: relative; line-height: 1.2em;}
 ul#curso li {float: left; width: 48%; height: 70px; padding: 0 1%; font-size: auto; list-style: none;}
 ul#curso li a {color: #333; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em;}
