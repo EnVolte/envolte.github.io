@@ -1828,6 +1828,6 @@ h3.titlep {width: 70%; margin: 0px auto; font-size: 1.2em; color: #000;}
 h3.titlep span.ico {width: 20px; height: 20px; background-size: 20px; margin-top: 1px; margin-left: 0px; margin-right: 10px; display: block; opacity: 0.9;}
 #alin {width: 70%; margin: 2rem auto 4rem; position: relative;}
 ul#curso {float: left; width: 100%; margin: 0px; position: relative; line-height: 1em;}
-ul#curso li {float: left; width: 50%; font-size: auto; list-style: none;}
+ul#curso li {float: left; width: 50%; height: 110px; font-size: auto; list-style: none;}
 ul#curso li a {color: #333; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em;}
