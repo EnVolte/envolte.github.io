@@ -1825,7 +1825,7 @@ section#about a {color: #30687f; font-weight: bold;}
 #right:hover p, #right:hover h2 {color: #000;}
 
 h3.titlep {width: 70%; margin: 0px auto; font-size: 1.2em; color: #000;}
-h3.titlep span.ico {width: 20px; height: 20px; background-size: 20px; margin-top: 1px; margin-left: -30px; display: inline-block; opacity: 0.9;}
+h3.titlep span.ico {width: 20px; height: 20px; background-size: 20px; margin-top: 1px; margin-left: 0px; margin-right: 10px; display: block; opacity: 0.9;}
 #alin {width: 70%; margin: 2rem auto 4rem; position: relative;}
 ul#curso {float: left; width: 100%; margin: 0px; position: relative; line-height: 1em;}
 ul#curso li {float: left; width: 50%; font-size: auto; list-style: none;}
