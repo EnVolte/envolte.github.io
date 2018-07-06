@@ -63,7 +63,7 @@ pagination:
         {% include pagination.html %}
     </div>
 
-    {% for post in paginator.site.categories.Ajuda %}
+    {% for post in site.categories.Ajuda %}
 
     <article class="post">
 	    
@@ -105,6 +105,20 @@ pagination:
 
     {% endfor %}
 
-    {% include pagination.html %}
+    {% if site.categories.total_pages > 1 %}
+<ul>
+  {% if site.categories.previous_page %}
+  <li>
+    <a href="{{ site.categories.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if site.categories.next_page %}
+  <li>
+    <a href="{{ site.categories.next_page_path | prepend: site.baseurl }}">Older</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+	
 
 </main>
