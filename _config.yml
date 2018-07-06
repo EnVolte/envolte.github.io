@@ -9,7 +9,7 @@ baseurl: 'http://envolte.github.io/'
 domain_name: 'http://envolte.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
-paginate: 2
+paginate: 3
 
 plugins:
 - jekyll-paginate-v2
