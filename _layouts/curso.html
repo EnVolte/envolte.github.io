@@ -1,0 +1,142 @@
+---
+layout: default
+cover: assets/images/blogcapa4.png
+archive: false
+post_class: post-template
+---
+
+<header class="main-header post-head" {% if page.categories contains "Curso" %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa6.png" {% else %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa4.png')" {% endif %}>
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
+    </nav>
+    
+    <div class="vertical">
+    
+    <div class="main-header-content inner">
+            <h1 class="page-title" style="font-size: 3.2rem;">{{ page.title }}</h1>
+            <h2 style="text-decoration: none;" class="page-description"><br>
+                <span style="font-family: Open Sans; border: 1px solid rgba(0,0,0,0.3); text-decoration-color: rgba(0,0,0,0.2); background: rgba(0,0,0,0.2); border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 1.3rem; padding: 8px 20px; letter-spacing: 1px; overflow: hidden;">
+                    {% if page.categories contains "Curso" %}
+                    Você está vendo um curso
+                    </span>
+                {% else %}
+                <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+                    
+                    {{ page.date | date_to_string }}</time> em <b>
+                {% if page.categories.size > 0 %}
+                    {{ page.categories | array_to_sentence_string | prepend: ' ' }}
+                {% endif %}
+                    </b>
+                {% endif %}
+                </span>
+            </h2>
+     
+        </div>
+        
+        </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
+    
+</header>
+
+<main class="content" id="content" role="main">
+	
+	<div style="margin: 0px auto; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 7px; width: 728px; height: 90px;">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- EnVolte -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px; margin-top: -31px;"
+     data-ad-client="ca-pub-1626247707199612"
+     data-ad-slot="4813077282"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+    
+ 
+
+    <article class="post">
+	    
+
+      {% if page.categories contains "Curso" %}
+        
+            <section class="post-meta">
+            <time datetime="">Se gostou do conteúdo, <b><a href="https://envolte.github.io/cursos.html">inscreva-se no curso</a></b>!</a></time>
+            </section>
+                
+      {% else %}
+    
+            <section class="post-meta">
+            <time datetime="">Se gostou do conteúdo, não deixe de <b><a href="#comentarios">comentar</a></b>!</a></time>
+            </section>
+                
+                {% endif %}
+                
+        <br>
+
+<!--         <header class="post-header">
+            <a id="blog-logo" href="{{site.url}}">
+                {% if site.logo %}
+                    <img src="{{site.logo}}" alt="{{ site.name }}" />
+                {% else %}
+                    <span class="blog-title">{{ site.name }}</span>
+                {%endif%}
+            </a>
+        </header> -->
+
+        <!-- <span class="post-meta">
+            <time datetime="">Se gostou do conteúdo e quiser contribuir, não esqueça de <b><a class="scroll-down icon-arrow-left" href="#comentarios">comentar</a></b>!</time>
+        </span> -->
+
+        <!-- <h1 class="post-title">{{ page.title }}</h1> -->
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        {% if page.archive %}
+        <section class="archive">
+            <h5>Archive</h5>
+            <ul>
+                {% for post in site.posts %}
+                    <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <footer class="post-footer">
+            <!-- If we want to display author's name and bio -->
+            {% if site.author %}
+                <figure class="author-image">
+                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                    <span class="hidden">{{site.author}}'s Picture</span></a>
+                </figure>
+                <section class="author">
+                    <!-- Author Name -->
+                    <h4> {{ site.author }} </h4>
+                    <!-- Author Bio -->
+                    <p>
+                        Brasil, 19 anos. Quero compartilhar um pouco do meu conhecimento para que as pessoas também sintam desejo de aprender programação. Aos poucos aprendo, aos poucos ensino. Espero ser útil ;)
+                    </p>
+                </section>
+            {% endif %}
+
+            <!-- Share links section -->
+            {% include share.html %}
+
+            <!-- Disqus comments -->
+            <div id="comentarios" class="comentarios">
+                {% include disqus.html %}
+            </div>
+          
+
+
+        </footer>
+
+    </article>
+
+</main>
+
+<script id="dsq-count-scr" src="//envolte.disqus.com/count.js" async></script>
