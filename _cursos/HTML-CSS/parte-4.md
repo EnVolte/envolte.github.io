@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Curso de HTML & CSS (Parte 4)"
+subtitulo: "Formulários, tipos de inputs e métodos de envio."
 date:   2018-06-28 12:00:00
 categories: Curso
 ---
