@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Curso de PHP (Parte 2)"
+date:   2018-06-25 10:00:00
+categories: Curso
+---
+
+<p>Se você está aqui, provavelmente já completou a <b><a href="https://envolte.github.io/curso/2018/06/25/curso-php-parte-1.html">primeira parte do curso</a></b>. Nela, fiz uma breve introdução ao PHP e criamos o nosso primeiro programa <i>Olá, mundo</i>.</p>
+
+<p>Nesta segunda parte, vamos falar sobre <b>Variáveis</b>, <b>Constantes</b>, <b>Tipos suportados pelo PHP</b> e <b>Variáveis de variáveis</b>. Ficou consfuso(a)? Calma, eu vou explicar tudo isso direitinho logo a seguir. Mas primeiro eu preciso saber, <b><a href="https://envolte.github.io/Curso-PHP.html">você já se inscreveu no curso?</a></b> O formulário é bem fácil de ser preenchido, e me auxilia em saber quantos alunos estão acompanhando. E não se esqueça, o curso é <i>gratuito</i>.</p>
+
+<p><h3>Mas afinal, o que são variáveis?</h3></p>
+<p>As <b>variáveis</b> são como uma espécie de "container" que armazenam dados. Uma variável em PHP começa com um <b>$</b> (cifrão) e é seguida pelo nome.</p>
+<pre>$variavel = valor;</pre>
+<p>Elas seguem algumas regras:</p>
+<ul>
+<li>Uma variável precisa começar com uma letra ou _.</li>
+<li>Variáveis não podem começar com um número, mas você pode incluí-los em qualquer outra posição.</li>
+<li>Variáveis só podem conter caracteres alfanuméricos e _ (A-Z, 0-9 e _)</li>
+<li>As variáveis são case-sensitive, ou seja, são sensíveis a letras maiúsculas e minúsculas. A variável <i>$nome</i> e a várivel <i>$NOME</i> são consideradas diferentes.</li>
+</ul>
+
+<script src="https://gist.github.com/luislorente/2fb1a8209247d1492bdcf8ecc7e9b8e0.js"></script>
+
+<p>No exemplo acima, perceba que não precisamos declarar que tipo de conteúdo estamos usando. Uma das vantagens do PHP é que ele automaticamente converte a variável para o tipo de conteúdo, dependendo do seu valor.</p>
+
+<p><h3>Constantes</h3></p>
+<p><b>Constantes</b> são parecidas com as <b>variáveis</b>, exceto pelo fato de que não podem ser mudadas depois de definidas. Também devem começar com uma letra ou _. Para criar um constante, usamos a função <b>define()</b>.</p>
+<pre>define(nome, valor, case-insensitive)</pre>
+<p>Parâmetros:</p>
+<ul>
+<li><b>nome</b>: Especifica o nome da sua constante.</li>
+<li><b>valor</b>: Especifica o valor da sua constante.</li>
+<li><b>case-insensitive</b>: Especifica se o nome da sua constante deve ser sensível a letras maiúsculas e minúsculas. O valor padrão é <b>false</b> (falso).</li>
+</ul>
+
+<script src="https://gist.github.com/luislorente/703dd65856b25d8d9301cb16b71220ae.js"></script>
+
+<p><h3>Tipos suportados pelo PHP</h3></p>
+<p>As variáveis podem aceitar uma variedade de tipos de dados. São elas: <b>String</b>, <b>Interger</b>, <b>Float</b>, <b>Boolean</b>, <b>Array</b>, <b>NULL</b> (vazio), Resource.</p>
+
+<p><h4>String</h4></p>
+<p>Uma <b>string</b> é uma sequência de caracteres, como "Olá, mundo!". As strings podem ser declaradas com aspas simples ('') ou duplas ("").</p>
+<blockquote>
+Você pode juntar duas strings usando o ponto (.) como um operador de <i>concatenação</i>. Por exemplo: <b>echo $string1.$string2;</b>
+</blockquote>
+
+<p><h4>Interger</h4></p>
+<p>O <b>Interger</b> representa um número inteiro (sem decimais). Não pode conter pontos de decimais, pode ser <i>positivo</i> ou <i>negativo</i>.</p>
+<pre>
+$int1 = 10; // Número positivo
+$int2 = -10; // Número negativo
+</pre>
+
+<p><h4>Float</h4></p>
+<p>o <b>float</b> é um número que inclui um ponto decimal.</p>
+<pre>
+$float = 35.000;
+</pre>
+
+<p><h4>Boolean (booleano)</h4></p>
+<p>Os valores <b>booleanos</b> representam duas possibilidades, <i>verdadeiro</i> ou <i>falso</i>. São representados, respectivamente, por <i>true</i> ou <i>false</i></p>
+<blockquote>
+Os valores booleanos são geralmente usados para checar condições.
+</blockquote>
+
+<p><h4>Variável global</h4></p>
+<p>As variáveis podem ser declaradas em qualquer lugar do script. O <b>escopo</b> da variável é a parte do script em que a variável pode ser referenciada. As variáveis mais usadas são <b>local</b> e <b>global</b>. Uma variável declarada dentro de uma função tem o escopo <b>local</b>, e só pode ser acessada dentro dela.</p>
+<p>A palavra-chave <b>global</b> é utilizada para dar acesso a uma variável dentro de uma função, por exemplo.</p>
+<script src="https://gist.github.com/luislorente/d98c9765e692c756799994b8f595b2ff.js"></script>
+<p>Sendo assim, podemos ter acesso à variável <b>$nome</b> ao chamarmos a função <b>pegarNome()</b>.</p>
+
+<p><h4>Variáveis de variáveis</h4></p>
+<p>Com o PHP, podemos usar uma variável para especificar outra variável. Uma <b>variável de variável</b> é o valor de uma outra variável sendo utilizada como o nome dela.</p>
+<script src="https://gist.github.com/luislorente/14b90c3abe8dc62968056e5a871e8caf.js"></script>
+<p>No começo pode ser um pouco confuso, mas aos poucos você vai entendendo melhor o significado de cada coisa.</p>
+
+<p><h3>Exercícios</h3></p>
+<p>A sua tarefa agora é testar todos os códigos ensinados aqui. Ao invés de copiar e colar, digite-os no editor para que você aprenda melhor.</p>
+<p>Crie um arquivo com o nome <b>variaveis.php</b> e outro com <b>constantes.php</b>. Teste as variáveis, seus tipos, e também veja o funcionamento das constantes, e execute em seu navegador. Não se esqueça de ligar o seu programa para executar o Apache e acessar <i>http://localhost/nomedoarquivo.php</i> para visualizar o resultado.</p>
