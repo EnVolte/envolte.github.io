@@ -15,10 +15,7 @@ pagination:
   per_page: 2
   permalink: '/pagina/:num/'
   title: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-
+  
 collections:
   cursos:
     output: true
