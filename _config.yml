@@ -9,8 +9,19 @@ baseurl: 'http://envolte.github.io/'
 domain_name: 'http://envolte.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate-v2]
+
+plugins:
+- jekyll-paginate-v2
  
-pagination: 2
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/pagina/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
   
 collections:
   cursos:
