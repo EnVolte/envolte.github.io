@@ -1824,8 +1824,8 @@ section#about a {color: #30687f; font-weight: bold;}
 #right {width: 30%; float: right; position: relative;}
 #right:hover p, #right:hover h2 {color: #000;}
 
-h3.titlep {width: 70%; margin: 0px auto; font-size: 1.3em; color: #333;}
+h3.titlep {width: 70%; margin: 0px auto; font-size: 1.2em; color: #333;}
 h3.titlep span {width: 20px; height: 15px; display: inline-block; background: #fff; margin-right: 5px;}
-ul#curso {width: 70%; margin: 0px auto 0px;}
+ul#curso {width: 70%; margin: 2rem auto 3rem;}
 ul#curso li {float: left; width: 100%; font-size: auto;}
-ul#curso li a {color: #000; text-decoration: none; font-family: Open Sans;}
+ul#curso li a {color: #000; text-decoration: none; font-family: Open Sans; font-weight: bold;}
