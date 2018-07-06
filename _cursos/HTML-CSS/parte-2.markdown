@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Curso de HTML & CSS (Parte 2)"
+subtitulo: "Principais tags, headings, formatação de texto, comentários e estrutura básica de página."
 date:   2018-06-26 10:00:00
 categories: Curso
 ---
