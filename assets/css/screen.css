@@ -746,7 +746,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 3rem;
 }
 
 .post-title a {
@@ -1804,7 +1804,7 @@ background: -moz-linear-gradient(top, rgba(48,104,127,1) 0%, rgba(0,89,124,1) 44
 background: -webkit-linear-gradient(top, rgba(48,104,127,1) 0%,rgba(0,89,124,1) 44%,rgba(0,32,48,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(48,104,127,1) 0%,rgba(0,89,124,1) 44%,rgba(0,32,48,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30687f', endColorstr='#002030',GradientType=0 ); /* IE6-9 */ height: 220px; margin-top: 4rem; position: relative;}
-footer#baixo ul {line-height: 1.2em; padding: 30px 0px 5px;}
+footer#baixo ul {line-height: 1.2em; padding: 50px 0px 5px;}
 footer#baixo ul h3 {padding-left: 7px; border-left: 7px solid #fff; color: #fff; font-family: Open Sans; text-transform: uppercase; font-style: normal; font-weight: bold; margin-bottom: 10px; font-size: 15px;}
 footer#baixo ul li {float: left; width: 100%; list-style: none;}
 footer#baixo ul li a {color: #eee; font-family: "Merriweather", serif; text-decoration: none; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); font-size: 15px; font-weight: normal;}
@@ -1829,10 +1829,10 @@ section#about a {color: #30687f; font-weight: bold;}
 #right:hover p, #right:hover h2 {color: #000;}
 
 .titlep {width: 70%; margin: 0px auto; font-size: 1.2em; color: #000; position: relative; font-weight: bold;}
-.titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 5px; margin-left: 0px; margin-right: 10px; display: block; opacity: 1;}
+.titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 6px; margin-left: 0px; margin-right: 10px; display: block; opacity: 1;}
 
-#alin {width: 70%; margin: 2rem auto 4rem; position: relative;}
+#alin {width: 70%; margin: 2rem auto 6rem; position: relative;}
 ul#curso {float: left; width: 100%; margin: 0px; position: relative; line-height: 1em;}
-ul#curso li {float: left; width: 48%; height: 80px; padding: 0 1%; font-size: auto; list-style: none;}
+ul#curso li {float: left; width: 48%; height: 70px; padding: 0 1%; font-size: auto; list-style: none;}
 ul#curso li a {color: #333; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em;}
