@@ -53,6 +53,26 @@ about: 'about.html'
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 	</div>
+	
+	
+	
+	
+	
+	
+	<ul>
+  {% for curso in site.cursos %}
+    <li>
+      <a href="{{ curso.url }}">{{ curso.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+	
+	
+	
+	
+	
+	
+	
     
 
 
