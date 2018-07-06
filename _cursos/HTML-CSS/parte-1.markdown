@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Curso de HTML & CSS (Parte 1)"
+subtitulo: "Introdução ao HTML e tags básicas."
 date:   2018-06-26 08:00:00
 categories: Curso
 ---
