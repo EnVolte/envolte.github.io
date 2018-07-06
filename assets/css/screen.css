@@ -1838,6 +1838,6 @@ section#about a {color: #30687f; font-weight: bold;}
 
 #alin {width: 70%; margin: 2rem auto 6rem; position: relative;}
 ul#curso {float: left; width: 100%; margin: 0px 0px 50px -30px; position: relative; line-height: 1.2em;}
-ul#curso li {float: left; margin-right: 1%; width: 49%; background: #e94; height: 70px; padding: 0 0 0 0; font-size: auto; list-style: none;}
-ul#curso li a {color: #333; text-decoration: none; font-family: Open Sans; font-weight: bold;}
+ul#curso li {margin-right: 1%; width: 49%; background: #; height: 70px; padding: 0 0 0 0; list-style: none;}
+ul#curso li a {color: #333; border-left: 7px solid #e94; padding-left: 5px; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em;}
