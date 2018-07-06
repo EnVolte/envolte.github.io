@@ -10,11 +10,7 @@ domain_name: 'http://envolte.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate-v2]
  
-pagination:
-  enabled: true
-  per_page: 2
-  permalink: '/pagina/:num/'
-  title: ' - page :num'
+pagination: 2
   
 collections:
   cursos:
