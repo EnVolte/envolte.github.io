@@ -56,10 +56,10 @@ about: 'about.html'
 	
 	
 	
-	<h3 class="titlep">+ Cursos</h1>
+	<h3 class="titlep"><span style="background: url('');"></span> + Cursos</h1>
 	
 	
-	<ul>
+	<ul id="cursos">
   {% for curso in site.cursos %}
     <li>
       <a href="{{ curso.url }}">{{ curso.title }}</a>
@@ -80,7 +80,7 @@ about: 'about.html'
         {% include pagination.html %}
     </div>
 	
-	<h3 class="titlep">+ Blog</h1>
+	<h3 class="titlep"><span style="background: url('');"></span> + Blog</h1>
 
     {% for post in paginator.posts %}
 
