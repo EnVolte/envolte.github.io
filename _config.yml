@@ -10,6 +10,7 @@ domain_name: 'http://envolte.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 paginate: 4
+permalink: /:categories/:year/:title.envolte
 
 plugins:
 - jekyll-paginate-v2
