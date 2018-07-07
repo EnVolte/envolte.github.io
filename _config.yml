@@ -12,6 +12,9 @@ gems: [jekyll-paginate, jekyll-related-posts]
 paginate: 4
 permalink: /:categories/:year/:title.envolte
 
+related:
+  max_count: 5
+
 plugins:
 - jekyll-paginate-v2
   
