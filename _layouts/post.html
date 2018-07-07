@@ -135,7 +135,36 @@ post_class: post-template
 		
 	    <div class="related">
     <h3>Relacionados</h3>
-    <related-posts />
+   {% assign maxRelated = 4 %}
+{% assign minCommonTags =  2 %}
+{% assign maxRelatedCounter = 0 %}
+
+{% for post in site.posts %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for category in post.categories %}
+      {% if post.url != page.url %}
+        {% if page.categories contains category %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      <div>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+      </div>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
 	    </div>
           
 
