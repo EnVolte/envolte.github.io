@@ -74,7 +74,7 @@ about: 'about.html'
             <h2 class="post-title"><a href="{{ curso.url }}">{{ curso.title }}</a></h2>
         </header>
         <section class="post-excerpt">
-            {{ curso.content | strip_html | truncatewords:25 }} <a class="read-more" href="{{ curso.url }}">&raquo;</a>
+            {{ curso.subtitulo }} <a class="read-more" href="{{ curso.url }}">&raquo;</a>
         </section>
         <footer class="post-meta">
             {% if site.author %}
