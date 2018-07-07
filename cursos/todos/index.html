@@ -60,7 +60,9 @@ about: 'about.html'
 	<section id="alin">
 	<main style="width: 70%; margin: 0px auto;">
 	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Todos os cursos <a href="#" style="margin: 0px 0px 3px 5px; font-weight: normal; font-size: 0.4em; font-family: Open Sans; text-transform: uppercase; color: #333;">Últimas atualizações &raquo;</a></div>
-
+	</main>
+		
+		<main id="content" class="content" role="main">
 
     {% for curso in site.cursos %}
 
@@ -69,22 +71,22 @@ about: 'about.html'
         
         
         <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2 class="post-title"><a href="{{ curso.url }}">{{ curso.title }}</a></h2>
         </header>
         <section class="post-excerpt">
-            {{ post.content | strip_html | truncatewords:75 }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+            {{ curso.content | strip_html | truncatewords:75 }} <a class="read-more" href="{{ curso.url }}">&raquo;</a>
         </section>
         <footer class="post-meta">
             {% if site.author %}
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'em ' }} 
+            {% if curso.categories.size > 0 %} 
+                {{ curso.categories | array_to_sentence_string | prepend: 'em ' }} 
             {% endif %}
             
             
-            {% if post.categories contains "Ajuda" %}
+            {% if curso.categories contains "Curso" %}
                 <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687F;"><a  style="color: #fff;" href="https://envolve.github.io/cursos">ver outros cursos</a></span>
                 {% endif %}
             
