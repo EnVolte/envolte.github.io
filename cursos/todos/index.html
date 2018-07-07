@@ -59,12 +59,12 @@ about: 'about.html'
 	
 	<section id="alin">
 	<main style="width: 70%; margin: 0px auto;">
-	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Todos os cursos <a href="#" style="margin: 0px 0px 3px 5px; font-weight: normal; font-size: 0.4em; font-family: Open Sans; text-transform: uppercase; color: #333;">Últimas atualizações &raquo;</a></div>
+	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Todos os cursos</div>
 	</main>
 		
 		<main id="content" class="content" role="main">
 
-    {% for curso in site.cursos %}
+    {% for curso in site.cursos limit: 3 %}
 
     <article class="post">
         
@@ -87,9 +87,11 @@ about: 'about.html'
             
             
             {% if curso.categories contains "Curso" %}
-                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687F;"><a  style="color: #fff;" href="https://envolve.github.io/cursos">ver outros cursos</a></span>
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687F;"><a  style="color: #fff;" href="https://envolve.github.io/cursos/">ver outros cursos</a></span>
                 {% endif %}
-            
+            <time class="post-date" datetime="{{ curso.date | date:"%Y-%m-%d" }}">
+                {{ curso.date | date_to_string }}
+            </time> 
             
         </footer>
     </article>
