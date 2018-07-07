@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Cursos
 logo: assets/images/logoev.png
 cover: https://envolte.github.io/assets/images/blogcapa7.png
 about: 'about.html'
@@ -59,39 +59,12 @@ about: 'about.html'
 	
 	<section id="alin">
 	<main style="width: 70%; margin: 0px auto;">
-	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Cursos <a href="#" style="margin: 0px 0px 3px 5px; font-weight: normal; font-size: 0.4em; font-family: Open Sans; text-transform: uppercase; color: #333;">Últimas atualizações &raquo;</a></div>
-	<ul id="curso">
-  {% for curso in site.cursos limit:6 %}
-    <li>
-      <a href="{{ curso.url }}">{{ curso.title }}</a>
-	    <p>{{ curso.subtitulo }}</p>
-    </li>
-  {% endfor %}
-</ul>
-		</main>
-	</section>
-	
-<br>
-<div style="border-bottom: 1px solid #f0f0f0; width: 100%; height: 1px; margin: 35px 0px 50px;"></div>
-
-<section id="alin" style="margin-bottom: 0px;">
-	<main style="width: 70%; margin: 0px auto 0px;">
-	<div class="titlep" style="margin-bottom: -30px;"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_chrome_reader_mode_black_48dp.png');"></span> Tutoriais <a href="#" style="margin: 0px 0px 3px 5px; font-size: 0.4em; color: #333; font-family: Open Sans; font-weight: normal; text-transform: uppercase;">Mais recentes &raquo;</a></div>
-	</main>
-		
-		</section>
-		
-		
-
-	
-    {% for post in paginator.posts limit:2 %}
-
-<main id="content" class="content" role="main">
+	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Todos os cursos <a href="#" style="margin: 0px 0px 3px 5px; font-weight: normal; font-size: 0.4em; font-family: Open Sans; text-transform: uppercase; color: #333;">Últimas atualizações &raquo;</a></div>
 
     <article class="post">
-	    
-	    
-	    
+        
+        
+        
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
@@ -109,7 +82,7 @@ about: 'about.html'
             
             
             {% if post.categories contains "Ajuda" %}
-                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato.html">sugira uma edição</a></span>
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687F;"><a  style="color: #fff;" href="https://envolve.github.io/cursos">ver outros cursos</a></span>
                 {% endif %}
             
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
@@ -124,64 +97,12 @@ about: 'about.html'
     </article>
 
     {% endfor %}
+	</section>
+
+
 	
-	
-	
-	
-	<div style="margin: 0px auto 30px; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 7px; width: 728px; height: 90px;">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- EnVolte -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px; margin-top: -31px;"
-     data-ad-client="ca-pub-1626247707199612"
-     data-ad-slot="4813077282"
-     data-ad-format="link"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	</div>
-	<div class="linecircle"></div>
-	
-	
-	
-	{% for post in paginator.posts offset:2 limit:2 %}
-	
-	<article class="post">
-	    
-	    
-	    
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.content | strip_html | truncatewords:75 }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'em ' }} 
-            {% endif %}
-            
-            
-            {% if post.categories contains "Ajuda" %}
-                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato.html">sugira uma edição</a></span>
-                {% endif %}
-            
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-                
-              
-                
-                
-                
-            </time> 
-        </footer>
-    </article>
-	
-	{% endfor %}
+    
+
 
       {% include pagination.html %}
 	
