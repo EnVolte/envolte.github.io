@@ -1916,3 +1916,5 @@ nav#principal ul li a:hover {background: transparent;}
 #search-input ul#results-container {float: left; position: relative; margin-top: 25px;}
 #search-input ul#results-container li {color: #444; font-family: Merriweather;}
 #search-input ul#results-container li a {color: #444; text-decoration: none;}
+
+#adresponsivo {background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 7px; width: 80%; margin: 0px auto;}
