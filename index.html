@@ -10,6 +10,15 @@ about: 'about.html'
 
 
 <nav id="principal">
+    <nav class="main-nav overlay clearfix">
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
+    </nav>
+    
     <ul>
         <li><a href="">Home Page</a></li>
         <li><a href="">Sobre</a></li>
@@ -20,29 +29,12 @@ about: 'about.html'
 </nav>
 
 <header class="main-header post-head" style="text-decoration: none; background-image: url({{ page.cover }})">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
-    </nav>
     
     <div class="vertical">
         <div class="main-header-content inner"><br>
             <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ site.name }}</h1>
       
                 <div id="titulo">o melhor professor é aquele que te faz aprender de verdade ;)</div><br>
-            
-            <h2 class="page-description"><br><br>
-                {% if page.about %} 
-                <div style="text-decoration: none;">
-            <a style='z-index: 999; left: 0; position: absolute; overflow: hidden; text-transform: uppercase; background: #fff; color: #555; font-weight: bold; padding: 0px 20px; font-family: Open Sans; text-decoration-color: #fff; font-size: 13px;' href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a>
-                    
-            <a style='z-index: 999; right: 0; position: absolute; overflow: hidden; text-transform: uppercase; background: #fff; color: #555; font-weight: bold; padding: 0px 20px; font-family: Open Sans; text-decoration-color: #fff; font-size: 13px;' href='https://envolte.github.io/cursos/'>Cursos</a>
-                </div> {% endif %}
-            </h2>
      
         </div>
     </div>
