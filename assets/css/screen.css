@@ -478,7 +478,7 @@ margin on the iframe, cause it breaks stuff. */
     text-decoration: none;
     text-align: center;
     background: #222 no-repeat center center;
-    background-size: cover 100%;
+    background-size: 400px 100%;
     overflow: hidden;
 }
 
