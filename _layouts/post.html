@@ -70,12 +70,12 @@ post_class: post-template
             <section class="post-meta">
             <time datetime="">Se gostou do conteúdo, não deixe de <b><a href="#comentarios">comentar</a></b>!</a></time>
 	
-	| <span class="read-time" title="Tempo de leitura">
+	| <span style="margin-top: -2px;" class="read-time" title="Tempo de leitura">
   <svg id="i-clock" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" 
   stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>       
 
   {% assign words = content | number_of_words %}
-  {% if words < 260 %}
+  {% if words < 360 %}
     1 minuto de leitura.
   {% else %}
     {{ words | divided_by:180 }} minutos de leitura.
