@@ -1,0 +1,32 @@
+---
+---
+[
+  {% for post in site.posts %}
+    {
+    
+      "title"    : "{{ post.title | strip_html | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "category" : "{{post.categories | join: ', '}}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "date"     : "{{ post.date }}",
+      "discription" : "{{post.description | strip_html | strip_newlines | escape }}"
+      
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+
+
+[
+  {% for curso in site.cursos %}
+    {
+    
+      "title"    : "{{ curso.title | strip_html | escape }}",
+      "url"      : "{{ site.baseurl }}{{ curso.url }}",
+      "category" : "{{curso.categories | join: ', '}}",
+      "tags"     : "{{ curso.tags | join: ', ' }}",
+      "date"     : "{{ curso.date }}",
+      "discription" : "{{curso.description | strip_html | strip_newlines | escape }}"
+      
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
