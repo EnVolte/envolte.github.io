@@ -473,7 +473,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%; z-index: 99999999;
-    height: 380px;
+    height: 400px;
     margin-bottom: 5rem;
     text-decoration: none;
     text-align: center;
@@ -609,7 +609,7 @@ margin on the iframe, cause it breaks stuff. */
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
-    border-radius: 3px; margin-top: 4px;
+    border-radius: 3px; margin-top: 5px;
     background: rgba(0,0,0,0.1);
     transition: all ease 0.3s;
 }
