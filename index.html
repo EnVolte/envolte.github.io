@@ -44,6 +44,17 @@ about: 'about.html'
 
 
 <main id="content" class="content" role="main">
+
+
+    {% if body.width < 500px %}
+
+    <p>É menor</p>
+
+    {% else %}
+
+    <p>Não é</p>
+
+    {% endif %}
 	
 	<div style="margin: 0px auto 50px; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 7px; width: 728px; height: 90px;">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
