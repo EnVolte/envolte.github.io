@@ -1343,7 +1343,7 @@ body:not(.post-template) .post-title {
    ul#curso li a {font-size: 0.8em;}
    ul#curso li p {display: none; margin: 0;}
 
-   .titlep {font-size: 0.6em;}
+   .titlep {font-size: 0.6em; width: 100%; margin-left: 0px;}
 
    section#about h2 {font-size: 0.5em;}
    section#about p {font-size: 0.1em;}
@@ -1405,28 +1405,28 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         text-indent: -2px;
     }
 
     h2 {
-        font-size: 3.6rem;
+        font-size: 2.6rem;
     }
 
     h3 {
-        font-size: 3.1rem;
+        font-size: 2.1rem;
     }
 
     h4 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     h5 {
-        font-size: 2.2rem;
+        font-size: 1.2rem;
     }
 
     h6 {
-        font-size: 1.8rem;
+        font-size: 0.8rem;
     }
 
     .author-profile {
@@ -1482,7 +1482,7 @@ body:not(.post-template) .post-title {
    ul#curso li a {font-size: 0.8em;}
    ul#curso li p {display: none; margin: 0;}
 
-   .titlep {font-size: 0.6em;}
+   .titlep {font-size: 0.6em; width: 100%; margin-left: 0px;}
 
    section#about h2 {font-size: 0.5em;}
    section#about p {font-size: 0.1em;}
@@ -1619,29 +1619,29 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         letter-spacing: -1px;
     }
 
     h2 {
-        font-size: 2.4rem;
+        font-size: 1.4rem;
         letter-spacing: 0;
     }
 
     h3 {
-        font-size: 2.1rem;
+        font-size: 1.1rem;
     }
 
     h4 {
-        font-size: 1.9rem;
+        font-size: 0.9rem;
     }
 
     h5 {
-        font-size: 1.8rem;
+        font-size: 0.8rem;
     }
 
     h6 {
-        font-size: 1.8rem;
+        font-size: 0.8rem;
     }
 
     body:not(.post-template) .post-title {
@@ -1670,7 +1670,7 @@ body:not(.post-template) .post-title {
     }
 
     .post-meta {
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
 
@@ -1895,7 +1895,7 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 .related h3 {font-size: 1.3em; font-family: Open Sans; font-weight: bold;}
 .related ul {margin-top: 20px; float: left; position: relative;}
 .related li {list-style: circle; margin-left: 0px;}
-.related li a {font-family: Merriweather; font-size: 0.9em; text-decoration: none; color: #444; transition:0.5s ease;}
+.related li a {font-family: Merriweather; font-size: 0.9em; font-weight: normal; letter-spacing: -1px; text-decoration: none; color: #444; transition:0.5s ease;}
 .related li a:hover {text-decoration: underline;}
 .related span {font-family: Open Sans; background: #0a2; z-index: 9; border-radius: 2px; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: bold; padding: 2px 5px; margin-left: 5px;}
 
@@ -1905,11 +1905,11 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 ::-webkit-scrollbar-track{background-color:#EEE}
 
 /* Menu */
-nav#principal {width: 100%; position: relative; height: 100px; background: rgb(48,104,127); /* Old browsers */
+nav#principal {width: 100%; position: relative; height: 60px; margin: 0px; background: rgb(48,104,127); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(48,104,127,1) 0%, rgba(0,89,124,1) 44%, rgba(0,32,48,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(48,104,127,1) 0%,rgba(0,89,124,1) 44%,rgba(0,32,48,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(48,104,127,1) 0%,rgba(0,89,124,1) 44%,rgba(0,32,48,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30687f', endColorstr='#002030',GradientType=0 ); /* IE6-9 */}
-nav#principal ul {width: 70%; margin: 15px auto;}
+nav#principal ul {width: 70%; margin: 25px auto;}
 nav#principal ul li {float: left; margin-right: 35px; list-style: none;}
-nav#principal ul li a {color: #fff; font-family: Open Sans; font-size: 1.2em; font-weight: bold; text-transform: uppercase; text-decoration: none;}
+nav#principal ul li a {color: #fff; font-family: Open Sans; font-size: 0.9em; font-weight: bold; text-transform: uppercase; text-decoration: none;}
