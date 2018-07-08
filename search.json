@@ -14,7 +14,8 @@
   {% endfor %}
 ]
 
-
+---
+---
 [
   {% for curso in site.cursos %}
     {
