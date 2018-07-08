@@ -1863,10 +1863,11 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 
 .related {width: 100%; float: left; position: relative; margin-bottom: 0px;}
 .related h3 {font-size: 1.3em; font-family: Open Sans; font-weight: bold;}
-.related ul {}
+.related ul {margin-top: 20px; float: left; position: relative;}
 .related li {list-style: circle; margin-left: 0px;}
-.related li a {font-family: Merrieweather; font-size: 1em; text-decoration: none; color: #444;}
-.related span {background: #0a2; border-radius: 2px; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: bold; padding: 2px 5px;}
+.related li a {font-family: Merriweather; font-size: 1em; text-decoration: none; color: #444; transition:0.5s ease;}
+.related li a:hover {text-decoration: underline;}
+.related span {font-family: Open Sans; background: #0a2; border-radius: 2px; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: bold; padding: 2px 5px;}
 
 /* Barra */
 ::-webkit-scrollbar{-webkit-appearance:none;height:5px;width:12px}
