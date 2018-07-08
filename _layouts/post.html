@@ -135,6 +135,7 @@ post_class: post-template
 		
 	    <div class="related">
     <h3>Relacionados</h3>
+	<ul>
    {% assign maxRelated = 4 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
@@ -155,9 +156,9 @@ post_class: post-template
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-      <div>
+      <li>
       <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
-      </div>
+      </li>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
@@ -165,7 +166,7 @@ post_class: post-template
     {% endif %}
 
   {% endfor %}
-	    </div>
+		    </ul> </div>
           
 
 
