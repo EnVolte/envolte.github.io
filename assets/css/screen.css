@@ -1334,7 +1334,7 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 900px) {
    
    body {max-width: 900px; overflow: hidden;}
-   overflow-x { display: none;}
+  overflow-x { display: none;}
    
    div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
@@ -1343,11 +1343,13 @@ body:not(.post-template) .post-title {
    ul#curso li a {font-size: 0.8em;}
    ul#curso li p {display: none; margin: 0;}
 
-   .titlep {font-size: 0.6em; width: 100%; margin-left: 0px;}
+   .titlep {font-size: 0.5em; width: 100%; margin-left: 0px;}
 
-   section#about h2 {font-size: 0.5em;}
-   section#about p {font-size: 0.1em;}
+   section#about {display: none;}
 
+   nav#principal ul {margin-top: 0px}
+   nav#principal ul li a {font-size: 0.7em;}
+   
     .main-nav {
         padding: 15px;
     }
@@ -1481,10 +1483,12 @@ body:not(.post-template) .post-title {
    ul#curso li a {font-size: 0.8em;}
    ul#curso li p {display: none; margin: 0;}
 
-   .titlep {font-size: 0.6em; width: 100%; margin-left: 0px;}
+   .titlep {font-size: 0.5em; width: 100%; margin-left: 0px;}
 
-   section#about h2 {font-size: 0.5em;}
-   section#about p {font-size: 0.1em;}
+   section#about {display: none;}
+
+   nav#principal ul {margin-top: 0px}
+   nav#principal ul li a {font-size: 0.7em;}
 
 
 
@@ -1714,7 +1718,7 @@ body:not(.post-template) .post-title {
     }
 
     .site-footer {
-        margin-top: 3rem;
+        margin-top: 0rem;
     }
 
     .author-profile {
