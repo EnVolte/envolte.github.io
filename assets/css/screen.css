@@ -1343,8 +1343,6 @@ body:not(.post-template) .post-title {
    ul#curso li a {font-size: 0.8em;}
    ul#curso li p {display: none; margin: 0;}
 
-   .titlep {font-size: 13px; width: 100%; margin-left: 0px;}
-
    section#about p {font-size:8px;}
 
    nav#principal ul {margin-top: 0px}
@@ -1482,8 +1480,6 @@ body:not(.post-template) .post-title {
    ul#curso li {width: 100%; margin: auto 0px; height: auto;}
    ul#curso li a {font-size: 0.8em;}
    ul#curso li p {display: none; margin: 0;}
-
-   .titlep {font-size: 13px; width: 100%; margin-left: 0px;}
 
    section#about p {font-size: 8px;}
 
@@ -1860,7 +1856,7 @@ section#about a {color: #30687f; font-weight: bold;}
 #right:hover p, #right:hover h2 {color: #000;}
 
 /* Titulo index.html */
-.titlep {float: left; width: 100%; margin: 0px auto 25px; font-size: 1.4em; color: #000; position: relative; font-weight: bold;}
+.titlep {float: left; width: 100%; margin: 0px auto 25px; font-size: 1vw; color: #000; position: relative; font-weight: bold;}
 .titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 5px; margin-left: 0px; margin-right: 10px; display: block; opacity: 1; overflow: hidden;}
 .titlep a {text-decoration: none;}
 
