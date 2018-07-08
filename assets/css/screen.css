@@ -1862,8 +1862,9 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 
 
 .related {width: 100%; float: left; position: relative; margin-bottom: 0px;}
-.related h3 {font-size: 2em; font-family: Merrieweather; font-weight: bold;}
+.related h3 {font-size: 1.3em; font-family: Open Sans; font-weight: bold;}
 .related ul {}
 .related li {list-style: circle; margin-left: 0px;}
-.related li a {font-family: Open Sans; text-decoration: none;}
+.related li a {font-family: Merrieweather; font-size: 1em; text-decoration: none; color: #444;}
+.related span {background: #0a2; border-radius: 2px; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: bold; padding: 2px 5px;}
 
