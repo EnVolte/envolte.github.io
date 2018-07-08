@@ -6,7 +6,7 @@
     
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{ post.category }}",
+      "category" : "{{ post.categories }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}"
       
@@ -18,7 +18,7 @@
     
       "title"    : "{{ curso.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ curso.url }}",
-      "category" : "{{ curso.category }}",
+      "category" : "{{ curso.categories }}",
       "tags"     : "{{ curso.tags | join: ', ' }}",
       "date"     : "{{ curso.date }}"
       
