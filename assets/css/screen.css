@@ -1842,6 +1842,7 @@ footer#baixo .alignleft {width: 45%; float: left; margin-left: 6%;}
 footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
 
 
+/* Seção sobre */
 section#about {width: 100%; height: auto; position: relative; display: inline-block; background-color: #fdfdfd; padding: 35px 0px; border-top: 1px solid #eee; border-bottom: 1px solid #eee; margin-top: 2rem;}
 section#about #centre {width: 80%; margin: 0px auto;}
 section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1em; color: #333; transition: 0.7s ease; text-align: center;}
@@ -1858,16 +1859,19 @@ section#about a {color: #30687f; font-weight: bold;}
 #right {width: 30%; float: right; position: relative;}
 #right:hover p, #right:hover h2 {color: #000;}
 
+/* Titulo index.html */
 .titlep {float: left; width: 100%; margin: 0px auto 25px; font-size: 1.4em; color: #000; position: relative; font-weight: bold;}
 .titlep span.ico {float: left; width: 20px; height: 20px; background-size: 20px; margin-top: 5px; margin-left: 0px; margin-right: 10px; display: block; opacity: 1; overflow: hidden;}
 .titlep a {text-decoration: none;}
 
+/* Seção cursos */
 #alin {width: 100%; height: auto; display: inline-block; margin: 1rem auto 0; position: relative; z-index: 1;}
 ul#curso {float: left; width: 100%; margin: 0px 0px 0px -30px; position: relative; line-height: 1.4em;}
 ul#curso li {float: left; margin-left: 1%; margin-right: 1%; width: 48%; background: #; height: 85px; padding: 0; list-style: none; z-index: 9;}
 ul#curso li a {color: #333; border-left: 10px solid #eee; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 10px; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 
+/* Linha com bolinha */
 .linecircle {width: 70%; margin: -10px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 .linecircle:after {
     display: block;
@@ -1886,7 +1890,7 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
     box-shadow: #FFF 0 0 0 5px;
 }
 
-
+/* Relacionados */
 .related {width: 100%; float: left; position: relative; margin-bottom: 0px;}
 .related h3 {font-size: 1.3em; font-family: Open Sans; font-weight: bold;}
 .related ul {margin-top: 20px; float: left; position: relative;}
@@ -1899,3 +1903,13 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 ::-webkit-scrollbar{-webkit-appearance:none;height:5px;width:12px}
 ::-webkit-scrollbar-thumb{background-color:#c4c4c4}
 ::-webkit-scrollbar-track{background-color:#EEE}
+
+/* Menu */
+nav#principal {width: 100%; position: relative; height: 100px; background: rgb(48,104,127); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(48,104,127,1) 0%, rgba(0,89,124,1) 44%, rgba(0,32,48,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(48,104,127,1) 0%,rgba(0,89,124,1) 44%,rgba(0,32,48,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(48,104,127,1) 0%,rgba(0,89,124,1) 44%,rgba(0,32,48,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30687f', endColorstr='#002030',GradientType=0 ); /* IE6-9 */}
+nav#principal ul {width: 70%; margin: 15px auto;}
+nav#principal ul li {float: left; margin-right: 35px; list-style: none;}
+nav#principal ul li a {color: #fff; font-family: Open Sans; font-size: 1.2em; font-weight: bold; text-transform: uppercase; text-decoration: none;}
