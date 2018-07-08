@@ -1868,3 +1868,7 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em;}
 .related li a {font-family: Merrieweather; font-size: 1em; text-decoration: none; color: #444;}
 .related span {background: #0a2; border-radius: 2px; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: bold; padding: 2px 5px;}
 
+/* Barra */
+::-webkit-scrollbar{-webkit-appearance:none;height:5px;width:12px}
+::-webkit-scrollbar-thumb{background-color:#c4c4c4}
+::-webkit-scrollbar-track{background-color:#EEE}
