@@ -1889,7 +1889,7 @@ ul#curso li a {color: #333; border-left: 7px solid #3d321d; letter-spacing: -1px
 ul#curso li p {margin-top: 10px; font-size: 0.8em; color: #555;}
 
 /* Linha com bolinha */
-.linecircle {width: 70%; margin: -10px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
+.linecircle {width: 70%; margin: 0px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 .linecircle:after {
     display: block;
     content: "";
