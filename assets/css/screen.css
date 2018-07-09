@@ -1342,7 +1342,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 80px;}
    ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {font-size: 4px;}
 
@@ -1351,8 +1351,8 @@ body:not(.post-template) .post-title {
    #insc button {font-size: 0.6em; margin-top: 5px;}
 
    section#about #centre {width: 100%;}
-   section#about #centre  h2 {line-height: 1.8em; font-size: 11px; width: 100%;}
-   section#about #centre  p {font-size: 8px; width: 100%;}
+   section#about #centre  h2 {line-height: 2.1em; font-size: 11px; width: 100%;}
+   section#about #centre  p {font-size: 9px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
    nav#principal ul li {margin-top: 20px; margin-right: 10px;}
@@ -1486,7 +1486,8 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 360px) {
 
-   body {overflow: hidden;}
+  
+    body {overflow: hidden;}
    overflow-x { display: none;}
    
    div#titulo {font-size: 0.3em;}
@@ -1495,7 +1496,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 80px;}
    ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {font-size: 4px;}
 
@@ -1504,8 +1505,8 @@ body:not(.post-template) .post-title {
    #insc button {font-size: 0.6em; margin-top: 5px;}
 
    section#about #centre {width: 100%;}
-   section#about #centre  h2 {line-height: 1.8em; font-size: 11px; width: 100%;}
-   section#about #centre  p {font-size: 8px; width: 100%;}
+   section#about #centre  h2 {line-height: 2.1em; font-size: 11px; width: 100%;}
+   section#about #centre  p {font-size: 9px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
    nav#principal ul li {margin-top: 20px; margin-right: 10px;}
