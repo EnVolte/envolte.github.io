@@ -28,7 +28,7 @@ defaults:
       path: "_cursos"
       type: "curso"
     values:
-      layout: post
+      layout: curso
 
 # Details for the RSS feed generator
 url:            'http://envolte.github.io'
