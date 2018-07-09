@@ -1344,7 +1344,7 @@ body:not(.post-template) .post-title {
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
    ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 90px;}
    ul#curso li a {width: 100%; color: #777;}
-   ul#curso li p {font-size: 3px;}
+   ul#curso li p {font-size: 1.5px;}
 
    #insc {width: 100%; font-size: 0.8em;}
    #insc p {font-size: 0.8em; line-height: 0.3em; }
@@ -1403,7 +1403,7 @@ body:not(.post-template) .post-title {
     }
 
     .post {
-        font-size: 0.95em
+        font-size: 0.90em
     }
 
     body:not(.post-template) .post-title {
@@ -1419,12 +1419,12 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         text-indent: -2px;
     }
 
     h2 {
-        font-size: 2.6rem;
+        font-size: 1.2rem;
     }
 
     h3 {
@@ -1498,7 +1498,7 @@ body:not(.post-template) .post-title {
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
    ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 90px;}
    ul#curso li a {width: 100%; color: #777;}
-   ul#curso li p {font-size: 3px;}
+   ul#curso li p {font-size: 1.5px;}
 
    #insc {width: 100%; font-size: 0.8em;}
    #insc p {font-size: 0.8em; line-height: 0.3em; }
@@ -1600,7 +1600,7 @@ body:not(.post-template) .post-title {
 
     .post {
         width: auto;
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 2rem;
         margin-left: 16px;
         margin-right: 16px;
@@ -1647,12 +1647,12 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         letter-spacing: -1px;
     }
 
     h2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         letter-spacing: 0;
     }
 
