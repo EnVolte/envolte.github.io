@@ -1341,22 +1341,22 @@ body:not(.post-template) .post-title {
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 10px;}
 
-   ul#cursos {margin-bottom: 0; margin-left: 0;}
+   ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
    ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 20px;}
-   ul#curso li a {width: 100%; font-size: 10px; color: #777;}
+   ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {display: none; margin: 0;}
 
-   #insc {font-size: 0.3em;}
-   #insc p {font-size: 0.3em; line-height: 0.3em; }
-   #insc button {font-size: 0.3em;}
+   #insc {font-size: 0.6em;}
+   #insc p {font-size: 0.6em; line-height: 0.5em; }
+   #insc button {font-size: 0.5em;}
 
    section#about #centre {width: 100%;}
-   section#about #centre  h2 {font-size: 7px; width: 100%;}
-   section#about #centre  p {font-size: 5px; width: 100%;}
+   section#about #centre  h2 {font-size: 10px; width: 100%;}
+   section#about #centre  p {font-size: 7px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
-   nav#principal ul li {margin-top: 25px; margin-right: 10px;}
-   nav#principal ul li a {font-size: 12px;}
+   nav#principal ul li {margin-top: 20px; margin-right: 10px;}
+   nav#principal ul li a {font-size: 11px;}
 
    .linecircle {width: 70%; margin: 30px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
@@ -1494,22 +1494,22 @@ body:not(.post-template) .post-title {
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 10px;}
 
-   ul#cursos {margin-bottom: 0; margin-left: 0;}
+   ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
    ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 20px;}
-   ul#curso li a {width: 100%; font-size: 10px; color: #777;}
+   ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {display: none; margin: 0;}
 
-   #insc {font-size: 0.3em;}
-   #insc p {font-size: 0.3em; line-height: 0.3em; }
-   #insc button {font-size: 0.3em;}
+   #insc {font-size: 0.6em;}
+   #insc p {font-size: 0.6em; line-height: 0.5em; }
+   #insc button {font-size: 0.5em;}
 
    section#about #centre {width: 100%;}
-   section#about #centre  h2 {font-size: 7px; width: 100%;}
-   section#about #centre  p {font-size: 5px; width: 100%;}
+   section#about #centre  h2 {font-size: 10px; width: 100%;}
+   section#about #centre  p {font-size: 7px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
-   nav#principal ul li {margin-top: 25px; margin-right: 10px;}
-   nav#principal ul li a {font-size: 12px;}
+   nav#principal ul li {margin-top: 20px; margin-right: 10px;}
+   nav#principal ul li a {font-size: 11px;}
 
    .linecircle {width: 70%; margin: 30px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
