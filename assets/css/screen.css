@@ -1333,26 +1333,26 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 960px) {
    
-   body {max-width: 960px; overflow: hidden;}
-  overflow-x { display: none;}
+   body {overflow: hidden;}
+   overflow-x { display: none;}
    
-  
-  div#titulo {font-size: 0.3em;}
+   div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
-   .titlep {margin-left: 0; font-size: 10px;}
+   .titlep {margin-left: 0; font-size: 10px; margin-bottom: 10px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 20px;}
    ul#curso li a {width: 100%; font-size: 10px; color: #777;}
    ul#curso li p {display: none; margin: 0;}
 
+   #insc {font-size: 0.3em;}
    #insc p {font-size: 0.3em; line-height: 0.3em; }
    #insc button {font-size: 0.3em;}
 
-   section#about #centre {width: 90%;}
-   section#about h2 {font-size: 7px; width: 100%;}
-   section#about p {font-size: 5px; width: 100%;}
+   section#about #centre {width: 100%;}
+   section#about #centre  h2 {font-size: 7px; width: 100%;}
+   section#about #centre  p {font-size: 5px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
    nav#principal ul li {margin-top: 25px; margin-right: 10px;}
@@ -1376,7 +1376,7 @@ body:not(.post-template) .post-title {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 110px;
+        min-height: 150px;
         padding: 0;
     }
 
@@ -1484,27 +1484,28 @@ body:not(.post-template) .post-title {
    11. Media Queries - Smaller than 500px
    ========================================================================== */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 360px) {
 
-   body {max-width: 500px; overflow: hidden;}
+   body {overflow: hidden;}
    overflow-x { display: none;}
    
    div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
-   .titlep {margin-left: 0; font-size: 10px;}
+   .titlep {margin-left: 0; font-size: 10px; margin-bottom: 10px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 20px;}
    ul#curso li a {width: 100%; font-size: 10px; color: #777;}
    ul#curso li p {display: none; margin: 0;}
 
+   #insc {font-size: 0.3em;}
    #insc p {font-size: 0.3em; line-height: 0.3em; }
    #insc button {font-size: 0.3em;}
 
-   section#about #centre {width: 90%;}
-   section#about h2 {font-size: 7px; width: 100%;}
-   section#about p {font-size: 5px; width: 100%;}
+   section#about #centre {width: 100%;}
+   section#about #centre  h2 {font-size: 7px; width: 100%;}
+   section#about #centre  p {font-size: 5px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
    nav#principal ul li {margin-top: 25px; margin-right: 10px;}
