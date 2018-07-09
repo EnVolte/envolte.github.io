@@ -1333,25 +1333,25 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 960px) {
    
-   body {overflow: hidden;}
+    body {overflow: hidden;}
    overflow-x { display: none;}
    
    div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
-   .titlep {margin-left: 0; font-size: 10px; margin-bottom: 10px;}
+   .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: auto;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
    ul#curso li a {width: 100%; color: #777;}
-   ul#curso li p {display: none; margin: 0;}
+   ul#curso li p {font-size: 4px;}
 
    #insc {width: 100%; font-size: 0.8em;}
-   #insc p {font-size: 0.8em; line-height: 0.5em; }
-   #insc button {font-size: 0.6em;}
+   #insc p {font-size: 0.8em; line-height: 0.3em; }
+   #insc button {font-size: 0.6em; margin-top: 5px;}
 
    section#about #centre {width: 100%;}
-   section#about #centre  h2 {line-height: 1.7em; font-size: 11px; width: 100%;}
+   section#about #centre  h2 {line-height: 1.8em; font-size: 11px; width: 100%;}
    section#about #centre  p {font-size: 8px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
@@ -1362,7 +1362,6 @@ body:not(.post-template) .post-title {
    .linecircle {width: 70%; margin: 30px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
    #search-input {width: 100%; padding: 3% 4%;}
-
 
     .main-nav {
         padding: 15px;
@@ -1493,19 +1492,19 @@ body:not(.post-template) .post-title {
    div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
-   .titlep {margin-left: 0; font-size: 10px; margin-bottom: 10px;}
+   .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: auto;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
    ul#curso li a {width: 100%; color: #777;}
-   ul#curso li p {display: none; margin: 0;}
+   ul#curso li p {font-size: 4px;}
 
    #insc {width: 100%; font-size: 0.8em;}
-   #insc p {font-size: 0.8em; line-height: 0.5em; }
-   #insc button {font-size: 0.6em;}
+   #insc p {font-size: 0.8em; line-height: 0.3em; }
+   #insc button {font-size: 0.6em; margin-top: 5px;}
 
    section#about #centre {width: 100%;}
-   section#about #centre  h2 {line-height: 1.7em; font-size: 11px; width: 100%;}
+   section#about #centre  h2 {line-height: 1.8em; font-size: 11px; width: 100%;}
    section#about #centre  p {font-size: 8px; width: 100%;}
 
    nav#principal ul {line-height: 0.3em;}
