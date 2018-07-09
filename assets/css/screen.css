@@ -1343,18 +1343,19 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 50px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
    ul#curso li a {width: 100%; font-size: 10px; color: #777;}
    ul#curso li p {display: none; margin: 0;}
 
-   #insc p {font-size: 0.7em; line-height: 1em; }
-   #insc button {font-size: 0.7em;}
+   #insc p {font-size: 0.5em; line-height: 0.5em; }
+   #insc button {font-size: 0.5em;}
 
    section#about #centre {width: 90%;}
-   section#about h3 {font-size: 7px; width: 100%;}
+   section#about h2 {font-size: 7px; width: 100%;}
    section#about p {font-size: 5px; width: 100%;}
 
-   nav#principal ul {margin-top: 0px; line-height: 0.3em;}
+   nav#principal ul {margin-top: 10px; line-height: 0.3em;}
+   nav#principal ul li {margin-right: 10px;}
    nav#principal ul li a {font-size: 13px;}
 
    #search-input {width: 100%; padding: 3% 4%;}
@@ -1491,18 +1492,19 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 50px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 40px;}
    ul#curso li a {width: 100%; font-size: 10px; color: #777;}
    ul#curso li p {display: none; margin: 0;}
 
-   #insc p {font-size: 0.7em; line-height: 1em; }
-   #insc button {font-size: 0.7em;}
+   #insc p {font-size: 0.5em; line-height: 0.5em; }
+   #insc button {font-size: 0.5em;}
 
    section#about #centre {width: 90%;}
-   section#about h3 {font-size: 7px; width: 100%;}
+   section#about h2 {font-size: 7px; width: 100%;}
    section#about p {font-size: 5px; width: 100%;}
 
-   nav#principal ul {margin-top: 0px; line-height: 0.3em;}
+   nav#principal ul {margin-top: 10px; line-height: 0.3em;}
+   nav#principal ul li {margin-right: 10px;}
    nav#principal ul li a {font-size: 13px;}
 
    #search-input {width: 100%; padding: 3% 4%;}
@@ -1939,5 +1941,5 @@ nav#principal ul li a:hover {background: transparent;}
 #adresponsivo {width: 60%; min-height: 100%; margin: 0px auto;}
 
 #insc {width: 100%; height: auto; background: #f0f0f0; display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 3rem;}
-5#insc button {box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); line-height: 1.em; background: #0a2; border: none; color: #fff; font-size: 1em; margin-left: 10px; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px 7px 35px; letter-spacing: -1px; background-image: url('/assets/images/curso.png'); background-position: center left 10px; background-size: 18px; background-repeat: no-repeat;}
+#insc button {box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); line-height: 1.em; background: #0a2; border: none; color: #fff; font-size: 1em; margin-left: 10px; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px 7px 35px; letter-spacing: -1px; background-image: url('/assets/images/curso.png'); background-position: center left 10px; background-size: 18px; background-repeat: no-repeat;}
 #insc p {float: left; font-size: 1em; line-height: 1.9em; color: #333; letter-spacing: -1px; text-decoration: 1px 1px 0px #fff; margin: 15px 0px; width: 50%; font-weight: bold; position: relative;}
