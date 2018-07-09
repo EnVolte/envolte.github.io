@@ -1921,3 +1921,4 @@ nav#principal ul li a:hover {background: transparent;}
 #insc {width: 100%; height: auto; padding: 15px 0px 20px; font-size: 0.9em; color: #777; background: #fbfbfb; border-bottom: 1px solid #eee; margin-bottom: 5rem;}
 #insc button {box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); background: #0a2; border: none; color: #fff; font-size: 1em; margin-left: 10px; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px;}
 #insc p [align=left] {font-size: 40px;}
+#insc p {float: left; width: 50%; position: relative;}
