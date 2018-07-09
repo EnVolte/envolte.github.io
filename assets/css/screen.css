@@ -474,7 +474,7 @@ margin on the iframe, cause it breaks stuff. */
     display: table;
     width: 100%; z-index: 99999999;
     height: 400px;
-    margin-bottom: 5rem;
+    margin-bottom: 0;
     text-decoration: none;
     text-align: center;
     background: #222 no-repeat center center;
@@ -1919,5 +1919,5 @@ nav#principal ul li a:hover {background: transparent;}
 
 #adresponsivo {width: 60%; min-height: 100%; margin: 0px auto 40px;}
 
-#insc {width: 100%; height: auto; padding: 20px 0px; background: #fbfbfb; border-bottom: 1px solid #eee;}
-#insc button {border: 1px solid #efe; background: #fff; color: #333; border-radius: 2px; position: relative; padding: 7px 10px;}
+#insc {width: 100%; height: auto; padding: 20px 0px; background: #fbfbfb; border-bottom: 1px solid #eee; margin-bottom: 5rem;}
+#insc button {border: 1px solid #0a3; background: #0a2; color: #fff; font-size: 1em; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px;}
