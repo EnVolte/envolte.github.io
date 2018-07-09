@@ -39,7 +39,7 @@ curso_class: curso-template
 </header>
 <div id="insc">
 <section style="width: 70%; margin: 0px auto;">
-    <p align="left">Você já se increveu?</p>  <p align="right"><a href="https://envolte.github.io/cursos/" target="_blank"><button>Inscreva-se agora!</button></a></p>
+    <p align="left">Você já é um aluno?</p>  <p align="right"><a href="https://envolte.github.io/cursos/" target="_blank"><button>Inscreva-se agora!</button></a></p>
 </section>
 </div>
 
@@ -78,6 +78,21 @@ curso_class: curso-template
         
             <section class="post-meta">
             <time datetime="">Se gostou do conteúdo, <b><a href="https://envolte.github.io/cursos.html">inscreva-se no curso</a></b>!</a></time>
+
+            | <span style="margin-top: -2px;" class="read-time" title="Tempo de leitura">
+  <svg id="i-clock" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" 
+  stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>       
+
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    1 minuto de leitura.
+  {% else %}
+    {{ words | divided_by:180 }} minutos de leitura.
+  {% endif %}
+</span>
+<style>
+    svg#i-clock {vertical-align: middle;}
+</style>
             </section>
                 
       {% else %}
