@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: curso
 title:  "Curso de HTML & CSS (Parte 3)"
 subtitulo: "Atributos do HTML, imagens, links, listas ordernadas e listas não-ordenadas, tabelas e tipos de elementos."
 date:   2018-06-27 07:00:00

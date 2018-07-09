@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: curso
 title:  "Curso de PHP (Parte 3)"
 subtitulo: "Operadores aritiméticos, Operadores de atribuição, Operadores de comparação e Operadores lógicos."
 date:   2018-06-28 15:00:00
