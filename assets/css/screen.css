@@ -1483,8 +1483,8 @@ body:not(.post-template) .post-title {
 
    section#about p {font-size: 8px;}
 
-   nav#principal ul {margin-top: 0px}
-   nav#principal ul li a {font-size: 11px;}
+   nav#principal ul {margin-top: 0px; font-size: 11px;}
+   nav#principal ul li a {font-size: 11px; line-height: 0.5em;}
 
 
 
