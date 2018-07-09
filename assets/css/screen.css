@@ -1328,12 +1328,12 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   10. Media Queries - Smaller than 960px
    ========================================================================== */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
    
-   body {max-width: 900px; overflow: hidden;}
+   body {max-width: 960px; overflow: hidden;}
   overflow-x { display: none;}
    
    div#titulo {font-size: 0.2em;}
@@ -1918,3 +1918,6 @@ nav#principal ul li a:hover {background: transparent;}
 #search-input ul#results-container li a {color: #444; text-decoration: none;}
 
 #adresponsivo {width: 60%; min-height: 100%; margin: 0px auto 40px;}
+
+#insc {width: 100%; height: auto; padding: 20px 0px; background: #fbfbfb; border-bottom: 1px solid #eee;}
+#insc button {border: 1px solid #efe; background: #fff; color: #333; border-radius: 2px; position: relative; padding: 7px 10px;}
