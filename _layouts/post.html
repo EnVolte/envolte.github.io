@@ -1,58 +1,73 @@
 ---
 layout: default
-cover: assets/images/blogcapa4.png
+cover: https://envolte.github.io/assets/images/blogcapa8.png
 archive: false
 post_class: post-template
 ---
 
-<header class="main-header post-head" {% if page.categories contains "Curso" %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa6.png" {% else %} style="background-image: url('https://envolte.github.io/assets/images/blogcapa4.png')" {% endif %}>
+
+<nav id="principal">
     <nav class="main-nav overlay clearfix">
-        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+
+    <ul>
+        <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li class="mob"><a href="">Canal no Youtube</a></li>
+    </ul>
+
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
     </nav>
+</nav>
+
+<header class="main-header" style="text-decoration: none; background-image: url({{ page.cover }})">
     
     <div class="vertical">
-    
-    <div class="main-header-content inner">
-            <h1 class="page-title" style="font-size: 3.2rem;">{{ page.title }}</h1>
-            <h2 style="text-decoration: none;" class="page-description"><br>
-                <span style="font-family: Open Sans; border: 1px solid rgba(0,0,0,0.3); text-decoration-color: rgba(0,0,0,0.2); background: rgba(0,0,0,0.2); border-radius: 2px; text-transform: uppercase; font-weight: bold; font-size: 1.3rem; padding: 8px 20px; letter-spacing: 1px; overflow: hidden;">
-                    {% if page.categories contains "Curso" %}
-                    Você está vendo um curso
-                    </span>
-                {% else %}
-                <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
-                    
-                    {{ page.date | date_to_string }}</time> em <b>
-                {% if page.categories.size > 0 %}
-                    {{ page.categories | array_to_sentence_string | prepend: ' ' }}
-                {% endif %}
-                    </b>
-                {% endif %}
-                </span>
-            </h2>
+        <div class="main-header-content inner"><br>
+            <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ site.name }}</h1>
+      
+                <div id="titulo">o melhor professor é aquele que te faz aprender de verdade ;)</div><br>
      
         </div>
-        
-        </div>
+    </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
-    
 </header>
+<div id="insc">
+<section style="width: 70%; margin: 0px auto;">
+    <p align="left">Quer aprender sobre programação?</p>  <p align="right"><a href="https://envolte.github.io/cursos/" target="_blank"><button>Inscreva-se em um curso!</button></a></p>
+</section>
+</div>
 
-<main class="content" id="content" role="main">
-	
-	<div style="margin: 0px auto; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 7px; width: 728px; height: 90px;">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- EnVolte -->
+
+<main id="content" class="content" role="main">
+
+  
+  <div id="adresponsivo">
+        <div style="margin: -20px auto 60px;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsivo -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px; margin-top: -31px;"
+     style="display:block"
      data-ad-client="ca-pub-1626247707199612"
-     data-ad-slot="4813077282"
-     data-ad-format="link"></ins>
+     data-ad-slot="6102127706"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-	</div>
+        </div>
+  </div>
+  
+</main>
+
+
+
+<main class="content" id="content" role="main">
     
  
 
