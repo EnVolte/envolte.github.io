@@ -1354,7 +1354,7 @@ body:not(.post-template) .post-title {
    nav#principal ul {margin-top: 0px; font-size: 11px;}
    nav#principal ul li a {font-size: 14px; line-height: 0.3em;}
 
-
+   #search-input {width: 100%; padding: 3% 4%;}
 
     .main-nav {
         padding: 15px;
@@ -1499,7 +1499,7 @@ body:not(.post-template) .post-title {
    nav#principal ul {margin-top: 0px; font-size: 11px;}
    nav#principal ul li a {font-size: 14px; line-height: 0.3em;}
 
-
+   #search-input {width: 100%; padding: 3% 4%;}
 
     .main-header {
         margin-bottom: 0px;
@@ -1930,9 +1930,8 @@ nav#principal ul li a:hover {background: transparent;}
 #search-input ul#results-container li {color: #444; font-family: Merriweather;}
 #search-input ul#results-container li a {color: #444; text-decoration: none;}
 
-#adresponsivo {width: 60%; min-height: 100%; float: left; margin: 0px auto 40px;}
+#adresponsivo {width: 60%; min-height: 100%; margin: 0px auto 40px;}
 
-#insc {width: 100%; height: 40px; padding: 15px 0px 20px; font-size: 1em; color: #555; text-decoration: 1px 1px 0px #fff; background: #f0f0f0; display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 5rem;}
+#insc {width: 100%; height: 100%; font-size: 1em; color: #555; text-decoration: 1px 1px 0px #fff; background: #f0f0f0; display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 3rem;}
 #insc button {box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); background: #0a2; border: none; color: #fff; font-size: 1em; margin-left: 10px; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px;}
-#insc p [align=left] {font-size: 40px;}
-#insc p {float: left; width: 50%; position: relative;}
+#insc p {float: left; margin: 15px 0px; width: 50%; position: relative;}
