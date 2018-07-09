@@ -1336,18 +1336,17 @@ body:not(.post-template) .post-title {
    body {max-width: 960px; overflow: hidden;}
   overflow-x { display: none;}
    
-   div#titulo {font-size: 0.2em;}
+   div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
-   ul#curso li {width: 100%; margin: auto 0px; height: auto;}
-   ul#curso li a {font-size: 12px;}
+   ul#curso li {min-width: 100%; margin: 0px; height: auto;}
+   ul#curso li a {width: 100%; font-size: 10px;}
    ul#curso li p {display: none; margin: 0;}
 
-   section#about p {font-size: 7px;}
+   section#about p {font-size: 5px;}
 
-   nav#principal ul {margin-top: 0px}
-   nav#principal ul li a {font-size: 12px;}
-
+   nav#principal ul {margin-top: 0px; font-size: 11px;}
+   nav#principal ul li a {font-size: 14px; line-height: 0.3em;}
     .main-nav {
         padding: 15px;
     }
@@ -1361,7 +1360,7 @@ body:not(.post-template) .post-title {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 240px;
+        min-height: 110px;
         padding: 0;
     }
 
@@ -1477,20 +1476,20 @@ body:not(.post-template) .post-title {
    div#titulo {font-size: 0.3em;}
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
-   ul#curso li {width: 100%; margin: auto 0px; height: auto;}
-   ul#curso li a {font-size: 12px;}
+   ul#curso li {min-width: 100%; margin: 0px; height: auto;}
+   ul#curso li a {width: 100%; font-size: 10px;}
    ul#curso li p {display: none; margin: 0;}
 
-   section#about p {font-size: 7px;}
+   section#about p {font-size: 5px;}
 
    nav#principal ul {margin-top: 0px; font-size: 11px;}
-   nav#principal ul li a {font-size: 12px; line-height: 0.5em;}
+   nav#principal ul li a {font-size: 14px; line-height: 0.3em;}
 
 
 
     .main-header {
         margin-bottom: 15px;
-        height: 20%;
+        height: 15%;
     }
 
     .no-cover.main-header {
