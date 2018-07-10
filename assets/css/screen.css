@@ -1898,7 +1898,7 @@ section#about a {color: #30687f; font-weight: bold;}
 /* Seção cursos */
 #alin {width: 100%; height: auto; display: inline-block; margin: 1rem auto 0; position: relative; z-index: 1;}
 ul#curso {float: left; width: 100%; margin: 0px 0px 10px -30px; position: relative; line-height: 1.4em;}
-ul#curso li {float: left; margin-left: 1%; margin-right: 1%; width: 44%; background: #fff; border-left: 0.5em inset #3d321d; border-radius: 10px; box-shadow: 7px 10px 10px rgba(0,0,0,0.1); height: 85px; padding: 2%; list-style: none; z-index: 9;}
+ul#curso li {float: left; margin-left: 1%; margin-right: 1%; width: 44%; background: #fff; border-left: 0.5em inset #3d321d; border-radius: 10px; box-shadow: 7px 10px 10px rgba(0,0,0,0.1); height: auto; padding: 2%; list-style: none; z-index: 9;}
 ul#curso li a {color: #555; letter-spacing: -1px; font-size: 1.1em; text-decoration: none; font-family: Open Sans; font-weight: bold;}
 ul#curso li p {margin-top: 10px; font-size: 0.8em; color: #333;}
 
