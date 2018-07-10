@@ -1921,7 +1921,7 @@ ul#curso li p {margin-top: 10px; font-size: 0.8em; color: #333;}
 .related h3 {font-size: 1.3em; font-family: Open Sans; font-weight: bold;}
 .related ul {margin-top: 20px; float: left; position: relative;}
 .related li {list-style: circle; margin-left: 0px;}
-.related li a {font-family: Merriweather; font-size: 0.8em; font-weight: normal; letter-spacing: -1px; text-decoration: none; color: #444; transition:0.5s ease;}
+.related li a {font-family: Merriweather; font-size: 1em; font-weight: normal; letter-spacing: -1px; text-decoration: none; color: #444; transition:0.5s ease;}
 .related li a:hover {text-decoration: underline;}
 .related span {font-family: Open Sans; background: #0a2; z-index: 9; border-radius: 2px; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: bold; padding: 2px 5px; margin-left: 5px;}
 
@@ -1949,6 +1949,10 @@ nav#principal ul li a:hover {background: transparent;}
 
 #adresponsivo {width: 60%; min-height: 100%; margin: 0px auto;}
 
-#insc {width: 100%; height: auto; background: #f0f0f0; display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 3rem;}
+#insc {width: 100%; height: auto; background: rgb(251,251,251); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(251,251,251,1) 1%, rgba(238,238,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(251,251,251,1) 1%,rgba(238,238,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(251,251,251,1) 1%,rgba(238,238,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#eeeeee',GradientType=0 ); display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 3rem;}
 #insc button {box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); line-height: 1.em; background: #0a2; border: none; color: #fff; font-size: 1em; margin-left: 10px; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px 7px 35px; letter-spacing: 0px; background-image: url('/assets/images/curso.png'); background-position: center left 10px; background-size: 18px; background-repeat: no-repeat;}
 #insc p {float: left; font-size: 1em; line-height: 2em; color: #333; letter-spacing: -1px; text-decoration: 1px 1px 0px #fff; margin: 15px 0px; width: 50%; font-weight: bold; position: relative;}
