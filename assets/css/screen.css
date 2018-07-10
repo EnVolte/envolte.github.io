@@ -1304,13 +1304,13 @@ body:not(.post-template) .post-title {
 }
 
 .site-footer a {
-    color: #30687F;
+    color: #50585D;
     text-decoration: none;
     font-weight: bold;
 }
 
 .site-footer a:hover {
-    color: #50585D;
+    color: #30687F;
 }
 
 .poweredby {
@@ -1680,6 +1680,7 @@ body:not(.post-template) .post-title {
         padding-bottom: 0;
         margin-bottom: 0;
     }
+
 
     .post-template .site-footer {
         margin-top: 0;
