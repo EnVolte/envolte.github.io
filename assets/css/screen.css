@@ -1333,7 +1333,7 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 960px) {
    
-    body {overflow: hidden;}
+   body {overflow: hidden;}
    overflow-x { display: none;}
    
    div#titulo {font-size: 0.3em;}
@@ -1342,7 +1342,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 90px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 120px;}
    ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {font-size: 1.5px;}
 
@@ -1359,7 +1359,7 @@ body:not(.post-template) .post-title {
    nav#principal ul li.mob {display: none;}
    nav#principal ul li a {font-size: 11px;}
 
-   .linecircle {width: 70%; margin: 20px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
+   .linecircle {width: 100%; margin: 20px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
    #search-input {width: 100%; padding: 3% 4%;}
 
@@ -1487,7 +1487,7 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 360px) {
 
   
-    body {overflow: hidden;}
+   body {overflow: hidden;}
    overflow-x { display: none;}
    
    div#titulo {font-size: 0.3em;}
@@ -1496,7 +1496,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 90px;}
+   ul#curso li {min-width: 100%; margin: 0px 0px 10px; height: 120px;}
    ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {font-size: 1.5px;}
 
@@ -1513,7 +1513,7 @@ body:not(.post-template) .post-title {
    nav#principal ul li.mob {display: none;}
    nav#principal ul li a {font-size: 11px;}
 
-   .linecircle {width: 70%; margin: 20px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
+   .linecircle {width: 100%; margin: 20px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
    #search-input {width: 100%; padding: 3% 4%;}
 
