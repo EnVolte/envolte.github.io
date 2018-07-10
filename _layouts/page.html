@@ -25,7 +25,22 @@ post_class: post-template page-template
     
     <div class="vertical">
         <div class="main-header-content inner"><br>
-            <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ page.title }}</h1>
+            <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">
+            {% if page.title == "Perguntas e respostas" %}
+
+            FAQ
+
+            {% elseif page.title == "Sobre mim" %}
+
+            Sobre
+
+            {% else %}
+
+            {{ page.title }}
+
+            {% endif %}
+
+        </h1>
       
                 <div id="titulo">o melhor professor é aquele que te faz aprender de verdade ;)</div><br>
      
