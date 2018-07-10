@@ -30,8 +30,11 @@ post_class: post-template
         <div class="main-header-content inner"><br>
             <h1 class="page-title" style="font-size: 1.6em; text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ page.title }}</h1>
       
-                <div id="titulo" style="width: auto;"><time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}</time> | Por: {{ site.author }}</div><br>
+                <div id="titulo" style="width: auto;"><time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time> | <b>
+                {% if page.categories.size > 0 %}
+                    {{ page.categories | array_to_sentence_string | prepend: ' ' }}
+                {% endif %}
+                    </b></div><br>
      
         </div>
     </div>
