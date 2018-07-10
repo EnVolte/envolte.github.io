@@ -21,8 +21,35 @@
 	<meta name="google-site-verification" content="VJJXKzVZDMWVMP8Kq5chGEIjnZKUT-HPfTCO3mZNvQk" />
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://webcloud.se/jQuery-Collapse/src/jquery.collapse.js"></script>
+      <script>
+        $("#faq").collapse({
+          accordion: true,
+          persist: true,
+          open: function() {
+            this.addClass("open");
+            this.css({ height: this.children().outerHeight() });
+          },
+          close: function() {
+            this.css({ height: "0px" });
+            this.removeClass("open");
+          }
+        });
+      </script>
+
+      <script>
+        new jQueryCollapse($("#faq"), {
+          open: function() {
+            this.slideDown(150);
+          },
+          close: function() {
+            this.slideUp(150);
+          }
+        });
+      </script>
     
-    <script>
+      <script>
 $(window).scroll(function() {
     nScrollPosition = $( window ).scrollTop();
     if(nScrollPosition>=400){
