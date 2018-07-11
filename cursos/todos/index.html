@@ -76,7 +76,7 @@ about: 'about.html'
 
     {% for curso in site.cursos %}
 
-    <article class="post">
+    <article class="post" id="curso">
         
         
         
@@ -112,40 +112,10 @@ about: 'about.html'
     
 
     <nav class="pagination" role="pagination">
-    {% assign mod_pag = cursos_count | modulo:site.mpaginate %}
-    {% assign pages_count = cursos_count | divided_by:site.mpaginate | plus:mod_pag %}
 
-    {% assign next_pag = page.index | plus:1 %}
-
-    {% assign OFFSET = site.mpaginate | times:page.index %}
-
-    {% if site.mpaginate < pages_count %}
-
-        {% assign last_pag = pages_count | minus: 1 %}
-
-    {% else %}
-
-    {% if OFFSET >= cursos_count then %}
-
-        {% assign last_page = page.index %}
-
-    {% endif %}
-
-    {% if page.index == last_pag then %}
-        {% assign next_pag = 'none' %}
-
-    {% endif %}
-
-
-    {% assign filtered_post = site.cursos | where: 'language', page.language %}
-
-    {% for curso in filtered_cursos limit:site.mpaginate offset:OFFSET %}
-
-   <a href="{{ curso.url }}"> {{ curso.title }}</a>
-
-    {% endfor %}
-{%endif%}
-</nav>
+        {% include pag2-cursos.html %}
+    
+    </nav>
 
 	
 
