@@ -1988,5 +1988,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 
 /* Curtir */
-#curtir {width: 100%; height: auto; display: inline-block; padding: 5px 0px; border-bottom: 1px solid #ddd; background: #f0f0f0; margin-bottom: 3rem;
-#curtir .buttao {width: 500px; margin: 0px auto;}
+#curtir {width: 100%; height: auto; display: inline-block; padding: 5px 0px; border-bottom: 1px solid #ddd; background: #f0f0f0; margin-top: 0px; margin-bottom: 3rem;}
+#curtir .buttao {width: 50%; margin: 0px auto;}
