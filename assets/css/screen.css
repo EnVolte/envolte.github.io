@@ -1341,8 +1341,8 @@ body:not(.post-template) .post-title {
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
-   ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px -3%; height: 120px; padding: 2%;}
+   ul#cursos {width: 100%; margin-bottom: 0; margin-left: 0; font-size: 10px;}
+   ul#curso li {min-width: 96%; margin: 0px 0px 10px -3%; height: 120px; padding: 2%;}
    ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {font-size: 1.5px;}
 
@@ -1498,8 +1498,8 @@ body:not(.post-template) .post-title {
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
-   ul#cursos {margin-bottom: 0; margin-left: 0; font-size: 10px;}
-   ul#curso li {min-width: 100%; margin: 0px 0px 10px -3%; height: 120px; padding: 2%;}
+   ul#cursos {width: 100%; margin-bottom: 0; margin-left: 0; font-size: 10px;}
+   ul#curso li {min-width: 96%; margin: 0px 0px 10px -3%; height: 120px; padding: 2%;}
    ul#curso li a {width: 100%; color: #777;}
    ul#curso li p {font-size: 1.5px;}
 

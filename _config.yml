@@ -31,8 +31,6 @@ defaults:
       layout: curso
       language: man
 
-paginate_path: "/cursos/todos/page:num/"
-mpaginate: 4
 
 # Details for the RSS feed generator
 url:            'http://envolte.github.io'
