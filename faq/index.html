@@ -1,7 +1,112 @@
 ---
-layout: page
+layout: default
 title: Perguntas e respostas
 ---
+
+<nav id="principal">
+    <nav class="main-nav overlay clearfix">
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="https://envolte.github.io/assets/images/logoev.png" alt="Blog Logo" />
+                </a>
+    <ul>
+        <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li class="mob"><a href="">Canal no Youtube</a></li>
+    </ul>
+
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Feed</a>
+    </nav>
+</nav>
+
+<header class="main-header" style="text-decoration: none; background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
+    
+    <div class="vertical">
+        <div class="main-header-content inner"><br>
+            <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">
+            {% if page.title == "Perguntas e respostas" %}
+
+            FAQ
+
+            {% if page.title == "Sobre mim" %}
+
+            Sobre
+
+            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
+
+            {{ page.title }}
+
+            {% endif %}
+            {% endif %}
+            {% endif %}
+
+        </h1>
+      
+                <div id="titulo">
+            {% if page.title == "Perguntas e respostas" %}
+
+            Perguntas e respostas frequentes
+
+            {% if page.title == "Sobre mim" %}
+
+            Uma breve descrição sobre mim
+
+            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
+
+            o melhor professor é aquele que te faz aprender de verdade ;)
+
+            {% endif %}
+            {% endif %}
+            {% endif %}
+
+            </div><br>
+     
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
+</header>
+<div id="insc">
+<section style="width: 70%; margin: 0px auto;">
+    <p align="left">Quer aprender sobre programação?</p>  <p align="right"><a href="https://envolte.github.io/cursos/" target="_blank"><button>Inscreva-se em um curso!</button></a></p>
+</section>
+</div>
+
+
+<main id="content" class="content" role="main">
+
+  
+  <div id="adresponsivo">
+        <div style="margin: -20px auto 60px;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsivo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1626247707199612"
+     data-ad-slot="6102127706"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+  </div>
+  
+</main>
+
+<main class="content" role="main">
+    <article class="post">
+        <!-- <header class="post-header">
+            <a id="blog-logo" href="{{site.baseurl}}">
+                {% if site.logo %}
+                    <img src="{{site.logo}}" alt="{{ site.name }}" />
+                {% else %}
+                    <span class="blog-title">{{ site.name }}</span>
+                {%endif%}
+            </a>
+        </header> -->
+
+        <h1 class="post-title">{{ page.title }}</h1>
 
 <p>Abaixo você encontra perguntas e respostas rápidas sobre nossos cursos.</p>
 
@@ -39,3 +144,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 
 </style>
+
+ </article>
+
+</main>
