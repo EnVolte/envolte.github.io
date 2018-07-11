@@ -29,6 +29,9 @@ defaults:
       type: "curso"
     values:
       layout: curso
+      language: man
+
+mpaginate: 4
 
 # Details for the RSS feed generator
 url:            'http://envolte.github.io'
