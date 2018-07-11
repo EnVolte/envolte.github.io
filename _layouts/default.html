@@ -127,21 +127,56 @@ $(document).ready(function(){
     <script type="text/javascript" src="/assets/js/masonry.pkgd.js"></script>
 
      <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.11&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+go Customer Chat Facebook
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  page_id="2096111680647353"
-  logged_in_greeting="Ei! Como posso te ajudar?"
-  logged_out_greeting="Ei! Como posso te ajudar?">
-</div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'YOUR-APP-ID',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+  jQuery('body').append('<div class="fb-customerchat" page_id="YOUR-PAGE-ID" theme_color="A-SUA-COR" logged_in_greeting="A-SUA-MENSAGEM-BOASVINDAS" logged_out_greeting="A-SUA-MENSAGEM-BOASVINDAS" minimized="true"></div>');
+
+</script>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '222836998357818',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+ 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+ 
+  jQuery('body').append('<div class="fb-customerchat" page_id="2096111680647353" theme_color="#000000" logged_in_greeting="A-SUA-MENSAGEM-BOASVINDAS" logged_out_greeting="A-SUA-MENSAGEM-BOASVINDAS" minimized="true"></div>');
+ 
+</script>
+
+
+
+
+
 
     <!-- Google Analytics Tracking code -->
     <script type="text/javascript">
