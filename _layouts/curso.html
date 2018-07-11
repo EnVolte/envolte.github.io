@@ -32,11 +32,11 @@ curso_class: curso-template
       
                 <div id="titulo" style="width: auto;">
 
-                    {% if page.categories == "PHP" %}
+                    {% if page.categories contains "PHP" %}
 
                         Você está vendo o curso básico de PHP.
 
-                    {% if page.categories == "HTML, CSS" or "HTML,CSS" %}
+                    {% if page.categories contains "HTML, CSS" OR "HTML,CSS" %}
 
                         Você está vendo o curso básico de HTML e CSS.
 
