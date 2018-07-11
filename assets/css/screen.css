@@ -1342,7 +1342,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {width: 100%; margin-bottom: 0; margin-left: -10%; font-size: 10px;}
-   ul#curso li {min-width: 96%; margin: 0px 0px 10px 0; padding: 2%;}
+   ul#curso li {min-width: 96%; margin: 0px 0px 10px; padding: 2%;}
    ul#curso li a {width: 100%; color: #777; padding: 0 4%;}
    ul#curso li p {font-size: 1.5px; padding: 4%;}
 
@@ -1499,7 +1499,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    ul#cursos {width: 100%; margin-bottom: 0; margin-left: -10%; font-size: 10px;}
-   ul#curso li {min-width: 96%; margin: 0px 0px 10px 0; padding: 2%;}
+   ul#curso li {min-width: 96%; margin: 0px 0px 10px; padding: 2%;}
    ul#curso li a {width: 100%; color: #777; padding: 0 4%;}
    ul#curso li p {font-size: 1.5px; padding: 4%;}
 
@@ -1988,3 +1988,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 /* Curtir */
 #curtir {width: 100%; height: 35px; display: inline-block; border-bottom: 1px solid #ddd; background: #fbfbfb; margin-top: -8px; margin-bottom: 3rem;}
 #curtir .buttao {width: 70%; margin: 7px auto 0;}
+
+
+.fb-customerchat {background: #000; width: 40px; background-position: center;}
