@@ -136,7 +136,16 @@ about: 'about.html'
 
     {% endif %}
 
-    
+
+    {% assign filtered_post = site.cursos | where: 'language', page.language %}
+
+    {% for curso in filtered_cursos limit:site.mpaginate offset:OFFSET %}
+
+    {{ curso.title }}
+
+    {% endfor %}
+
+
         {% if curso.previous_page == 1 %}
             <a class="newer-posts" href="/" title="Previous Page">&laquo; Página Anterior</a>
         {% else %}
