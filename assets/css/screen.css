@@ -1982,5 +1982,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
     transition: all 0.3s ease;}
 #faq .content {padding: 0px;}
 
-#faq h3.open + div {font-family: Open Sans; width: auto; color: #444; padding: 2%; height: auto; background: #fff; border: 1px solid #777; border-radius: 2px;}
+#faq h3.open + div {font-family: Open Sans; width: auto; color: #444; padding: 2%; height: auto; background: #fff; border: 1px solid #777; border-radius: 2px; margin-bottom: 5px;}
 
