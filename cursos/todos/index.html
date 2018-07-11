@@ -109,8 +109,22 @@ about: 'about.html'
     {% endfor %}
 	</section>
 
-    {% include pagination.html %}
     
+
+    <nav class="pagination" role="pagination">
+    {% if curso.previous_page %}
+        {% if curso.previous_page == 1 %}
+            <a class="newer-posts" href="/" title="Previous Page">&laquo; Página Anterior</a>
+        {% else %}
+            <a class="newer-posts" href="/page{{ curso.previous_page }}/" title="Previous Page">&laquo; Pagina Anterior</a>
+      {% endif %}
+    {% endif %}
+    <span class="page-number"> Página {{curso.page}} de {{curso.total_pages}} </span>
+    {% if curso.next_page %} 
+        <a class="older-posts" href="/page{{ curso.next_page }}/" title="Next Page">Próxima Página &raquo;</a>
+    {% endif %} 
+</nav>
+
 	
 
 </main>
