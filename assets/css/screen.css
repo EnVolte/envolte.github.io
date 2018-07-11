@@ -1341,10 +1341,10 @@ body:not(.post-template) .post-title {
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
-   ul#cursos {width: 100%; margin-bottom: 0; margin-left: -3%; font-size: 10px;}
-   ul#curso li {min-width: 96%; margin: 0px 0px 10px; height: 120px; padding: 2%;}
-   ul#curso li a {width: 100%; color: #777;}
- ul#curso li p {font-size: 1.5px;padding: 2%;}
+   ul#cursos {width: 100%; margin-bottom: 0; margin-left: -10%; font-size: 10px;}
+   ul#curso li {min-width: 96%; margin: 0px 0px 10px 0; padding: 2%;}
+   ul#curso li a {width: 100%; color: #777; padding: 0 4%;}
+   ul#curso li p {font-size: 1.5px; padding: 4%;}
 
    #insc {width: 100%; font-size: 0.8em;}
    #insc p {font-size: 0.8em; line-height: 0.3em; }
@@ -1498,10 +1498,10 @@ body:not(.post-template) .post-title {
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
-   ul#cursos {width: 100%; margin-bottom: 0; margin-left: -3%; font-size: 10px;}
-   ul#curso li {min-width: 96%; margin: 0px 0px 10px -3%; height: 120px; padding: 2%;}
-   ul#curso li a {width: 100%; color: #777;}
-   ul#curso li p {font-size: 1.5px;padding: 2%;}
+   ul#cursos {width: 100%; margin-bottom: 0; margin-left: -10%; font-size: 10px;}
+   ul#curso li {min-width: 96%; margin: 0px 0px 10px 0; padding: 2%;}
+   ul#curso li a {width: 100%; color: #777; padding: 0 4%;}
+   ul#curso li p {font-size: 1.5px; padding: 4%;}
 
    #insc {width: 100%; font-size: 0.8em;}
    #insc p {font-size: 0.8em; line-height: 0.3em; }
@@ -1963,7 +1963,7 @@ nav#principal ul li a:hover {background: transparent;}
 background: -moz-linear-gradient(top, rgba(251,251,251,1) 1%, rgba(238,238,238,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(251,251,251,1) 1%,rgba(238,238,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(251,251,251,1) 1%,rgba(238,238,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#eeeeee',GradientType=0 ); display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 3rem;}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#eeeeee',GradientType=0 ); display: inline-block; border-bottom: 1px solid #ddd; margin-bottom: 0;}
 #insc button {box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2); line-height: 1.em; background: #0a2; border: none; color: #fff; font-size: 1em; margin-left: 10px; font-weight: bold; font-family: Merriweather; border-radius: 2px; position: relative; padding: 7px 10px 7px 35px; letter-spacing: 0px; background-image: url('/assets/images/curso.png'); background-position: center left 10px; background-size: 18px; background-repeat: no-repeat; transition: 0.5s ease;}
 #insc button:hover {opacity:0.9;}
 #insc p {float: left; font-size: 1em; line-height: 2em; color: #333; letter-spacing: -1px; text-decoration: 1px 1px 0px #fff; margin: 15px 0px; width: 50%; font-weight: bold; position: relative;}
@@ -1986,3 +1986,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 #faq h3.open + div {font-family: Open Sans; width: auto; color: #444; padding: 2%; height: auto; background: #fff; border: 1px solid #777; border-radius: 2px; margin-bottom: 10px;}
 
+
+/* Curtir */
+#curtir {width: 100%; height: auto; display: inline-block; padding: 5px 0px; border-bottom: 1px solid #ddd; background: #f0f0f0; margin-bottom: 3rem;
+#curtir .buttao {width: 500px; margin: 0px auto;}
