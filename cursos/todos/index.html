@@ -141,7 +141,7 @@ about: 'about.html'
 
     {% for curso in filtered_cursos limit:site.mpaginate offset:OFFSET %}
 
-    {{ curso.title }}
+   <a href="{{ curso.url }}"> {{ curso.title }}</a>
 
     {% endfor %}
 
