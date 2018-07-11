@@ -3,7 +3,7 @@ layout: curso
 title:  "Curso de HTML & CSS (Parte 4)"
 subtitulo: "Formulários, tipos de inputs e métodos de envio."
 date:   2018-06-28 12:00:00
-categories: HTML-CSS
+categories: HTMLCSS
 ---
 
 Na [última aula](https://envolte.github.io/curso/2018/06/27/curso-html-css-parte-3.html), aprendemos algumas tags em HTML e estruturamos o código de uma página simples toda em HTML. O execício que eu deixei foi que você construísse a página à sua maneira, fizesse seu próprio menu e dividisse o conteúdo como quisesse. Você conseguiu? Conte aí nos comentários!

@@ -3,7 +3,7 @@ layout: curso
 title:  "Curso de HTML & CSS (Parte 1)"
 subtitulo: "Introdução ao HTML e tags básicas."
 date:   2018-06-26 08:00:00
-categories: HTML-CSS
+categories: HTMLCSS
 ---
 
 Com a criação do [Curso de PHP](https://envolte.github.io/Curso-PHP.html), veio a necessidade de ajudar as pessoas que têm dificuldade com a linguagem de marcação **HTML** e folha de estilo **CSS**. Ambas são muito fáceis de se aprender, mas muita gente acaba querendo iniciar o aprendizado de uma linguagem de programação antes de ter ao menos um conhecimento básico dessa dupla. É o famoso "*colocar a carroça na frente dos bois*". Não funciona.
