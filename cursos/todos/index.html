@@ -110,8 +110,7 @@ about: 'about.html'
 	</section>
 
     
-
-    <nav class="pagination" role="pagination">
+{% if site.cursos > 10 %}
 
         <nav class="pagination" role="pagination">
             <a class="newer-posts" style="display: none;" href="{{ site.url }}/cursos/todos/" title="Página anterior">&laquo; Página Anterior</a>
@@ -124,8 +123,8 @@ about: 'about.html'
 </nav>
 
     
-    </nav>
-
+{% endif %}
+}
 	
 
 </main>
