@@ -1968,7 +1968,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
 
 /* FAQ */
 #faq {width: 100%;}
-#faq h3 a {background: rgb(0,31,56); /* Old browsers */
+#faq h3 a {width: 80%; background: rgb(0,31,56); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(0,31,56,1) 0%, rgba(19,95,124,1) 76%, rgba(48,104,127,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(0,31,56,1) 0%,rgba(19,95,124,1) 76%,rgba(48,104,127,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(0,31,56,1) 0%,rgba(19,95,124,1) 76%,rgba(48,104,127,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

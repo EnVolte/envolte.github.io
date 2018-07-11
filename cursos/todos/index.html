@@ -1,60 +1,74 @@
 ---
 layout: default
 title: Cursos
-logo: https://envolte.github.io/assets/images/logoev.png
-cover: https://envolte.github.io/assets/images/blogcapa7.png
 about: 'about.html'
 ---
 
-<!-- blogcapa4.png -->
-
-<header class="main-header post-head" style="text-decoration: none; background-image: url({{ page.cover }})">
+<nav id="principal">
     <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                    <img src="https://envolte.github.io/assets/images/logoev.png" alt="Blog Logo" />
                 </a>
-            {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Inscreva-se</a>
+
+    <ul>
+        <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li class="mob"><a href="">Canal no Youtube</a></li>
+    </ul>
+
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Feed</a>
     </nav>
+</nav>
+
+<header class="main-header" style="text-decoration: none; background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
     
     <div class="vertical">
         <div class="main-header-content inner"><br>
-            <h1 class="page-title" style="text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ site.name }}</h1>
+            <h1 class="page-title" style="font-size: 1.6em; text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ page.title }}</h1>
       
-                <div id="titulo">o melhor professor é aquele que te faz aprender de verdade ;)</div><br>
-            
-            <h2 class="page-description"><br><br>
-                {% if page.about %} 
-                <div style="text-decoration: none;">
-            <a style='z-index: 999; left: 0; position: absolute; overflow: hidden; text-transform: uppercase; background: #fff; color: #555; font-weight: bold; padding: 0px 20px; font-family: Open Sans; text-decoration-color: #fff; font-size: 13px;' href='{{ site.baseurl }}{{ page.about }}'>Sobre mim</a>
-                    
-            <a style='z-index: 999; right: 0; position: absolute; overflow: hidden; text-transform: uppercase; background: #fff; color: #555; font-weight: bold; padding: 0px 20px; font-family: Open Sans; text-decoration-color: #fff; font-size: 13px;' href='https://envolte.github.io/cursos/'>Cursos</a>
-                </div> {% endif %}
-            </h2>
+                <div id="titulo" style="width: auto;"><time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time> | <b>
+                {% if page.categories.size > 0 %}
+                    {{ page.categories | array_to_sentence_string | prepend: ' ' }}
+                {% endif %}
+                    </b></div><br>
      
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
 </header>
+<div id="insc">
+<section style="width: 70%; margin: 0px auto;">
+    <p align="left">Quer aprender sobre programação?</p>  <p align="right"><a href="https://envolte.github.io/cursos/" target="_blank"><button>Inscreva-se em um curso!</button></a></p>
+</section>
+</div>
 
 
 <main id="content" class="content" role="main">
-	
-	<div style="margin: 0px auto 50px; background: #f8f8f8; border: 1px solid #eee; border-radius: 2px; padding: 7px; width: 728px; height: 90px;">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- EnVolte -->
+
+  
+  <div id="adresponsivo">
+        <div style="margin: -20px auto 60px;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsivo -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px; margin-top: -31px;"
+     style="display:block"
      data-ad-client="ca-pub-1626247707199612"
-     data-ad-slot="4813077282"
-     data-ad-format="link"></ins>
+     data-ad-slot="6102127706"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-	</div>
-	
+        </div>
+  </div>
+  
 </main>
+
+
+
+<main class="content" id="content" role="main">
 	
 	
 	<section id="alin">
@@ -98,6 +112,9 @@ about: 'about.html'
 
     {% endfor %}
 	</section>
+
+    {% include pagination.html %}
+    }
 	
 
 </main>
