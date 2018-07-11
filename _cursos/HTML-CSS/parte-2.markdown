@@ -3,7 +3,7 @@ layout: curso
 title:  "Curso de HTML & CSS (Parte 2)"
 subtitulo: "Principais tags, headings, formatação de texto, comentários e estrutura básica de página."
 date:   2018-06-26 10:00:00
-categories: HTML e CSS
+categories: HTML-CSS
 ---
 
 Na [primeira parte](https://envolte.github.io/curso/2018/06/26/curso-html-css-parte-1.html) do nosso curso, aprendemos um pouco sobre as tags básicas, como ``<html>``, ``<head>`` e ``<body>``. Agora, com intuito de praticar, vamos começar a montar uma página inteira em HTML. Por enquanto, ainda sem nenhuma estilização.

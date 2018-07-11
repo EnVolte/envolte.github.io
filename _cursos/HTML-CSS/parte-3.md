@@ -3,7 +3,7 @@ layout: curso
 title:  "Curso de HTML & CSS (Parte 3)"
 subtitulo: "Atributos do HTML, imagens, links, listas ordernadas e listas não-ordenadas, tabelas e tipos de elementos."
 date:   2018-06-27 07:00:00
-categories: HTML e CSS
+categories: HTML-CSS
 ---
 
 Agora, que já iniciamos o desenvolvimento da nossa página e aprendemos mais algumas tags em HTML, não podemos parar por aqui. Até o fim deste post, você deve aprender a **criar menus** (ainda simples) e dividiremos melhor o layout de nosso site com a separação por ``divs``. Por enquanto, iremos fazer o site de forma habitual, e só utilizaremos as tags **HTML5** nas próximas aulas, quando aprenderemos um pouco mais sobre elas.
