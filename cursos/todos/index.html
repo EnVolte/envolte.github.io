@@ -74,7 +74,7 @@ about: 'about.html'
 		
 		<main id="content" class="content" role="main">
 
-    {% for curso in site.cursos %}
+    {% for curso in site.cursos limit:3 %}
 
     <article class="post" id="curso">
         
