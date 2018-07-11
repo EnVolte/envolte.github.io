@@ -34,10 +34,11 @@ post_class: post-template page-template
 
             Sobre
 
-            {% else %}
+            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
 
             {{ page.title }}
 
+            {% endif %}
             {% endif %}
             {% endif %}
 
