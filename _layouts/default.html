@@ -121,33 +121,8 @@ $(document).ready(function(){
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="/assets/js/index.js"></script>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://webcloud.se/jQuery-Collapse/src/jquery.collapse.js"></script>
-      <script type="text/javascript">
-        $("#faq").collapse({
-          accordion: true,
-          persist: true,
-          open: function() {
-            this.addClass("open");
-            this.css({ height: this.children().outerHeight() });
-          },
-          close: function() {
-            this.css({ height: "0px" });
-            this.removeClass("open");
-          }
-        });
-      </script>
-
-      <script type="text/javascript">
-        new jQueryCollapse($("#faq"), {
-          open: function() {
-            this.slideDown(150);
-          },
-          close: function() {
-            this.slideUp(150);
-          }
-        });
-      </script>
+    
 
     <!-- Google Analytics Tracking code -->
     <script type="text/javascript">

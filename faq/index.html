@@ -18,3 +18,29 @@ title: Perguntas e respostas
         <h3>Quando saem os vídeos dos cursos?</h3>
         <div class="content">Este ainda é um projeto ambicioso para mim, porém devem sair dentro de alguns meses. Por enquanto, você pode encontrar toda a qualidade dos cursos de forma escrita! ;)</div>
 </div>
+
+<script type="text/javascript">
+        $("#faq").collapse({
+          accordion: true,
+          persist: true,
+          open: function() {
+            this.addClass("open");
+            this.css({ height: this.children().outerHeight() });
+          },
+          close: function() {
+            this.css({ height: "0px" });
+            this.removeClass("open");
+          }
+        });
+      </script>
+
+      <script type="text/javascript">
+        new jQueryCollapse($("#faq"), {
+          open: function() {
+            this.slideDown(150);
+          },
+          close: function() {
+            this.slideUp(150);
+          }
+        });
+      </script>
