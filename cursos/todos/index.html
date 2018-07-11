@@ -112,8 +112,8 @@ about: 'about.html'
     
 
     <nav class="pagination" role="pagination">
-    {% assign mod_pag = posts_count | modulo:site.mpaginate %}
-    {% assign pages_count = posts_count | divided_by:site.mpaginate | plus:mod_pag %}
+    {% assign mod_pag = cursos_count | modulo:site.mpaginate %}
+    {% assign pages_count = cursos_count | divided_by:site.mpaginate | plus:mod_pag %}
 
     {% assign next_pag = page.index | plus:1 %}
 
@@ -125,7 +125,7 @@ about: 'about.html'
 
     {% else %}
 
-    {% if OFFSET >= posts_count then %}
+    {% if OFFSET >= cursos_count then %}
 
         {% assign last_page = page.index %}
 
@@ -137,7 +137,7 @@ about: 'about.html'
     {% endif %}
 
 
-    {% assign filtered_post = site.cursos | where: 'language', page.language %}
+    {% assign filtered_post = site.cursos | where: 'language'. page.language %}
 
     {% for curso in filtered_cursos limit:site.mpaginate offset:OFFSET %}
 
