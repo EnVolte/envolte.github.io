@@ -1992,3 +1992,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 
 .fb-customerchat {background: #000; width: 40px; background-position: center;}
+.fb-customerchat iframe {margin: 0px;}
