@@ -137,7 +137,7 @@ about: 'about.html'
     {% endif %}
 
 
-    {% assign filtered_post = site.cursos | where: 'language'. page.language %}
+    {% assign filtered_post = site.cursos | where: 'language', page.language %}
 
     {% for curso in filtered_cursos limit:site.mpaginate offset:OFFSET %}
 
