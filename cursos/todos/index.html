@@ -113,7 +113,16 @@ about: 'about.html'
 
     <nav class="pagination" role="pagination">
 
-        {% include pag2-cursos.html %}
+        <nav class="pagination" role="pagination">
+            <a class="newer-posts" style="display: none;" href="{{ site.url }}/cursos/todos/" title="Página anterior">&laquo; Página Anterior</a>
+            <a class="newer-posts" style="display: none;" href="{{ site.url }}/cursos/todos/" title="Previous Page">&laquo; Pagina Anterior</a>
+    
+    <span class="page-number"> Página 1 de 2 </span>
+   
+        <a class="older-posts" href="{{ site.url }}/cursos/todos/pagina/2/" title="Next Page">Próxima Página &raquo;</a>
+
+</nav>
+
     
     </nav>
 

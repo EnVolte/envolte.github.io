@@ -1,0 +1,131 @@
+---
+layout: default
+title: Cursos
+about: 'about.html'
+---
+
+<nav id="principal">
+    <nav class="main-nav overlay clearfix">
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="https://envolte.github.io/assets/images/logoev.png" alt="Blog Logo" />
+                </a>
+
+    <ul>
+        <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li class="mob"><a href="">Canal no Youtube</a></li>
+    </ul>
+
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Feed</a>
+    </nav>
+</nav>
+
+<header class="main-header" style="text-decoration: none; background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
+    
+    <div class="vertical">
+        <div class="main-header-content inner"><br>
+            <h1 class="page-title" style=" text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ page.title }}</h1>
+      
+                <div id="titulo" style="width: auto;">Atualizações de todos os cursos</div><br>
+     
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
+</header>
+<div id="insc">
+<section style="width: 70%; margin: 0px auto;">
+    <p align="left">Quer aprender sobre programação?</p>  <p align="right"><a href="https://envolte.github.io/cursos/" target="_blank"><button>Inscreva-se em um curso!</button></a></p>
+</section>
+</div>
+
+
+<main id="content" class="content" role="main">
+
+  
+  <div id="adresponsivo">
+        <div style="margin: -20px auto 60px;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsivo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1626247707199612"
+     data-ad-slot="6102127706"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+  </div>
+  
+</main>
+
+
+
+<main class="content" id="content" role="main">
+	
+	
+	<section id="alin">
+	<main style="width: 70%; margin: 0px auto;">
+	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Todos os cursos</div>
+	</main>
+		
+		<main id="content" class="content" role="main">
+
+    {% for curso in site.cursos limit:3 offset: 3 %}
+
+    <article class="post" id="curso">
+        
+        
+        
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ curso.url }}">{{ curso.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {{ curso.subtitulo }} <a class="read-more" href="{{ curso.url }}">&raquo;</a>
+        </section>
+        <footer class="post-meta">
+            {% if site.author %}
+                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+                {{ site.author }}
+            {% endif %}
+            {% if curso.categories.size > 0 %} 
+                {{ curso.categories | array_to_sentence_string | prepend: 'em ' }} 
+            {% endif %}
+            
+            
+            {% if curso.categories contains "Curso" %}
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #30687F;"><a  style="color: #fff;" href="https://envolve.github.io/cursos/">ver outros cursos</a></span>
+                {% endif %}
+            <time class="post-date" datetime="{{ curso.date | date:"%Y-%m-%d" }}">
+                {{ curso.date | date_to_string }}
+            </time> 
+            
+        </footer>
+    </article>
+
+    {% endfor %}
+	</section>
+
+    
+
+    <nav class="pagination" role="pagination">
+
+        <nav class="pagination" role="pagination">
+            <a class="newer-posts" href="{{ site.url }}/cursos/todos/" title="Página anterior">&laquo; Página Anterior</a>
+            <a class="newer-posts" style="display: none;" href="{{ site.url }}/cursos/todos/" title="Previous Page">&laquo; Pagina Anterior</a>
+    
+    <span class="page-number"> Página 2 de 2 </span>
+   
+        <a class="older-posts" style="display: none;" href="{{ site.url }}/cursos/todos/pagina/2/" title="Next Page">Próxima Página &raquo;</a>
+
+</nav>
+
+    
+    </nav>
+
+	
+
+</main>
