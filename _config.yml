@@ -25,7 +25,7 @@ collections:
 
 defaults:
   - scope:
-      path: "_cursos"
+      path: "/cursos"
       type: "curso"
     values:
       layout: curso
