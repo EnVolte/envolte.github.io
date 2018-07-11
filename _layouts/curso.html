@@ -1,7 +1,5 @@
 ---
 layout: default
-logo: https://envolte.github.io/assets/images/logoev.png
-cover: https://envolte.github.io/assets/images/blogcapa8.png
 archive: false
 curso_class: curso-template
 ---
@@ -32,7 +30,24 @@ curso_class: curso-template
         <div class="main-header-content inner"><br>
             <h1 class="page-title" style="font-size: 1.6em; text-decoration: 1px 2px 3px rgba(0,0,0,0.8);">{{ page.title }}</h1>
       
-                <div id="titulo" style="width: auto;">Você está vendo um curso</div><br>
+                <div id="titulo" style="width: auto;">
+
+                    {% if categories == "PHP" %}
+
+                        Você está vendo o curso básico de PHP.
+
+                    {% if categories == "HTML, CSS" or "HTML,CSS" %}
+
+                        Você está vendo o curso básico de HTML e CSS.
+
+                    {% else %}
+
+                        Você está vendo um curso.
+
+                    {% endif %}
+                    {% endif %}
+
+            </div><br>
      
         </div>
     </div>

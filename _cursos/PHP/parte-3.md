@@ -3,7 +3,7 @@ layout: curso
 title:  "Curso de PHP (Parte 3)"
 subtitulo: "Operadores aritiméticos, Operadores de atribuição, Operadores de comparação e Operadores lógicos."
 date:   2018-06-28 15:00:00
-categories: Curso
+categories: PHP
 ---
 
 Agora, que já aprendemos um pouco sobre como escrever *variáveis*, vamos dar prosseguimento ao curso. Espero que você tenha feito os exercícios práticos que sugeri na aula passada, pois eles são de grande ajuda para o aprendizado, já que as variáveis estão presentes em todo o código PHP, como você verá nos próximos posts.
