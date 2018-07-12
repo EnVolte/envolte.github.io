@@ -152,11 +152,36 @@ $(document).ready(function(){
 
 
 
-<script>
-$( ".openclose" ).click(function() {
+  <script type="text/javascript">
+  $( ".openclose" ).click(function() {
   $( "#indice" ).slideToggle( "fast" );
-});
-</script>
+  });
+  </script>
+
+  <script type="text/javascript">
+    
+    $('#indice a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+      targetOffset = $(id).offset().top;
+      
+    $('html, body').animate({ 
+    scrollTop: targetOffset - 100
+     }, 500);
+    });
+
+
+    $('.pagination a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+      targetOffset = $(id).offset().top;
+      
+     $('html, body').animate({ 
+    scrollTop: targetOffset - 100
+     }, 500);
+    });
+
+  </script>
 
 
 
