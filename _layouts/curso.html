@@ -207,13 +207,7 @@ curso_class: curso-template
           {% assign sameTagCount = sameTagCount | plus: 1 %}
           {% capture tagmarkup %} 
 
-   <!-- if para categoria -- >
-        {% if curso.categories contains "HTMLCSS" %}
-          <span class="label label-default">HTML e CSS</span> 
-        {% else %}
           <span class="label label-default">{{ category }}</span> 
-        {% endif %}
-
 
           {% endcapture %}
           {% assign commonTags = commonTags | append: tagmarkup %}
@@ -223,7 +217,7 @@ curso_class: curso-template
 
     {% if sameTagCount >= minCommonTags %}
       <li>
-      <h5><a href="{{ site.baseurl }}{{ curso.url }}">{{ curso.title }}{{ commonTags }}</a><br>
+      <h5><a href="{{ curso.url }}">{{ curso.title }}{{ commonTags }}</a><br>
         <p>{{ curso.subtitulo }}</p>
       </h5>
       </li>
