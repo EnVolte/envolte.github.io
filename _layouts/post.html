@@ -25,7 +25,12 @@ post_class: post-template
     </nav>
 </nav>
 
-<header class="main-header" style="text-decoration: none; background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
+<header class="main-header" style="text-decoration: none; 
+    {% if page.capa = "" %}
+    background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
+    {% else %}
+    background-image: url({{ page.capa }});
+    {% endif %}
     
     <div class="vertical">
         <div class="main-header-content inner"><br>
@@ -40,6 +45,7 @@ post_class: post-template
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Desça a página</span></a>
+}
 </header>
 
 <div id="insc">
@@ -169,7 +175,7 @@ post_class: post-template
             <!-- Disqus comments -->
             <div id="comentarios" class="comentarios">
                 {% include disqus.html %}
-            </div>
+            </div><br>
 		
 		
 		
