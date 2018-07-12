@@ -27,9 +27,9 @@ post_class: post-template
 
 <header class="main-header" style="text-decoration: none; 
     {% if page.capa.size > 0 %}
-    background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
+    background-image: url({{ page.capa }});">
     {% else %}
-    background-image: url({{ page.capa }});
+    background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
     {% endif %}
     
     <div class="vertical">
