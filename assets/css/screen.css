@@ -1363,11 +1363,13 @@ body:not(.post-template) .post-title {
 
    #search-input {width: 100%; padding: 3% 4%;}
 
-   div#titulo a {width: 100%;}
+   div#titulo a {float: left;  width: 100%;}
+
+   #quadro {width: 100%;}
 
 
-.related li {font-size: 1.5em;}
-.related p {font-size: 1em;}
+   .related li {font-size: 1.5em;}
+   .related p {font-size: 1em;}
     .main-nav {
         padding: 15px;
     }
@@ -1523,7 +1525,9 @@ body:not(.post-template) .post-title {
 
    #search-input {width: 100%; padding: 3% 4%;}
 
-   div#titulo a {width: 100%;}
+   div#titulo a {float: left; width: 100%;}
+
+   #quadro {width: 100%;}
 
    .related li {font-size: 1.5em;}
     .related p {font-size: 1em;}
