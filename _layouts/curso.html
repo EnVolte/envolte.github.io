@@ -196,7 +196,7 @@ curso_class: curso-template
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
 
-{% for post in curso.posts %}
+{% for curso in site.cursos %}
 
     {% assign sameTagCount = 0 %}
     {% assign commonTags = '' %}
