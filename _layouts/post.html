@@ -26,7 +26,7 @@ post_class: post-template
 </nav>
 
 <header class="main-header" style="text-decoration: none; 
-    {% if page.capa = "" %}
+    {% if page.capa.size > 0 %}
     background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
     {% else %}
     background-image: url({{ page.capa }});
