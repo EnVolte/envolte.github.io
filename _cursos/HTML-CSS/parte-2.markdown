@@ -6,7 +6,7 @@ date:   2018-06-26 10:00:00
 categories: HTMLCSS
 ---
 
-Na [primeira parte](https://envolte.github.io/curso/2018/06/26/curso-html-css-parte-1.html) do nosso curso, aprendemos um pouco sobre as tags básicas, como ``<html>``, ``<head>`` e ``<body>``. Agora, com intuito de praticar, vamos começar a montar uma página inteira em HTML. Por enquanto, ainda sem nenhuma estilização.
+Na [primeira parte](https://envolte.github.io/curso/HTML-CSS/parte-1) do nosso curso, aprendemos um pouco sobre as tags básicas, como ``<html>``, ``<head>`` e ``<body>``. Agora, com intuito de praticar, vamos começar a montar uma página inteira em HTML. Por enquanto, ainda sem nenhuma estilização.
 
 Todo esse processo que iremos iniciar agora é extremamente necessário para que você possa ir se acostumando com essas tags, pois, se você esquecer de fechar qualquer uma delas, um problema enorme pode surgir no seu código. Na verdade, esse tipo de problema é realmente bem comum, mas a página fica tão bagunçada, que faz parecer que se trata de algo maior. Mas não se desespere, abra seu *editor de códigos* e vamos colocar a *mão na massa*!
 

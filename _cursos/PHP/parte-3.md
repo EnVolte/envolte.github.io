@@ -27,7 +27,7 @@ Nesta 3 parte do nosso curso, vamos aprender sobre os **Operadores aritiméticos
 </section>
 </section><br>
 
-Gostaria de lembrar que este é um *curso básico* para quem tem interesse iniciar no mundo da programação. O **PHP** é uma linguagem realmente muito *poderosa*, e você vai se surpreender em como é fácil aprender. Se você ainda não fez a sua inscrição, [cadastre-se aqui](https://envolte.github.io/Curso-PHP.html). Por mais que não haja necessidade de estar inscrito para ver o conteúdo, isso me dá uma base do alcance do meu curso. Nesta página, você também pode dar a sua sugestão, crítica e contribuir para que o aprendizado possa se tornar muito mais proveitoso.
+Gostaria de lembrar que este é um *curso básico* para quem tem interesse iniciar no mundo da programação. O **PHP** é uma linguagem realmente muito *poderosa*, e você vai se surpreender em como é fácil aprender. Se você ainda não fez a sua inscrição, [cadastre-se aqui](https://envolte.github.io/curso/PHP/). Por mais que não haja necessidade de estar inscrito para ver o conteúdo, isso me dá uma base do alcance do meu curso. Nesta página, você também pode dar a sua sugestão, crítica e contribuir para que o aprendizado possa se tornar muito mais proveitoso.
 
 <span id="01"></span>
 ### Operadores arítiméticos

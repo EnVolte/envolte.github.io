@@ -8,8 +8,28 @@ categories: HTMLCSS
 
 Agora, que já iniciamos o desenvolvimento da nossa página e aprendemos mais algumas tags em HTML, não podemos parar por aqui. Até o fim deste post, você deve aprender a **criar menus** (ainda simples) e dividiremos melhor o layout de nosso site com a separação por ``divs``. Por enquanto, iremos fazer o site de forma habitual, e só utilizaremos as tags **HTML5** nas próximas aulas, quando aprenderemos um pouco mais sobre elas.
 
+<section id="quadro">
+<label>Índice</label> <button class="openclose">Abrir/Fechar</button>
+<div class="linha"></div>
+<section id="indice">
+<ol><!-- indice -->
+
+<li><a href="#01">Atributos do HTML</a></li>
+<li><a href="#02">Imagens</a></li>
+<li><a href="#03">Links</a></li>
+<li><a href="#04">Listas ordernadas</a></li>
+<li><a href="#05">Listas não-ordenadas</a></li>
+<li><a href="#06">Tabelas</a></li>
+<li><a href="#07">Tipos de elementos</a></li>
+<li><a href="#08">Resumo</a></li>
+
+</ol>
+</section>
+</section><br>
+
 Se você fez o exercício da aula anterior, deve ter percebido que nossa página ainda está sem identidade alguma. Isso, porque não inciamos a parte de **CSS** ainda. Ela também está bem crua, de modo que parece mais um texto, do que um site. Agora, vamos aprender sobre mais alguns itens antes de incluí-los no layout. Leia com atenção!
 
+<span id="01"></span>
 ### Atributos do HTML
 
 Atributos proveem informações adicionais sobre um elemento ou tag, enquanto também modificam eles. Os atributos tem um valor; o valor modifica os atributos.
@@ -46,6 +66,7 @@ E se colocarmos atributos contrários no mesmo elemento?
     
 Consegue imaginar este resultado? Teste em seu projeto e me conte o que aconteceu!
 
+<span id="02"></span>
 #### A tag ``<img>``
 
 Se você for esperto, deve ter pecebido que esta tag é usada para inserir imagens. Ela contém apenas atributos, e não tem tag de fechamento. A URL (endereço) da imagem é definida utilizando o atributo **src**. A sintaxe é:
@@ -74,6 +95,7 @@ Por padrão, as imagens não têm borda. Use o atributo **border** para criar um
 
     <img src="imagem.jpg" width="50px" border="1px" alt="" />
     
+<span id="03"></span>
 #### A tag ``<a>``
 
 Links são uma parte importante do conteúdo na internet. Você pode adicionar links aos textos ou imagens, que redirecionarão os usuários que clicarem para outro arquivo ou site. No HTML, os links são definidos pela tag ``<a>``.
@@ -86,6 +108,7 @@ O atributo ´´target´´ permite especificar onde abrir o link. Se colocarmos o
 
     <a href="" target="_blank">Nome do link</a>
     
+<span id="04"></span>
 ### Listas ordenadas
 
 Uma lista ordenada inicia com ``<ol>``, e cada elemento listado é definido pela tag ``<li>``.
@@ -98,6 +121,7 @@ Uma lista ordenada inicia com ``<ol>``, e cada elemento listado é definido pela
 
 Este código resultará em uma lista com itens ordenados automaticamente por números (1, 2, 3).
 
+<span id="05"></span>
 ### Listas não-ordenadas
 
 Uma lista não-ordenada começa com a tag ``<ul>``. Os itens desta lista serão marcados por bolinhas.
@@ -108,6 +132,7 @@ Uma lista não-ordenada começa com a tag ``<ul>``. Os itens desta lista serão 
         <li>Amarelo</li>
     </ul>
     
+<span id="06"></span>
 ### Criando uma tabela
 
 As tabelas servem para organizar conteúdo em uma página. São definidas pela tag ``<table>``. As tabelas são dividas em linhas com a tag ``<tr>``, que significa "table row", ou *fileira da tabela*. As linhas são divididas em colunas com a tag ``td``, "table data", ou *dados da tabela*.
@@ -147,6 +172,7 @@ Para fazer uma fileira se adaptar a mais de uma coluna, utilizamos o atributo ``
 
 Para mudar a posição de nossa tabela, use o atributo ``align`` dentro da tag. Os valores são os mesmos ensinados acima. Já se você quer especificar a cor de fundo de uma coluna, por exemplo, use o atributo ``bgcolor``.
 
+<span id="07"></span>
 ### Tipos de elementos
 
 Em HTML, a maioria dos elementos é definida como "elementos em blocos" ou "elementos em linha". Os elementos em blocos iniciam em uma nova linha.
@@ -182,6 +208,7 @@ Parecido, o elemento ``<span>`` é um *elemento em linha* que é muito utilizado
         
 Teste este código e você verá que a palavra **Amazônia** ficou da cor verde.
 
+<span id="08"></span>
 > ### Resumo
 >
 > O elemento **div** define uma *seção em nível de blocos*.
