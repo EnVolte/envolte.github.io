@@ -1368,7 +1368,8 @@ body:not(.post-template) .post-title {
    #quadro {width: 100%;}
 
 
-   .related li {font-size: 1.5em;}
+   .related {text-align: left;}
+   .related a {font-size: 1.4em;}
    .related p {font-size: 1em;}
     .main-nav {
         padding: 15px;
@@ -1528,7 +1529,8 @@ body:not(.post-template) .post-title {
    div#titulo a {float: left; width: 90%;}
 
    #quadro {width: 100%;}
-   .related {font-size: 1.4em; text-align: left;}
+   .related {text-align: left;}
+   .related a {font-size: 1.4em;}
    .related li {}
    .related p {font-size: 1em;}
 
@@ -2012,8 +2014,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 #quadro label {width: auto; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); color: #fff; font-size: 0.9em; line-height: 1.4em; font-family: Open Sans; font-weight: 600; position: absolute; top: 15px; left: 3%;}
 #quadro button {border: 1px solid #fff; background: transparent; font-size: 0.8em; color: #fff; font-family: Open Sans; font-weight: 600; position: absolute; outline: none; cursor: pointer; top: 15px; right: 3%; border-radius: 2px; transition: 0.3s ease;}
 #quadro button:hover {background: #fff; color: #333;}
-#indice {margin-top: 0px; padding: 0% 6% 0.7%;}
+#indice {margin-top: 0px; padding: 0% 4% 0.7%;}
 #indice ol li a {color: #fff; font-family: Open Sans; text-decoration: none; font-weight: 600; transition: 0.3s ease;}
 #indica ol li a:hover {color: #ccc;}
 #indice ol {margin-left: 0px; color: #fff; font-family: Open Sans; overflow: hidden;}
-#indice ol li {margin-left: -5px; line-height: 1.8em; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); margin-bottom: 0;}
+#indice ol li {margin-left: 0px; line-height: 1.8em; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); margin-bottom: 0;}
