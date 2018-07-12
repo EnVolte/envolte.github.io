@@ -21,16 +21,18 @@ categories: PHP
 <li><a href="#04">Sintaxe do PHP</a></li>
 <li><a href="#05">Programas necessários</a></li>
 <li><a href="#06">Primeira função em PHP</a></li>
-<li><a href="#07">Comentários no código</a></li>
+<li><a href="#07">Comentando o código</a></li>
 
 </ol>
 </section>
 </section>
 
+<span id="01"></span>
 <p>O <b>PHP</b>, <i>Hypertext Preprocessor</i>, é uma linguagem de programação <i>server-side</i> muito popular, gratuita e de código aberto. Para se ter uma noção, PHP é a 8º linguagem de programação mais popular do mundo em Junho de 2018, segundo o <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a>. Apesar de já ter alcançado posições mais populares, e de já ter sido utilizada em mais de 80% dos websites no mundo inteiro, ela ainda é muito relevante para os programadores e para o mercado de trabalho. Ela aparece atrás de linguagens como Java (a atual mais popular), Python, C++ etc. Então, sem dúvidas, é uma boa linguagem para se aprender hoje mesmo. Afinal, conhecimento nunca é demais, não é?</p>
 
 <p>Se você quiser saber toda a história do PHP, desde o seu surgimento, até a versão 5 (atualmente, ele se encontra na versão <b>7.2.7</b>), leia <a href="http://php.net/manual/pt_BR/history.php.php">este arquivo</a> do site oficial (está em português). O <a href="http://php.net/manual/pt_BR/index.php">Manual do PHP</a> é uma seção rica em conteúdo, está em português, e pode te auxiliar no aprendizado. Nele, você encontra <i>funções</i> exemplificadas, que vão desde as mais básicas, às avançadas.</p>
 
+<span id="02"></span>
 <p>Uma breve lista do que se pode fazer com PHP:</p>
 <p>
 <ul>
@@ -48,14 +50,17 @@ categories: PHP
 
 <p>Não me considero capaz de me autointitular "professor", mas decidi criar este <i>curso básico</i> para introduzir quem tiver interesse em aprender esta linguagem ao mundo da programação. Ensino aqui aquilo que eu sei, e se houver, em algum momento, algum equivoco de minha parte, peço que você comente aí embaixo para que eu possa corrigir o mais rápido possível.</p>
 
+<span id="03"></span>
 <blockquote>
 Se você tem interesse em fazer o curso, <b><a href="https://envolte.github.io/Curso-PHP.html">cadastre-se aqui</a></b> para que eu possa saber o alcance do mesmo.
 </blockquote>
 
+<span id="04"></span>
 <p>Esta primeira parte é apenas uma introdução, para que você se familiarize com a sintaxe do PHP. Todos os scripts em PHP iniciam com <code style="letter-spacing: -3px;">< ? p h p</code> e terminam com <code style="letter-spacing: -3px;">"? >"</code> (sem espaços).</p>
 
 <script src="https://gist.github.com/luislorente/8b9c8f820e06eb8e39cfb747095dd27e.js"></script>
 
+<span id="05"></span>
 <p>Agora, para iniciarmos a nossa parte prática, é preciso que você faça o <i>download</i> de alguns programas. O primeiro deles será um bom editor de códigos. Eu recomendo o <b>Sublime Text</b>, mas você deve escolher aquele que mais te agradar. Mexer com códigos quase sempre é complicado, mas ter uma boa interface pode te inspirar no desenvolvimento de qualquer projeto. Faça uma pesquisa, considere os pontos <i>positivos</i> e <i>negativos</i> de cada um, e escolha o seu novo parceiro!</p>
 
 <p>Com o editor em mãos, agora precisamos transformar o nosso computador em um servidor capaz de executar o <b>PHP</b>, porque, como eu expliquei, ele é uma linguagem <b>server-side</b>, que funciona ao lado do servidor e precisa do mesmo para interpretar os códigos. O que o seu navegador recebe é apenas o HTML, CSS e Javascript interpretados. Posso recomendar o WAMP (para Windows), XAMPP (Windows, Linux e OS X) e o EasyPHP, que como o nome já diz, é fácil de instalar e usar. Novamente, faça uma pesquisa e descubra qual programa te agrada mais. Basicamente, esses programas instalarão o Apache + PHP + MySQL (ou outro banco de dados).</p>
@@ -64,6 +69,7 @@ Se você tem interesse em fazer o curso, <b><a href="https://envolte.github.io/C
 
 <p>Se tudo estiver instalado corretamente, seu site estará funcionando em <a href="http://localhost">http://localhost</a>, que muitas vezes pode aparecer com um endereço ip. Lembrando que este endereço funciona <b>apenas no seu computador</b>!</p>
 
+<span id="06"></span>
 <p>A primeira função que usaremos é o <b>echo</b> ( lê-se "eco"), que irá reproduzir uma frase que escreveremos. Uma boa dica para melhorar a sua aprendizagem é saber a tradução das palavras, já que o PHP utiliza comados em <i>inglês</i>.</p>
 
 <script src="https://gist.github.com/luislorente/fc69efa9f0d91e45f69d16a73c3a5067.js"></script>
@@ -75,6 +81,7 @@ Se você tem interesse em fazer o curso, <b><a href="https://envolte.github.io/C
 <p>Se criarmos uma pasta <i>posts</i> na raíz do projeto e adicionarmos o arquivo <i>index.php</i>, poderemos acessá-lo pela URL <i>localhost/posts</i>. No caso de outros arquivos, devemos obrigatóriamente colocar o <b>.php</b> no final.</p>
 </blockquote>
 
+<span id="07"></span>
 <p>Todo mundo começa com um "Olá, mundo!", então não se desespere, pois ainda há muitas coisas para aprender. Por exemplo, e se você quiser comentar o código em PHP para lembrar de algo? Você não pode simplesmente escrever em qualquer linha. Sempre que você precisar fazer comentários de apenas uma linha, utilize duas barras <code>//</code>. Abra o seu editor e digite a linha a seguir dentro do seu código:</p>
 
 <pre>//Este é um comentário</pre>
