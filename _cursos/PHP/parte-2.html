@@ -10,6 +10,24 @@ categories: "PHP"
 
 <p>Nesta segunda parte, vamos falar sobre <b>Variáveis</b>, <b>Constantes</b>, <b>Tipos suportados pelo PHP</b> e <b>Variáveis de variáveis</b>. Ficou consfuso(a)? Calma, eu vou explicar tudo isso direitinho logo a seguir. Mas primeiro eu preciso saber, <b><a href="https://envolte.github.io/Curso-PHP.html">você já se inscreveu no curso?</a></b> O formulário é bem fácil de ser preenchido, e me auxilia em saber quantos alunos estão acompanhando. E não se esqueça, o curso é <i>gratuito</i>.</p>
 
+<section id="quadro">
+<label>Índice</label> <button class="openclose">Abrir/Fechar</button>
+<div class="linha"></div>
+<section id="indice">
+<ol><!-- indice -->
+
+<li><a href="#01">O que são variáveis?</a></li>
+<li><a href="#02">Constantes</a></li>
+<li><a href="#03">Tipos suportados pelo PHP</a></li>
+<li><a href="#04">Variável global</a></li>
+<li><a href="#05">Variáveis de variáveis</a></li>
+<li><a href="#06">Exercícios</a></li>
+
+</ol>
+</section>
+</section><br>
+
+<span id="01"></span>
 <p><h3>Mas afinal, o que são variáveis?</h3></p>
 <p>As <b>variáveis</b> são como uma espécie de "container" que armazenam dados. Uma variável em PHP começa com um <b>$</b> (cifrão) e é seguida pelo nome.</p>
 <pre>$variavel = valor;</pre>
@@ -25,6 +43,7 @@ categories: "PHP"
 
 <p>No exemplo acima, perceba que não precisamos declarar que tipo de conteúdo estamos usando. Uma das vantagens do PHP é que ele automaticamente converte a variável para o tipo de conteúdo, dependendo do seu valor.</p>
 
+<span id="02"></span>
 <p><h3>Constantes</h3></p>
 <p><b>Constantes</b> são parecidas com as <b>variáveis</b>, exceto pelo fato de que não podem ser mudadas depois de definidas. Também devem começar com uma letra ou _. Para criar um constante, usamos a função <b>define()</b>.</p>
 <pre>define(nome, valor, case-insensitive)</pre>
@@ -37,6 +56,7 @@ categories: "PHP"
 
 <script src="https://gist.github.com/luislorente/703dd65856b25d8d9301cb16b71220ae.js"></script>
 
+<span id="03"></span>
 <p><h3>Tipos suportados pelo PHP</h3></p>
 <p>As variáveis podem aceitar uma variedade de tipos de dados. São elas: <b>String</b>, <b>Interger</b>, <b>Float</b>, <b>Boolean</b>, <b>Array</b>, <b>NULL</b> (vazio), Resource.</p>
 
@@ -65,17 +85,20 @@ $float = 35.000;
 Os valores booleanos são geralmente usados para checar condições.
 </blockquote>
 
+<span id="04"></span>
 <p><h4>Variável global</h4></p>
 <p>As variáveis podem ser declaradas em qualquer lugar do script. O <b>escopo</b> da variável é a parte do script em que a variável pode ser referenciada. As variáveis mais usadas são <b>local</b> e <b>global</b>. Uma variável declarada dentro de uma função tem o escopo <b>local</b>, e só pode ser acessada dentro dela.</p>
 <p>A palavra-chave <b>global</b> é utilizada para dar acesso a uma variável dentro de uma função, por exemplo.</p>
 <script src="https://gist.github.com/luislorente/d98c9765e692c756799994b8f595b2ff.js"></script>
 <p>Sendo assim, podemos ter acesso à variável <b>$nome</b> ao chamarmos a função <b>pegarNome()</b>.</p>
 
+<span id="05"></span>
 <p><h4>Variáveis de variáveis</h4></p>
 <p>Com o PHP, podemos usar uma variável para especificar outra variável. Uma <b>variável de variável</b> é o valor de uma outra variável sendo utilizada como o nome dela.</p>
 <script src="https://gist.github.com/luislorente/14b90c3abe8dc62968056e5a871e8caf.js"></script>
 <p>No começo pode ser um pouco confuso, mas aos poucos você vai entendendo melhor o significado de cada coisa.</p>
 
+<span id="06"></span>
 <p><h3>Exercícios</h3></p>
 <p>A sua tarefa agora é testar todos os códigos ensinados aqui. Ao invés de copiar e colar, digite-os no editor para que você aprenda melhor.</p>
 <p>Crie um arquivo com o nome <b>variaveis.php</b> e outro com <b>constantes.php</b>. Teste as variáveis, seus tipos, e também veja o funcionamento das constantes, e execute em seu navegador. Não se esqueça de ligar o seu programa para executar o Apache e acessar <i>http://localhost/nomedoarquivo.php</i> para visualizar o resultado.</p>

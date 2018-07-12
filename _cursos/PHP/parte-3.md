@@ -10,8 +10,26 @@ Agora, que já aprendemos um pouco sobre como escrever *variáveis*, vamos dar p
 
 Nesta 3 parte do nosso curso, vamos aprender sobre os **Operadores aritiméticos**, **Operadores de atribuição**, **Operadores de comparação** e **Operadores lógicos**. Estes operadores são de grande ajuda quando estamos desenvolvendo um projeto, pois são responsáveis por *somar*, *juntar*, *comparar*, *atribuir resultados* etc.
 
+<section id="quadro">
+<label>Índice</label> <button class="openclose">Abrir/Fechar</button>
+<div class="linha"></div>
+<section id="indice">
+<ol><!-- indice -->
+
+<li><a href="#01">Operadores arítiméticos</a></li>
+<li><a href="#02">Módulo</a></li>
+<li><a href="#03">Incremento e Decremento</a></li>
+<li><a href="#04">Operadores de atribuição</a></li>
+<li><a href="#05">Operadores de comparação</a></li>
+<li><a href="#06">Operadores lógicos</a></li>
+
+</ol>
+</section>
+</section><br>
+
 Gostaria de lembrar que este é um *curso básico* para quem tem interesse iniciar no mundo da programação. O **PHP** é uma linguagem realmente muito *poderosa*, e você vai se surpreender em como é fácil aprender. Se você ainda não fez a sua inscrição, [cadastre-se aqui](https://envolte.github.io/Curso-PHP.html). Por mais que não haja necessidade de estar inscrito para ver o conteúdo, isso me dá uma base do alcance do meu curso. Nesta página, você também pode dar a sua sugestão, crítica e contribuir para que o aprendizado possa se tornar muito mais proveitoso.
 
+<span id="01"></span>
 ### Operadores arítiméticos
 
 Como o próprio nome já diz, estes são operadores que realizam operações matemáticas. Os **operadores aritiméticos** funcionam com valores numéricos para realizar operações comuns. Veja:
@@ -47,6 +65,7 @@ Como eu disse acima, as *variáveis* estão presentes no código a todo instante
 
 Quando usamos o comando ``echo``, normalmente ele é acompanhado de aspas simples ``'`` ou aspas duplas ``"``. Porém, se estivermos trabalhando com variáveis, não precisamos colocar.
 
+<span id="02"></span>
 #### Módulo
 
 O operador de **módulo**, representado pelo sinal **%**, retorna o valor restante da divisão entre dois números. 
@@ -61,6 +80,7 @@ Caso não tenha entendido bem o que é *módulo*, vou tentar explicar melhor. Se
     
 > Se você usar números com pontos (float) com o operador de módulo, eles serão convertidos em **inteiros** antes da operação.
 
+<span id="03"></span>
 #### Incremento & Decremento
 
 O operador de **incremento** é usado para incrementar o valor de um variável. O operador de **decremento** é usado para decrementar (diminuir) o valor de uma variável.
@@ -82,6 +102,7 @@ A diferença é que o **pós-incremento** retorna o valor original *antes* de mu
     
 Por enquanto, será um pouco confuso, mas logo você entenderá como funciona. Não esqueça que a melhor forma de aprender é na prática, então teste todos os códigos aqui no seu editor.
 
+<span id="04"></span>
 #### Operadores de atribuição
 
 Os **operadores de atribuição** são usados para escrever valores para as variáveis.
@@ -101,6 +122,7 @@ x &#42;= y  | x = x * y    |Multiplicação
 x /= y  | x = x / y    |Divisão
 x %= y  | x = x % y    |Módulo
 
+<span id="05"></span>
 #### Operadores de comparação
 
 Esse tipo de operador compara dois valores (números ou string). Geralmente, são usados para fazer declarações condicionais, que vão avaliar entre **TRUE** e **FALSE**, ou *verdadeiro* e *falso*.
@@ -117,6 +139,7 @@ Operador  |   Nome   |   Exemplo   | Resultado
 >=        | Maior ou igual| $x >= $y|Retorna *true* se **$x** for <br>maior ou igual a **$y**
 <=        | Menor ou igual| $x <= $y|Retorna *true* se **$x** for <br>menor ou igual a **$y**
 
+<span id="06"></span>
 #### Operadores lógicos
 
 Os **operadores lógicos** são usados para combinar declarações condicionais.
