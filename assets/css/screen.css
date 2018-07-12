@@ -1999,9 +1999,9 @@ background: -webkit-linear-gradient(top, rgba(0,31,56,1) 0%,rgba(19,95,124,1) 76
 background: linear-gradient(to bottom, rgba(0,31,56,1) 0%,rgba(19,95,124,1) 76%,rgba(48,104,127,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', endColorstr='#30687f',GradientType=0 ); min-height: 52px; position: relative;}
 #quadro .linha {margin-top: 52px; border-bottom: 2px solid #fff; float: left; width: 100%; margin-bottom: 25px;}
-#quadro label {width: 10%; color: #fff; font-size: 1em; line-height: 1.5em; font-family: Open Sans; font-weight: bold; position: absolute; top: 15px; left: 3%;}
-#quadro button {border: 1px solid #fff; background: transparent; color: #fff; font-family: Open Sans; font-weight: bold; position: absolute; outline: none; cursor: pointer; top: 15px; right: 3%; border-radius: 2px;}
-#indice {margin-top: 0px; padding: 0% 3% 1.3%;}
-#indice a {color: #fff; font-family: Open Sans; text-decoration: none; font-weight: bold;}
+#quadro label {width: 10%; color: #fff; font-size: 0.9em; line-height: 1.4em; font-family: Open Sans; font-weight: bold; position: absolute; top: 15px; left: 3%;}
+#quadro button {border: 1px solid #fff; background: transparent; font-size: 0.8em; color: #fff; font-family: Open Sans; font-weight: bold; position: absolute; outline: none; cursor: pointer; top: 15px; right: 3%; border-radius: 2px;}
+#indice {margin-top: 0px; padding: 0% 6% 1%;}
+#indice a {color: #fff; font-family: Open Sans; text-decoration: none; font-weight: 600;}
 #indice ol {margin-left: 0px; color: #fff; font-family: Open Sans;}
-#indice ol li {margin-left: -15px; line-height: 2.3em;}
+#indice ol li {margin-left: -15px; line-height: 2em;}
