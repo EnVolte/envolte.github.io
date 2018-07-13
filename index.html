@@ -196,6 +196,14 @@ about: 'about.html'
 	    
 	    
         <header class="post-header">
+            <div class="destaque" style="
+            {% if post.capa.size > 0 %}
+                background-image: url({{ post.capa }});
+            {% else %}
+                background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
+            {% endif %}
+            "></div>
+
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <section class="post-excerpt">
