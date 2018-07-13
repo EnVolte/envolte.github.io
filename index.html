@@ -96,13 +96,13 @@ about: 'about.html'
 
   {% if curso.categories contains "PHP" %}
 
-  <div class="fotocurso" style="background-image: url();"></div>
+  <div class="fotocurso" style="background-image: url({{ site.url  }}/assets/images/capaphp.png);"></div>
 
   {% endif %}
 
   {% if curso.categories contains "HTMLCSS" %}
 
-  <div class="fotocurso" style="background-image: url();"></div>
+  <div class="fotocurso" style="background-image: url({{ site.url  }}/assets/images/capahtmlcss.png);"></div>
 
   {% endif %}
 
