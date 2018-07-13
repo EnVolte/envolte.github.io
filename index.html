@@ -93,6 +93,7 @@ about: 'about.html'
 
   {% for curso in site.cursos reversed limit:6 %}
 
+    <li>
 
   {% if curso.categories contains "PHP" %}
 
@@ -106,7 +107,6 @@ about: 'about.html'
 
   {% endif %}
 
-    <li>
       <a href="{{ curso.url }}">{{ curso.title }}</a>
 	    <p>{{ curso.subtitulo }}</p>
     </li>
