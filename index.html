@@ -127,7 +127,7 @@ about: 'about.html'
 	    
 	    
         <header class="post-header">
-
+         <a href="{{ post.url }}">
             <div class="destaque" style="
             {% if post.capa.size > 0 %}
                 background-image: url({{ post.capa }});
@@ -135,6 +135,7 @@ about: 'about.html'
                 background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
             {% endif %}
             "></div>
+        </a>
 
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
@@ -150,10 +151,8 @@ about: 'about.html'
                 {{ post.categories | array_to_sentence_string | prepend: 'em ' }} 
             {% endif %}
             
-            
-            {% if post.categories contains "Ajuda" %}
-                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato.html">sugira uma edição</a></span>
-                {% endif %}
+    
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato/">sugira uma edição</a></span>
             
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
@@ -196,13 +195,15 @@ about: 'about.html'
 	    
 	    
         <header class="post-header">
-            <div class="destaque" style="
+        <a href="{{ post.url }}">
+                <div class="destaque" style="
             {% if post.capa.size > 0 %}
                 background-image: url({{ post.capa }});
             {% else %}
                 background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
             {% endif %}
             "></div>
+        </a>
 
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
@@ -218,10 +219,7 @@ about: 'about.html'
                 {{ post.categories | array_to_sentence_string | prepend: 'em ' }} 
             {% endif %}
             
-            
-            {% if post.categories contains "Ajuda" %}
-                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato.html">sugira uma edição</a></span>
-                {% endif %}
+                <span style="text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;"><a  style="color: #fff;" href="https://envolve.github.io/contato/">sugira uma edição</a></span>
             
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
