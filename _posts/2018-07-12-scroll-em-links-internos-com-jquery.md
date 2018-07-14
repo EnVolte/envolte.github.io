@@ -37,8 +37,12 @@ Esta parte também só pegara os links que começarem com a cerquilha (**#**).
 Agora, iremos para a ultima parte, onde criaremos um função que seleciona os elementos *html* e *body*, fazendo uma animação.
     
     $('html, body').animate({ 
-    scrollTop: targetOffset - 100
+    scrollTop: targetOffset - 30 // a div chamada pelo link ficará a 30px do topo
     }, 700); // 700 é a velocidade da animação que vai fazer os links deslizarem pela página (700 milissegundos).
     });
     
-Você pode conferir o resultado desta função logo abaixo.
+Você pode conferir o resultado, bem como a forma de implementar o código, logo abaixo:
+
+<script async src="//jsfiddle.net/3mysa0b1/18/embed/js,html,css,result/dark/"></script>
+
+Não se esqueça de incluir a bibliote JQuery mais recente para que funcione!
