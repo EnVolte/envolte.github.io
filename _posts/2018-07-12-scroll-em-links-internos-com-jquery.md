@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scroll em links internos com JQuery"
-capa: "https://envolte.github.io/arquivos/fotos/googlef.png"
+capa: "https://envolte.github.io/arquivos/fotos/javascript.png"
 date:   2018-07-14 16:20:00
 categories: Javascript
 ---
