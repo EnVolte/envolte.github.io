@@ -2,6 +2,7 @@
 layout: post
 title:  "Scroll em links internos com JQuery"
 capa: "https://envolte.github.io/arquivos/fotos/javascript.png"
+capaindex: "https://envolte.github.io/arquivos/fotos/index/javascript.png"
 date:   2018-07-14 16:20:00
 categories: Javascript
 ---
@@ -13,7 +14,7 @@ Apesar de ser uma função em HTML, nós podemos mudar um pouco o funcionamento 
 Sabendo disso, iremos criar uma função em Javascript, aliada ao Jquery, que fará com que os links internos possam deslizar suavemente pela página. Para entender melhor, vamos a um exemplo básico de um link interno.
 
     <ul class="links">
-      <li><a href="#link-1">Link 1</a></li> <!-- Funciona como um link comum, com a difereça da cerquilha (**#**) -->
+      <li><a href="#link-1">Link 1</a></li> <!-- Funciona como um link comum, com a difereça da cerquilha (#) -->
     </ul>
     
     <!-- conteúdo -->
@@ -28,7 +29,7 @@ Para começar, vamos entender o código. Já que estamos trabalhando com links, 
 
     $('ul.links a[href^="#"]').on('click', function(e) {
      
-Esta parte também só pegara os links que começarem com a cerquilha (**#**).
+Esta parte também só pegara os links que começarem com a cerquilha (#).
 
     e.preventDefault(); // faz com que a função atribuída não funcione de forma padrão
     var id = $(this).attr('href'),
@@ -37,8 +38,12 @@ Esta parte também só pegara os links que começarem com a cerquilha (**#**).
 Agora, iremos para a ultima parte, onde criaremos um função que seleciona os elementos *html* e *body*, fazendo uma animação.
     
     $('html, body').animate({ 
-    scrollTop: targetOffset - 100
+    scrollTop: targetOffset - 30 // a div chamada pelo link ficará a 30px do topo
     }, 700); // 700 é a velocidade da animação que vai fazer os links deslizarem pela página (700 milissegundos).
     });
     
-Você pode conferir o resultado desta função logo abaixo.
+Você pode conferir o resultado, bem como a forma de implementar o código, logo abaixo:
+
+<iframe width="100%" height="200" src="//jsfiddle.net/3mysa0b1/18/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+Não se esqueça de incluir a bibliote JQuery mais recente para que funcione!
