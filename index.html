@@ -146,16 +146,22 @@ about: 'about.html'
         <header class="post-header">
          <a href="{{ post.url }}">
             <div class="destaque" style="
-            {% if post.capa.size > 0 && post.capaindex <= 0 %}
+           {% if post.capa != "" %}
+
                 background-image: url({{ post.capa }});
 
-            {% if post.capa.size > 0 && post.capaindex > 0 %}
+            {% endif %}
+
+            {% if post.capa.size > 0 && post.capaindex.size > 0 %}
 
                 background-image: url({{ post.capaindex }});
 
-            {% else %}
-                background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
             {% endif %}
+
+            {% if post.capa.size && post.capaindex.size == "" %}
+
+                background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
+
             {% endif %}
             "></div>
         </a>
@@ -221,7 +227,7 @@ about: 'about.html'
         <a href="{{ post.url }}">
                 <div class="destaque" style="
 
-            {% if post.capa != "" && post.capaindex == "" %}
+            {% if post.capa != "" %}
 
                 background-image: url({{ post.capa }});
 
