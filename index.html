@@ -146,7 +146,7 @@ about: 'about.html'
         <header class="post-header">
          <a href="{{ post.url }}">
             <div class="destaque" style="
-           {% if post.capa ! "" %}
+           {% if post.capa.size > 0 %}
 
                 background-image: url({{ post.capa }});
 
