@@ -220,16 +220,16 @@ about: 'about.html'
         <header class="post-header">
         <a href="{{ post.url }}">
                 <div class="destaque" style="
-            {% if post.capaindex contains 'default' %}
+                
+            {% if post.capaindex contains "default" %}
                 background-image: url({{ post.capa }});
+
+            {% endif %}
 
             {% if post.capa.size > 0 && post.capaindex > 0 %}
 
                 background-image: url({{ post.capaindex }});
 
-            {% else %}
-                background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
-            {% endif %}
             {% endif %}
             "></div>
         </a>
