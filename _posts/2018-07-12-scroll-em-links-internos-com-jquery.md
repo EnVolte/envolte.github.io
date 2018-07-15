@@ -42,8 +42,8 @@ Agora, iremos para a ultima parte, onde criaremos um função que seleciona os e
     }, 700); // 700 é a velocidade da animação que vai fazer os links deslizarem pela página (700 milissegundos).
     });
     
-Você pode conferir o resultado, bem como a forma de implementar o código, logo abaixo:
+Você pode conferir o resultado, bem como a forma de implementar o código, logo abaixo.
 
-<iframe width="100%" height="200" src="//jsfiddle.net/3mysa0b1/18/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/3mysa0b1/23/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 Não se esqueça de incluir a bibliote JQuery mais recente para que funcione!
