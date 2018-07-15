@@ -13,9 +13,11 @@ Apesar de ser uma função em HTML, nós podemos mudar um pouco o funcionamento 
 
 Sabendo disso, iremos criar uma função em Javascript, aliada ao Jquery, que fará com que os links internos possam deslizar suavemente pela página. Para entender melhor, vamos a um exemplo básico de um link interno.
 
-    <ul class="links">
-      <li><a href="#link-1">Link 1</a></li> <!-- Funciona como um link comum, com a difereça da cerquilha (#) -->
-    </ul>
+```
+<ul class="links">
+   <li><a href="#link-1">Link 1</a></li> <!-- Funciona como um link comum, com a difereça da cerquilha (#) -->
+</ul>
+```
     
     <!-- conteúdo -->
     
