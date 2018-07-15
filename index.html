@@ -221,7 +221,7 @@ about: 'about.html'
         <a href="{{ post.url }}">
                 <div class="destaque" style="
 
-            {% if post.capaindex != "" %}
+            {% if post.capa != "" && post.capaindex == "" %}
 
                 background-image: url({{ post.capa }});
 
