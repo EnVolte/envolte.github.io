@@ -21,23 +21,22 @@ post_class: post-template page-template
     </nav>
 </nav>
 
-<header class="main-header" style="text-decoration: none;
+<header class="main-header"
 
 {% if page.title == 'Curso de HTML & CSS' %}
 
-background-image: url({{ site.cursohtmlcss }});
+style="text-decoration: none; background-image: url({{ site.cursohtmlcss }});">
 
-{% if page.title == 'Curso de PHP' %}
+{% else if page.title == 'Curso de PHP' %}
 
-background-image: url({{ site.cursophp }});
+style="text-decoration: none; background-image: url({{ site.cursophp }});">
 
 {% else %}
 
-background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
+style="text-decoration: none; background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);">
 
 {% endif %}
 {% endif %}
-">
     
     <div class="vertical">
         <div class="main-header-content inner"><br>
@@ -87,7 +86,7 @@ background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);
             {% endif %}
 
 
-            {% if page.title != "Perguntas e respostas" OR "Sobre mim" OR "Curso de HTML & CSS" OR "Curso de PHP" %}
+            {% if page.title != "Perguntas e respostas" && "Sobre mim" && "Curso de HTML & CSS" && "Curso de PHP" %}
 
             o melhor professor é aquele que te faz aprender de verdade ;)
 
