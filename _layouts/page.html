@@ -21,7 +21,22 @@ post_class: post-template page-template
     </nav>
 </nav>
 
-<header class="main-header" style="text-decoration: none; background-image: url(https://envolte.github.io/assets/images/blogcapa8.png)">
+<header class="main-header" style="text-decoration: none; 
+
+{% if page.title == "Curso de HTML & CSS" %}
+
+background-image: url({{ site.cursohtmlcss }});">
+
+{% if page.title == "Curso de PHP" %}
+
+background-image: url({{ site.cursophp }});">
+
+{% else %}
+
+background-image: url(https://envolte.github.io/assets/images/blogcapa8.png);">
+
+{% endif %}
+{% endif %}
     
     <div class="vertical">
         <div class="main-header-content inner"><br>
@@ -59,6 +74,13 @@ post_class: post-template page-template
             {% if page.title == "Sobre mim" %}
 
             Uma breve descrição sobre mim
+
+            {% endif %}
+
+
+            {% if page.title == "Contato" %}
+
+            Entre em contato comigo!
 
             {% endif %}
 
