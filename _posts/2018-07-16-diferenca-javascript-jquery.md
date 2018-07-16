@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Diferença entre Javascript e JQuery"
-capa: "https://envolte.github.io/arquivos/fotos/javascript.png"
-capaindex: "https://envolte.github.io/arquivos/fotos/index/javascript.png"
-date:   2018-07-00 16:20:00
+capa: "https://envolte.github.io/arquivos/fotos/jsjquery.png"
+capaindex: "https://envolte.github.io/arquivos/fotos/index/jsjquery.png"
+date:   2018-07-16 16:20:00
 categories: Javascript Jquery
 ---
 
