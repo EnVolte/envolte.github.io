@@ -68,40 +68,30 @@ style="text-decoration: none; background-image: url(https://envolte.github.io/as
 
             Perguntas e respostas frequentes
 
-            {% endif %}
 
-
-            {% if page.title == "Sobre mim" %}
+            {% elsif page.title == "Sobre mim" %}
 
             Uma breve descrição sobre mim
 
-            {% endif %}
 
-
-            {% if page.title == "Contato" %}
+            {% elsif page.title == "Contato" %}
 
             Entre em contato comigo!
 
-            {% endif %}
 
-
-            {% if page.title != "Perguntas e respostas" && "Sobre mim" && "Curso de HTML & CSS" && "Curso de PHP" %}
-
-            o melhor professor é aquele que te faz aprender de verdade ;)
-
-            {% endif %}
-
-
-            {% if page.title == 'Curso de HTML & CSS' %}
+            {% elsif page.title == 'Curso de HTML & CSS' %}
 
             Um curso básico voltado no aprendizado das principais tags e estilização.
 
-            {% endif %}
 
-
-            {% if page.title == 'Curso de PHP' %}
+            {% elsif page.title == 'Curso de PHP' %}
 
             Um curso básico para você começar a programar em PHP.
+            
+
+            {% else %}
+
+            o melhor professor é aquele que te faz aprender de verdade ;)
 
             {% endif %}
 
