@@ -30,16 +30,20 @@ post_class: post-template page-template
 
             FAQ
 
+            {% endif %}
+
+
             {% if page.title == "Sobre mim" %}
 
             Sobre
+
+            {% endif %}
+            
 
             {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
 
             {{ page.title }}
 
-            {% endif %}
-            {% endif %}
             {% endif %}
 
         </h1>
