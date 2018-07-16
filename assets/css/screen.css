@@ -727,6 +727,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post iframe {border-radius: 2px;}
+.post iframe.codigo {margin: 0px 0px 10px 0px;}
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
