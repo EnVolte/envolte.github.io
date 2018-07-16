@@ -53,16 +53,20 @@ post_class: post-template page-template
 
             Perguntas e respostas frequentes
 
+            {% endif %}
+
+
             {% if page.title == "Sobre mim" %}
 
             Uma breve descrição sobre mim
+
+            {% endif %}
+            
 
             {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
 
             o melhor professor é aquele que te faz aprender de verdade ;)
 
-            {% endif %}
-            {% endif %}
             {% endif %}
 
             </div><br>
