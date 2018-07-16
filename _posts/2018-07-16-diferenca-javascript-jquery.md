@@ -17,11 +17,11 @@ Se você está fazendo nosso (Curso de PHP)[https://envolte.github.io/cursos/PHP
 
 ###Para que serve o Javascript?
 
-Seu principal uso consiste em controlar elementos *HTML* e *CSS* para manipular páginas. Também é muito comum na criação de funções, como botões de voltar e avançar, redirecionamento de páginas, janelas pop-up, alertas etc. Estes são apenas alguns dos muitos exemplos que poderia destacar aqui.
+Seu principal uso consiste em controlar elementos *HTML* e *CSS* para manipular páginas. Também é muito comum na criação de funções, como botões de voltar e avançar, menus com submenus, redirecionamento de páginas, janelas pop-up, alertas etc. Estes são apenas alguns dos muitos exemplos que poderia destacar aqui.
 
 ###Existe alguma limitação?
 
-Como Javascript é uma linguagem que funciona do lado do cliente, ela não faz nenhuma conexão direta com um banco de dados, como é possível nas linguagens server-side, e para determinados tipos de projetos, pode não ser muito seguro os processos funcionarem todos ao lado do cliente. Ela é realmente muito poderosa, e mesmo que não desempenhe as mesmas funções que linguagens mais completas, é essencial no desenvolvimento web. 
+Como Javascript é uma linguagem que funciona do lado do cliente, ela não faz nenhuma conexão direta com um banco de dados, como é possível nas linguagens server-side, e para determinados tipos de projetos, pode não ser muito seguro os processos funcionarem todos ao lado do cliente. É realmente muito poderosa, e mesmo que não desempenhe as mesmas funções que linguagens mais complexas, é essencial no desenvolvimento web. 
 
 Apesar de suas limitações, uma de suas principais qualidades é, justamente, a facilidade de integração com outras linguagens. Até mesmo sites estáticos - construídos no código puro - podem fazer o uso de Javascript.
 
@@ -34,3 +34,34 @@ Para entender melhor como usar Javascript, vamos a um exemplo básico.
     </script>
     
 Repare que nós fizemos uso de uma tag para indicar ao navegador que estamos usando um *script* em *javascript*. A função ```alert``` retornará um *aviso* com "Olá, mundo!".
+
+Agora que já entendemos bem o que é Javascript, vamos falar sobre o JQuery. Como você já deve saber, para que possamos utilizá-lo, devemos implementar uma chamada de sua biblioteca em nossa página, geralmente dentro da tag ```head```.
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+Se não a fizermos, nenhum código em JQuery será executado corretamente, e isso pode nos causar muita dor de cabeça. Mas afinal, o que é esse **JQuery**? Ele tem algo a ver com Javascript?
+
+A resposta é simples: sim. O **JQuery** é uma biblioteca de códigos, um *framework*, leve e cheio de recursos em Javascript. Trata-se de um projeto de código aberto, e muito útil, que foi criado em 2006. A sua proposta é mudar a forma de escrita dos códigos em Javascript, "descomplicando" o processo. O JQuery também permite que criemos *plugins* de alta complexidade sem o esforço que teríamos se usassemos o Javascript.
+
+Seu slogan "*Write less, do more*" (Escreva menos, faça mais) é a tradução perfeita do que essa biblioteca significa para o desenvolvimento web.
+
+###O que JQuery pode fazer?
+
+- Seleção e manipulação de elementos em HTML e CSS
+- Efeitos e animações
+- Navegação pelo DOM (Document Object Model, ou *Modelo de Objeto de Documento*)
+- Ajax
+- Eventos (events)
+
+A sintaxe do JQuery tem algumas diferenças do Javascript. Porém, assim como nele, começamos informando ao navegador que estamos utilizando um script.
+
+    <script>
+    $('seletoremHTML').acao(); // Em seletoremHTML, você coloca o elemento que o JQuery manipulará. ".acao()" é a ação que será desempenhada.
+    ... // Aqui ficam os eventos.
+    </script>
+    
+###Resumo
+
+**Javascript** é uma linguagem de programação *client-side*. **JQuery** é um *framework* desenvolvido em Javascript que tem o objetivo de simplificar o desenvolvimento nesta linguagem. Escrevendo em JQuery, você gastará menos tempo e terá menos dores de cabeça, porém terá de implementar a biblioteca dentro de sua página para que funcione. Enquanto isso, o Javascript é suportado em todos os navegadores.
+
+Qual é o melhor? O que atender a suas necessidades. Atualmente, no site oficial do (JQuery)[https://jquery.com], você encontra diversos exemplos de funções que ele pode desempenhar. Você também encontrará a documentação oficial.
