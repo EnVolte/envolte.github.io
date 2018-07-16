@@ -40,7 +40,7 @@ post_class: post-template page-template
             {% endif %}
 
 
-            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" OR "Sobre mim" %}
+            {% if page.title != "Perguntas e respostas" OR "Sobre mim" %}
 
             {{ page.title }}
 
@@ -61,9 +61,9 @@ post_class: post-template page-template
             Uma breve descrição sobre mim
 
             {% endif %}
-            
 
-            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
+
+            {% if page.title != "Perguntas e respostas" && "Sobre mim" %}
 
             o melhor professor é aquele que te faz aprender de verdade ;)
 
