@@ -38,9 +38,9 @@ post_class: post-template page-template
             Sobre
 
             {% endif %}
-            
 
-            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" && "Sobre mim" %}
+
+            {% if page.title == "{{ page.title }}" and != "Perguntas e respostas" OR "Sobre mim" %}
 
             {{ page.title }}
 
