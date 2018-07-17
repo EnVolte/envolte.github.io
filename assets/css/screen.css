@@ -1371,7 +1371,7 @@ body:not(.post-template) .post-title {
 
    .cate {font-size: 7px;}
 
-   nav#principal {margin-top: -30px;}
+   nav#principal {margin-top: 0px;}
 
    #quadro {width: 100%;}
 
@@ -1387,12 +1387,12 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
 
-    .main-header {margin-top: 50px;
+    .main-header {margin-top: 0px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: 220px;
-        padding: 0;
+        padding: 50px 0 0;
     }
 
     .scroll-down,
@@ -1537,7 +1537,7 @@ body:not(.post-template) .post-title {
 
    .cate {font-size: 7px;}
 
-   nav#principal {margin-top: -30px;}
+   nav#principal {margin-top: 0px;}
 
    #quadro {width: 100%;}
    .related {text-align: left;}
@@ -1545,8 +1545,8 @@ body:not(.post-template) .post-title {
    .related li {}
    .related p {font-size: 1em;}
 
-    .main-header {margin-top: 50px;
-        margin-bottom: 0px;
+    .main-header {margin-top: 00px;
+        margin-bottom: 0px; padding: 50px 0 0;
         height: 220px;
     }
 
