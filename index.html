@@ -200,7 +200,7 @@ about: 'about.html'
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'em ' | split: "," }} 
+                {{ post.categories | array_to_sentence_string | prepend: 'em ' | jsonify }} 
             {% endif %}
             
             {% if post.categories contains "Javascript" %}
@@ -337,7 +337,7 @@ about: 'about.html'
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'em ' | split: "," }} 
+                {{ post.categories | array_to_sentence_string | prepend: 'em ' | jsonify }} 
             {% endif %}
             
                 
