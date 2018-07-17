@@ -2032,12 +2032,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 /* Blog index */
 #destaque {float: left; width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px;}
-#destaque .destaque-java {width: 100%; height: 125px; border: 2px solid #e5a228;}
-#destaque .destaque-ajuda {width: 100%; height: 125px; border: 2px solid #28a0e5;}
-#destaque .destaque-php {width: 100%; height: 125px; border: 2px solid #5a42a1;}
-#destaque .destaque-html {width: 100%; height: 125px; border: 2px solid #e56f28;}
-#destaque .destaque-jquery {width: 100%; height: 125px; border: 2px solid #4c28e5;}
-#destaque .destaque {width: 100%; height: 125px; border: 2px solid #4c2d2d;}
+#destaque .destaque-java {width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px; border: 2px solid #e5a228;}
+#destaque .destaque-ajuda {width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px; border: 2px solid #28a0e5;}
+#destaque .destaque-php {width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px; border: 2px solid #5a42a1;}
+#destaque .destaque-html {width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px; border: 2px solid #e56f28;}
+#destaque .destaque-jquery {width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px; border: 2px solid #4c28e5;}
+#destaque .destaque {width: 100%; height: 125px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-bottom: 15px; border: 2px solid #4c2d2d;}
 
 .cate {text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;}
 .cate-javascript {text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #e5a228;}
