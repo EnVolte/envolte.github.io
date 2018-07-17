@@ -145,7 +145,38 @@ about: 'about.html'
 	    
         <header class="post-header">
          <a href="{{ post.url }}">
-            <div class="destaque" style="
+            <div id="destaque" 
+
+
+
+            {% if post.categories contains "Javascript" %}
+
+                class="destaque-java"
+
+            {% elsif post.categories contains "Ajuda" %}
+
+                class="destaque-ajuda"
+
+            {% elsif post.categories contains "PHP" %}
+
+                class="destaque-php"
+
+            {% elsif post.categories contains "HTML" %}
+
+                class="destaque-html"
+
+            {% elsif post.categories contains "JQuery" %}
+
+                class="destaque-jquery"
+
+            {% else %}
+    
+                class="destaque"
+
+            {% endif %}
+
+
+            style="
             {% if post.capa.size > 0 && post.capaindex.size > 0 %}
 
                 background-image: url({{ post.capaindex }});
@@ -243,7 +274,39 @@ about: 'about.html'
 	    
         <header class="post-header">
         <a href="{{ post.url }}">
-                <div class="destaque" style="
+                <div id="destaque" 
+
+
+            {% if post.categories contains "Javascript" %}
+
+                class="destaque-java"
+
+            {% elsif post.categories contains "Ajuda" %}
+
+                class="destaque-ajuda"
+
+            {% elsif post.categories contains "PHP" %}
+
+                class="destaque-php"
+
+            {% elsif post.categories contains "HTML" %}
+
+                class="destaque-html"
+
+            {% elsif post.categories contains "JQuery" %}
+
+                class="destaque-jquery"
+
+            {% else %}
+    
+                class="destaque"
+
+            {% endif %}
+
+
+
+
+                style="
 
            {% if post.capa.size > 0 && post.capaindex.size > 0 %}
 
