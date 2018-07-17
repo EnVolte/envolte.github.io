@@ -1371,6 +1371,8 @@ body:not(.post-template) .post-title {
 
    .cate {font-size: 7px;}
 
+   nav#principal {margin-top: -30px;}
+
    #quadro {width: 100%;}
 
 
@@ -1534,6 +1536,8 @@ body:not(.post-template) .post-title {
    div#titulo a {float: left; width: 90%;}
 
    .cate {font-size: 7px;}
+
+   nav#principal {margin-top: -30px;}
 
    #quadro {width: 100%;}
    .related {text-align: left;}
