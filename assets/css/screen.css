@@ -2032,14 +2032,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 #indice ol li {margin-left: 0px; line-height: 1.8em; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); margin-bottom: 0;}
 
 /* Blog index */
-#destaque {float: left; width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px;}
-.destaque-java {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #e5a228;}
-.destaque-ajuda {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #28a0e5;}
-.destaque-php {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #5a42a1;}
-.destaque-html {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #e56f28;}
-.destaque-sites {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #42a14f;}
-.destaque-jquery {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #4c28e5;}
-.destaque {width: 100%; height: 135px; background-color: #000; background-size: cover; background-position: center; position: relative; border-radius: 2px; margin-left: -2px;margin-bottom: 15px; border: 2px solid #4c2d2d;}
+#destaque {float: left; width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px;}
+.destaque-java {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #e5a228;}
+.destaque-ajuda {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #28a0e5;}
+.destaque-php {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #5a42a1;}
+.destaque-html {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #e56f28;}
+.destaque-sites {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #42a14f;}
+.destaque-jquery {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px; margin-bottom: 15px; border: 2px solid #4c28e5;}
+.destaque {width: 100%; height: 135px; background-color: #000; background-size: auto; background-position: center; position: relative; border-radius: 2px; margin-left: -2px;margin-bottom: 15px; border: 2px solid #4c2d2d;}
 
 .cate {text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #4c2d2d;}
 .cate-javascript {text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #e5a228;}
