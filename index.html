@@ -172,8 +172,34 @@ about: 'about.html'
                 {{ post.categories | array_to_sentence_string | prepend: 'em ' }} 
             {% endif %}
             
+            {% if post.categories contains "Javascript" %}
+
+                <span class="cate-javascript">
+
+            {% elsif post.categories contais "Ajuda" %}
+
+                <span class="cate-ajuda">
+
+            {% elsif post.categories contais "PHP" %}
+
+                <span class="cate-php">
+
+            {% elsif post.categories contais "HTML" %}
+
+                <span class="cate-html">
+
+            {% elsif post.categories contais "JQuery" %}
+
+                <span class="cate-jquery">
+
+            {% else %}
     
-                <span class="cate"><a  style="color: #fff;" href="https://envolve.github.io/contato/">sugira uma edição</a></span>
+                <span class="cate">
+
+            {% endif %}
+
+
+                    <a  style="color: #fff;" href="https://envolve.github.io/contato/">Opine</a></span>
             
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
@@ -245,7 +271,37 @@ about: 'about.html'
                 {{ post.categories | array_to_sentence_string | prepend: 'em ' }} 
             {% endif %}
             
-                <span class="cate"><a  style="color: #fff;" href="https://envolve.github.io/contato/">sugira uma edição</a></span>
+                
+
+            {% if post.categories contains "Javascript" %}
+
+                <span class="cate-javascript">
+
+            {% elsif post.categories contais "Ajuda" %}
+
+                <span class="cate-ajuda">
+
+            {% elsif post.categories contais "PHP" %}
+
+                <span class="cate-php">
+
+            {% elsif post.categories contais "HTML" %}
+
+                <span class="cate-html">
+
+            {% elsif post.categories contais "JQuery" %}
+
+                <span class="cate-jquery">
+
+            {% else %}
+    
+                <span class="cate">
+
+            {% endif %}
+
+
+                    <a  style="color: #fff;" href="https://envolve.github.io/contato/">Opine</a></span>
+
             
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
