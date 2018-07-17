@@ -1390,7 +1390,7 @@ body:not(.post-template) .post-title {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 150px;
+        min-height: 220px;
         padding: 0;
     }
 
@@ -1398,7 +1398,7 @@ body:not(.post-template) .post-title {
     .home-template .main-header:after { display: none; }
 
     .archive-template .main-header {
-        min-height: 180px;
+        min-height: 220px;
         padding: 10% 0;
     }
 
@@ -1545,7 +1545,7 @@ body:not(.post-template) .post-title {
     .main-header {
         margin-bottom: 0px;
         height: auto;
-        min-height: 150px;
+        min-height: 220px;
     }
 
     .no-cover.main-header {
@@ -1554,7 +1554,7 @@ body:not(.post-template) .post-title {
 
     .archive-template .main-header {
         max-height: 20%;
-        min-height: 160px;
+        min-height: 220px;
         padding: 10% 0;
     }
 
