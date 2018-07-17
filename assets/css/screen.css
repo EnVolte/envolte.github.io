@@ -473,7 +473,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%; z-index: 9999;
-    height: 550px;
+    height: 520px;
     margin-bottom: 0;
     text-decoration: none;
     text-align: center;
