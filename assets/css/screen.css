@@ -1385,7 +1385,7 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
 
-    .main-header {
+    .main-header {margin-top: 50px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -1541,7 +1541,7 @@ body:not(.post-template) .post-title {
    .related li {}
    .related p {font-size: 1em;}
 
-    .main-header {
+    .main-header {margin-top: 50px;
         margin-bottom: 0px;
         height: 220px;
     }
