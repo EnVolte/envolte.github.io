@@ -211,7 +211,7 @@ about: 'about.html'
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'em ' | split: "," | uniq }} 
+                {{ post.categories | join: ', ' | array_to_sentence_string | prepend: 'em ' }} 
             {% endif %}
             
             {% if post.categories contains "Javascript" %}
@@ -348,7 +348,7 @@ about: 'about.html'
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'em ' | split: "," | uniq }} 
+                {{ post.categories | join: ', ' | array_to_sentence_string | prepend: 'em ' | split: "," | uniq }} 
             {% endif %}
             
                 
