@@ -19,14 +19,14 @@ As animações são a parte interativa de uma página, junto aos efeitos de *mou
 
 ### Uma animação básica
 
-Para criar nossa primeira animação, usaremos ```@keyframe exemplo```, onde "exemplo" é o nome que daremos.
+Para criar nossa primeira animação, usaremos ```@keyframe exemplo```, onde "exemplo" é o nome que daremos. O código a seguir deve ser incluido na sua folha de estilos (.css)!
 
     @keyframes examplo {
     from {background-color: black;} // from = de
     to {background-color: white;} // to = para
     }
 
-Neste exemplo básico, eu defini que a animação começaria com o fundo preto, indo para o branco. Repare que não usamos nenhum controle de tempo ou a forma como ela será executada. Agora, para que possamos de fato usá-la, devemos incluir a chamada do *keyframe* em uma div.
+Neste exemplo básico, eu defini que a animação começaria com o fundo preto, indo para o branco. Repare que não usamos nenhuma configuração para o tempo ou a forma como ela será executada. Agora, para que possamos de fato usá-la, devemos incluir uma div que possa executar a *keyframe*.
 
     div {width: 100px; height: 100px; background-color: blue; animation-name: examplo; animation-duration: 5s;}
     
