@@ -4,7 +4,7 @@ title:  "Animações em CSS3"
 capa: "https://envolte.github.io/arquivos/fotos/jsquery.png"
 capaindex: "https://envolte.github.io/arquivos/fotos/index/jsjquery.png"
 date:   2018-07-18 16:20:00
-categories: CSS CSS3
+categories: CSS3
 ---
 
 Quando se está desenvolvendo um blog, site ou qualquer outra página na internet, sempre chega o momento de dar o estilo para aquilo que você criou. Geralmente, esta é a primeira parte, quando fazemos um planejamento de como o site será em programas como o Photoshop. Porém, sempre que estamos buscando inspiração para um projeto assim, acabamos nos deparando com algo não planejado que muda, ou atrapalha, todo aquele *rascunho*. Quem já está nesse mundo há um tempo, sabe que é possível fazer praticamente qualquer coisa hoje em dia, o que vale é a imaginação. Mas fica dificíl quando nós queremos algo, mas não sabemos fazê-lo.
@@ -21,19 +21,19 @@ As animações são a parte interativa de uma página, junto aos efeitos de *mou
 
 Para criar nossa primeira animação, usaremos ```@keyframe exemplo```, onde "exemplo" é o nome que daremos. O código a seguir deve ser incluido na sua folha de estilos (.css)!
 
-    	@keyframes exemplo {
-    	from {background-color: black;} // from = de
-    	to {background-color: blue;} // to = para
-    	}
+    @keyframes exemplo {
+    from {background-color: black;} // from = de
+    to {background-color: blue;} // to = para
+    }
 
 Neste exemplo básico, eu defini que a animação começaria com o fundo preto, indo para o azul. Agora, para que possamos de fato usá-la, devemos incluir uma div que possa executar a *keyframe*.
 
-    	div {
-    	width: 100px;
-    	height: 100px;
-    	background-color: blue;
-    	animation-name: exemplo;
-    	animation-duration: 5s;}
+    div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: exemplo;
+    animation-duration: 5s;}
     
 Com o código acima, nós conseguimos o seguinte resultado:
 
@@ -43,20 +43,20 @@ Antes de prosseguir, vamos entender duas configurações, o ```animation-name: e
 
 E se eu quiser algo mais complexo? Como eu disse acima, aquele era apenas um exemplo básico. Nós podemos utilizar outras configurações para que nossa animação possa ser bem mais aproveitada.
 
-    	@keyframes exemplo {
-    	0% {background-color: white;}
-    	25% {background-color: yellow;}
-    	50% {background-color: red;}
-    	100% {background-color: black;}
-    	}
+    @keyframes exemplo {
+    0% {background-color: white;}
+    25% {background-color: yellow;}
+    50% {background-color: red;}
+    100% {background-color: black;}
+    }
    
-    	div {
-    	width: 100px;
-    	height: 100px;
-    	background-color: red;
-    	animation-name: exemplo;
-    	animation-duration: 10s;
-    	}
+    div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: exemplo;
+    animation-duration: 10s;
+    }
     
 Repare que em nosso código agora temos 4 valores (0, 25, 50 e 100), que representam a porcentagem de tempo da animação e o que deve ser executado em cada um deles. Esses valores podem mudar de acordo com suas necessidades.
 
@@ -68,20 +68,22 @@ As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer co
 
 <iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao3.html" width="250" height="100"></iframe>
 
-	div {
-	width: 100px;
-    	height: 100px;
-    	background-color: red;
-    	animation-name: exemplo;
-    	animation-duration: 5s;
-	animation-iteration-count: infinite;
-	}
+``
+div {
+width: 100px; 
+height: 100px;
+background-color: red;
+animation-name: exemplo;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
 
-	@keyframes exemplo {
-	0% {background-color: blue; width: 100px; border-radius: 0px;}
-	25% {background-color: orange; width: 150px; border-radius: 2px;}
-	50% {background-color: brown; width: 200px; border-radius: 5px;}
-	100% {background-color: black; width: 250px; border-radius: 10px;}
-	}
+@keyframes exemplo {
+0% {background-color: blue; width: 100px; border-radius: 0px;}
+25% {background-color: orange; width: 150px; border-radius: 2px;}
+50% {background-color: brown; width: 200px; border-radius: 5px;}
+100% {background-color: black; width: 250px; border-radius: 10px;}
+}
+``
 	
 Nos três exemplos eu fiz o uso de ```animation-iteration-count: infinite;```, que repete a animação *infinitamente*. Você pode alterar seu valor para o número de repetições que você preferir.
