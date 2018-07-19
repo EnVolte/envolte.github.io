@@ -87,3 +87,29 @@ animation-iteration-count: infinite;
 ```
 	
 Nos três exemplos eu fiz o uso de ```animation-iteration-count: infinite;```, que repete a animação *infinitamente*. Você pode alterar seu valor para o número de repetições que você preferir.
+
+A propriedade ``animation-direction``
+
+Esta propriedade especifica se a animação deve ser executada *para frente*, *de trás para frente* ou em *ciclos alternados*.
+
+- **normal**: animação é executada de forma padrão (para frente)
+- **reverse**: animação é executada de forma reversa (de trás para frente)
+- **alternate**: animação é executada de forma **padrão**, depois **reversa** (para frente, de trás para frente)
+- **alternate-reverse**: animação é executada de forma **reversa**, depois **padrão** (de trás para frente, para frente)
+
+<iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao4.html" width="250" height="100"></iframe>
+
+A propriedade ``animation-timing-function``
+
+Esta propriedade especifica a forma como a animação será executada (velocidade).
+
+- **ease**: começo lento, depois rápido e termina lento
+- **linear**: mesma velocidade do começo ao final
+- **ease-in**: começo lento
+- **ease-out**: final lento
+- **ease-in-out**: começo e fim lentos
+- **cubic-bezier(n,n,n,n)**: permite que você especifique um valor na função da curva de Bézier
+
+Função | valor
+-------|---------
+ease   | cubic-bezier(0.25,0.1,0.25,1)
