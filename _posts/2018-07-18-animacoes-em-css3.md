@@ -68,7 +68,7 @@ As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer co
 
 <iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao3.html" width="250" height="100"></iframe>
 
-``
+```
 div {
 width: 100px; 
 height: 100px;
@@ -84,6 +84,6 @@ animation-iteration-count: infinite;
 50% {background-color: brown; width: 200px; border-radius: 5px;}
 100% {background-color: black; width: 250px; border-radius: 10px;}
 }
-``
+```
 	
 Nos três exemplos eu fiz o uso de ```animation-iteration-count: infinite;```, que repete a animação *infinitamente*. Você pode alterar seu valor para o número de repetições que você preferir.
