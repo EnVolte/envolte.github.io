@@ -64,7 +64,7 @@ Repare que em nosso código agora temos 4 valores (0, 25, 50 e 100), que represe
 
 ### O que mais posso fazer?
 
-As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer mais legais também, como mudar o seu tamanho, colocar bordas e tudo mais que sua imaginação lhe permitir.
+As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer coisas mais legais também, como mudar o seu tamanho, colocar bordas e tudo mais que sua imaginação lhe permitir.
 
 <iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao3.html" width="250" height="100"></iframe>
 
@@ -83,5 +83,5 @@ As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer ma
 	50% {background-color: brown; width: 200px; border-radius: 5px;}
 	100% {background-color: black; width: 250px; border-radius: 10px;}
 	}
-        
+	
 Nos três exemplos eu fiz o uso de ```animation-iteration-count: infinite;```, que repete a animação *infinitamente*. Você pode alterar seu valor para o número de repetições que você preferir.
