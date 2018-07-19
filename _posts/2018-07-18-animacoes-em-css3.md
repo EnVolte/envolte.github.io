@@ -21,55 +21,55 @@ As animações são a parte interativa de uma página, junto aos efeitos de *mou
 
 Para criar nossa primeira animação, usaremos ```@keyframe exemplo```, onde "exemplo" é o nome que daremos. O código a seguir deve ser incluido na sua folha de estilos (.css)!
 
-    @keyframes exemplo {
-    from {background-color: black;} // from = de
-    to {background-color: blue;} // to = para
-    }
+    	@keyframes exemplo {
+    	from {background-color: black;} // from = de
+    	to {background-color: blue;} // to = para
+    	}
 
 Neste exemplo básico, eu defini que a animação começaria com o fundo preto, indo para o azul. Agora, para que possamos de fato usá-la, devemos incluir uma div que possa executar a *keyframe*.
 
-    div {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    animation-name: exemplo;
-    animation-duration: 5s;}
+    	div {
+    	width: 100px;
+    	height: 100px;
+    	background-color: blue;
+    	animation-name: exemplo;
+    	animation-duration: 5s;}
     
-Veja um exemplo:
+Com o código acima nós conseguimos o seguinte resultado:
 
-<iframe src="https://envolte.github.io/exemplos/css/animacao.html" width="100" height="100"></iframe>
+<iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao.html" width="100" height="100"></iframe>
 
 Antes de prosseguir, vamos entender duas configurações, o ```animation-name: exemplo;``` e ```animation-duration: 5s;```. No primeiro valor, você deve especificar o **nome** da sua keyframe. Ele precisa ser exatamente igual ao que você deu ali em cima. No segundo, você define o **tempo** da sua animação.
 
 E se eu quiser algo mais complexo? Como eu disse acima, aquele era apenas um exemplo básico. Nós podemos utilizar outras configurações para que nossa animação possa ser bem mais aproveitada.
 
-    @keyframes exemplo {
-    0% {background-color: white;}
-    25% {background-color: yellow;}
-    50% {background-color: red;}
-    100% {background-color: black;}
-    }
+    	@keyframes exemplo {
+    	0% {background-color: white;}
+    	25% {background-color: yellow;}
+    	50% {background-color: red;}
+    	100% {background-color: black;}
+    	}
    
-    div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: exemplo;
-    animation-duration: 10s;
-    }
+    	div {
+    	width: 100px;
+    	height: 100px;
+    	background-color: red;
+    	animation-name: exemplo;
+    	animation-duration: 10s;
+    	}
     
 Repare que em nosso código agora temos 4 valores (0, 25, 50 e 100), que representam a porcentagem de tempo da animação e o que deve ser executado em cada um deles. Esses valores podem mudar de acordo com suas necessidades.
 
-<iframe src="https://envolte.github.io/exemplos/css/animacao2.html" width="100" height="100"></iframe>
+<iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao2.html" width="100" height="100"></iframe>
 
 ### O que mais posso fazer?
 
 As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer mais legais também, como mudar o seu tamanho, colocar bordas e tudo mais que sua imaginação lhe permitir.
 
-<iframe src="https://envolte.github.io/exemplos/css/animacao3.html" width="250" height="100"></iframe>
+<iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao3.html" width="250" height="100"></iframe>
 
-        div {
-    	width: 100px;
+	div {
+	width: 100px;
     	height: 100px;
     	background-color: red;
     	animation-name: exemplo;
@@ -77,7 +77,7 @@ As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer ma
     	animation-iteration-count: infinite;
     	}
 
-		@keyframes exemplo {
+	@keyframes exemplo {
     	0% {background-color: blue; width: 100px; border-radius: 0px;}
    		25% {background-color: orange; width: 150px; border-radius: 2px;}
     	50% {background-color: brown; width: 200px; border-radius: 5px;}
