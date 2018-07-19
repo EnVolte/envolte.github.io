@@ -35,7 +35,7 @@ Neste exemplo básico, eu defini que a animação começaria com o fundo preto, 
     	animation-name: exemplo;
     	animation-duration: 5s;}
     
-Com o código acima nós conseguimos o seguinte resultado:
+Com o código acima, nós conseguimos o seguinte resultado:
 
 <iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao.html" width="100" height="100"></iframe>
 
