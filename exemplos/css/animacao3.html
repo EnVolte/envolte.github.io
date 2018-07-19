@@ -1,0 +1,32 @@
+<DOCTYPE html>
+
+	<head>
+		<title>Exemplo CSS3</title>
+
+		<style>
+		html, body {background-color: #fff; margin: 0; padding: 0;}
+
+		div {
+    	width: 100px;
+    	height: 100px;
+    	background-color: red;
+    	animation-name: exemplo;
+    	animation-duration: 5s;
+    	animation-iteration-count: infinite;
+    	}
+
+		@keyframes exemplo {
+    	0% {background-color: white; width: 100px; border-radius: 0px;}
+   		25% {background-color: yellow; width: 150px; border-radius: 2px;}
+    	50% {background-color: red; width: 200px; border-radius: 5px;}
+    	100% {background-color: black; width: 250px; border-radius: 10px;}
+    	}
+		</style>
+	</head>
+
+	<body>
+		<div>
+		</div>
+	</body>
+
+	</html>
