@@ -74,14 +74,14 @@ As *keyframes* não se limitam apenas a mudança de cores. Nós podemos fazer ma
     	background-color: red;
     	animation-name: exemplo;
     	animation-duration: 5s;
-    	animation-iteration-count: infinite;
-    	}
+	animation-iteration-count: infinite;
+	}
 
 	@keyframes exemplo {
-    	0% {background-color: blue; width: 100px; border-radius: 0px;}
-   		25% {background-color: orange; width: 150px; border-radius: 2px;}
-    	50% {background-color: brown; width: 200px; border-radius: 5px;}
-    	100% {background-color: black; width: 250px; border-radius: 10px;}
-    	}
+	0% {background-color: blue; width: 100px; border-radius: 0px;}
+	25% {background-color: orange; width: 150px; border-radius: 2px;}
+	50% {background-color: brown; width: 200px; border-radius: 5px;}
+	100% {background-color: black; width: 250px; border-radius: 10px;}
+	}
         
 Nos três exemplos eu fiz o uso de ```animation-iteration-count: infinite;```, que repete a animação *infinitamente*. Você pode alterar seu valor para o número de repetições que você preferir.
