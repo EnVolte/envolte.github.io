@@ -1900,7 +1900,7 @@ footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
 
 /* Seção sobre */
 section#about {width: 100%; height: auto; position: relative; display: inline-block; background: #fafafa; padding: 40px 0px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-top: 2rem;}
-section#about #centre {width: 90%; margin: 0px auto;}
+section#about #centre {width: 85%; margin: 0px auto;}
 section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1.1em; color: #333; transition: 0.7s ease; text-align: center;}
 section#about p {font-family: Merriweather; line-height: 1.8em; font-size: 0.9em; color: #333; transition: 0.7s ease; text-align: center; margin: 20px 0px 0px;}
 section#about span.icon {width: 20px; height: 20px; background-size: 20px; position: absolute; margin-top: 1px; margin-left: -30px; display: inline-block; opacity: 0.9;}
