@@ -1899,15 +1899,12 @@ footer#baixo .alignright {width: 45%; float: right; margin-right: 0%;}
 
 
 /* Seção sobre */
-section#about {width: 100%; height: auto; position: relative; display: inline-block; background: -moz-linear-gradient(top, rgba(251,251,251,0.98) 0%, rgba(251,251,251,0.98) 1%, rgba(251,251,251,0.63) 99%, rgba(251,251,251,0.63) 100%);
-background: -webkit-linear-gradient(top, rgba(251,251,251,0.98) 0%,rgba(251,251,251,0.98) 1%,rgba(251,251,251,0.63) 99%,rgba(251,251,251,0.63) 100%);
-background: linear-gradient(to bottom, rgba(251,251,251,0.98) 0%,rgba(251,251,251,0.98) 1%,rgba(251,251,251,0.63) 99%,rgba(251,251,251,0.63) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafbfbfb', endColorstr='#a1fbfbfb',GradientType=0 ); padding: 40px 0px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-top: 2rem;}
+section#about {width: 100%; height: auto; position: relative; display: inline-block; background: #fbfbfb; padding: 40px 0px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-top: 2rem;}
 section#about #centre {width: 90%; margin: 0px auto;}
 section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1.1em; color: #333; transition: 0.7s ease; text-align: center;}
 section#about p {font-family: Merriweather; line-height: 1.8em; font-size: 0.9em; color: #333; transition: 0.7s ease; text-align: center; margin: 20px 0px 0px;}
 section#about span.icon {width: 20px; height: 20px; background-size: 20px; position: absolute; margin-top: 1px; margin-left: -30px; display: inline-block; opacity: 0.9;}
-section#about a {background-color: #30687f; color: #fff; padding: 2px; border-radius: 2px; font-size: 0.7em; font-family: Open Sans; text-decoration: none; letter-spacing: -1px; font-weight: 900;}
+section#about a {background-color: #30687f; color: #fff; padding: 2px 5px; border-radius: 2px; font-size: 0.8em; text-transform: uppercase;  font-family: Open Sans; text-decoration: none; letter-spacing: -1px; font-weight: 900;}
 
 #left {width: 30%; float: left; position: relative;}
 #left:hover p, #left:hover h2 {color: #000;}
