@@ -88,7 +88,7 @@ animation-iteration-count: infinite;
 	
 Nos três exemplos eu fiz o uso de ```animation-iteration-count: infinite;```, que repete a animação *infinitamente*. Você pode alterar seu valor para o número de repetições que você preferir.
 
-A propriedade ``animation-direction``
+### A propriedade ``animation-direction``
 
 Esta propriedade especifica se a animação deve ser executada *para frente*, *de trás para frente* ou em *ciclos alternados*.
 
@@ -99,7 +99,9 @@ Esta propriedade especifica se a animação deve ser executada *para frente*, *d
 
 <iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao4.html" width="250" height="100"></iframe>
 
-A propriedade ``animation-timing-function``
+No exemplo acima, fiz o uso da propriedade ``alternate``.
+
+### A propriedade ``animation-timing-function``
 
 Esta propriedade especifica a forma como a animação será executada (velocidade).
 
@@ -108,8 +110,20 @@ Esta propriedade especifica a forma como a animação será executada (velocidad
 - **ease-in**: começo lento
 - **ease-out**: final lento
 - **ease-in-out**: começo e fim lentos
-- **cubic-bezier(n,n,n,n)**: permite que você especifique um valor na função da curva de Bézier
+- **cubic-bezier(n,n,n,n)**: permite que você especifique um valor na função da curva de Bézier. Veja alguns valores abaixo:
 
-Função | valor
--------|---------
-ease   | cubic-bezier(0.25,0.1,0.25,1)
+Tipo        | Valor
+------------|------------------------------
+ease        | cubic-bezier(0.25,0.1,0.25,1)
+linear      | cubic-bezier(0,0,1,1)
+ease-in     | cubic-bezier(0.42,0,1,1)
+ease-out    | cubic-bezier(0,0,0.58,1)
+ease-in-out | cubic-bezier(0.42,0,0.58,1)
+
+<iframe class="exemplo" src="https://envolte.github.io/exemplos/css/animacao5.html" width="250" height="100"></iframe>
+
+No exemplo acima, usei o ``ease-in-out``.
+
+E se você já está acostumado com as *transitions* em CSS, que geralmente utilizamos em efeitos *hover* (ao passar o mouse) ou *focus* (ao clicar), saiba que estas propriedades de velocidade também são aplicáveis.
+
+Ficou alguma dúvida? Deixe seu comentário abaixo! ;)
