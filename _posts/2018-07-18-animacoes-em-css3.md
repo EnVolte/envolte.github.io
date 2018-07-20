@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Animações em CSS3"
-capa: "https://envolte.github.io/arquivos/fotos/jsquery.png"
-capaindex: "https://envolte.github.io/arquivos/fotos/index/jsjquery.png"
-date:   2018-07-18 16:20:00
+capa: "https://envolte.github.io/arquivos/fotos/css3.png"
+capaindex: "https://envolte.github.io/arquivos/fotos/index/css3.png"
+date:   2018-07-19 20:00:00
 categories: CSS3
 ---
 
