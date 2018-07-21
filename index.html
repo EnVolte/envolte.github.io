@@ -9,16 +9,29 @@ about: 'about.html'
 <!-- blogcapa4.png -->
 
 
-<nav id="principal">
+<nav id="principal" class="nav-wrapper">
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
+	    
+    <a href="#" data-activates="menu-mobile" class="button-collapse">
+       <i class="material-icons">menu</i>
+    </a>
 
-    <ul>
+    <ul class="right hide-on-med-and-down">
         <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li class="mob"><a href="">Canal no Youtube</a></li>
+    </ul>
+	    
+    <ul class="side-nav" id="menu-mobile">
+	<li><a href="https://envolte.github.io/">Home Page</a></li>
         <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
         <li><a href="https://envolte.github.io/contato/">Contato</a></li>
         <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
