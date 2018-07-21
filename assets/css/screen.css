@@ -1359,7 +1359,7 @@ body:not(.post-template) .post-title {
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
    .button-collapse {}
-   .showbutton {position: absolute; left: 50px;}
+   .showbutton {position: absolute; margin-left: 50px;}
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
@@ -1526,7 +1526,7 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    .button-collapse {}
-   .showbutton {position: absolute; left: 50px;}
+   .showbutton {position: absolute; margin-left: 50px;}
 
    ul#cursos {width: 100%; margin-bottom: 0; margin-left: -10%; font-size: 10px;}
    ul#curso li {min-width: 96%; margin: 0px 0px 10px;}
