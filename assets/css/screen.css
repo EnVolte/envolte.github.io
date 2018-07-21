@@ -1332,6 +1332,20 @@ body:not(.post-template) .post-title {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    10. Media Queries - Smaller than 960px
    ========================================================================== */
@@ -1387,7 +1401,7 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
 
-    .main-header {margin-top: 0px;
+    .main-header {margin-top: 0px; background-size: auto;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -1544,7 +1558,7 @@ body:not(.post-template) .post-title {
    .related li {}
    .related p {font-size: 1em;}
 
-    .main-header {margin-top: 00px;
+    .main-header {margin-top: 0px; background-size: auto;
         margin-bottom: 0px; padding: 50px 0 0;
         height: 220px;
     }
