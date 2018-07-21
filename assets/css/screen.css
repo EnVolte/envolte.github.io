@@ -1898,7 +1898,7 @@ section#about #centre {width: 85%; margin: 0px auto;}
 section#about h2 {font-family: Open Sans; margin: -5px 0px 0px; font-size: 1.1em; color: #333; transition: 0.7s ease; text-align: center;}
 section#about p {font-family: Merriweather; line-height: 1.8em; font-size: 0.9em; color: #333; transition: 0.7s ease; text-align: center; margin: 20px 0px 0px;}
 section#about span.icon {width: 20px; height: 20px; background-size: 20px; position: absolute; margin-top: 1px; margin-left: -30px; display: inline-block; opacity: 0.9;}
-section#about a {border: 1px solid #30687f; background: #fff; color: #30687f; padding: 2px 5px; border-radius: 2px; font-size: 0.8em; text-transform: uppercase;  font-family: Open Sans; text-decoration: none; font-weight: 900;}
+section#about a {border: 1px solid #30687f; background: #fff; color: #30687f; padding: 1px 5px; line-height: 0.8em; border-radius: 2px; font-size: 0.8em; text-transform: uppercase;  font-family: Open Sans; text-decoration: none; font-weight: 900;}
 
 #left {width: 30%; float: left; position: relative;}
 #left:hover p, #left:hover h2 {color: #000;}
