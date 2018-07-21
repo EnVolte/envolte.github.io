@@ -1359,10 +1359,7 @@ body:not(.post-template) .post-title {
    section#about #centre  h2 {line-height: 2.1em; font-size: 11px; width: 100%;}
    section#about #centre  p {font-size: 9px; width: 100%;}
 
-   nav#principal ul {line-height: 0.3em;}
-   nav#principal ul li {margin-top: 20px; margin-right: 10px;}
-   nav#principal ul li.mob {display: none;}
-   nav#principal ul li a {font-size: 11px;}
+   nav#principal ul.mob {display: none;}
 
    .linecircle {width: 100%; margin: 20px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
@@ -1525,10 +1522,7 @@ body:not(.post-template) .post-title {
    section#about #centre  h2 {line-height: 2.1em; font-size: 11px; width: 100%;}
    section#about #centre  p {font-size: 9px; width: 100%;}
 
-   nav#principal ul {line-height: 0.3em;}
-   nav#principal ul li {margin-top: 20px; margin-right: 10px;}
-   nav#principal ul li.mob {display: none;}
-   nav#principal ul li a {font-size: 11px;}
+   nav#principal ul.mob {display: none;}
 
    .linecircle {width: 100%; margin: 20px auto 0px; height: 20px; position: relative; border-bottom: 1px solid #e7eef2;}
 
