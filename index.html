@@ -6,10 +6,19 @@ cover: https://envolte.github.io/assets/images/blogcapa8.png
 about: 'about.html'
 ---
 
-<!-- blogcapa4.png -->
+<!-- menu mobile -->
+
+   <ul class="side-nav" id="menu-mobile">
+	<li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li><a href="">Canal no Youtube</a></li>
+    </ul>
 
 
-<nav id="principal" class="nav-wrapper">
+<nav id="principal">
     <nav class="main-nav overlay clearfix">
             {% if page.logo %}
                 <a class="blog-logo" href="{{ site.baseurl }}">
@@ -17,26 +26,15 @@ about: 'about.html'
                 </a>
             {% endif %}
 	    
-    <a href="#" data-activates="menu-mobile" class="button-collapse">
-       <i class="material-icons">menu</i>
-    </a>
+    <a href="#" class="button-collapse">Menu</a>
 
-    <ul class="right hide-on-med-and-down">
+    <ul class="mob">
         <li><a href="https://envolte.github.io/">Home Page</a></li>
-        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/about.html">Sobre</a></li>
         <li><a href="https://envolte.github.io/contato/">Contato</a></li>
         <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
-        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
-        <li class="mob"><a href="">Canal no Youtube</a></li>
-    </ul>
-	    
-    <ul class="side-nav" id="menu-mobile">
-	<li><a href="https://envolte.github.io/">Home Page</a></li>
-        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
-        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
-        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
-        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
-        <li class="mob"><a href="">Canal no Youtube</a></li>
+        <li><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li><a href="">Canal no Youtube</a></li>
     </ul>
 
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Feed</a>
