@@ -2048,6 +2048,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 /* Menu mobile */
 .button-collapse {position: absolute; top: 15px; left: 100px; width: 40px; height: 40px; padding: 5px; border: 1px solid #fff; border-radius: 2px; color: #fff;}
-ul#menu-mobile {max-width: 50%; height: 100%; display: inline-block; float: left; position: absolute; top: 0; left: 0; background-color: #fff; z-index: 999999999999999;}
+.close-button {left: 48%; position: absolute; top: 2%; color: #000; font-size: 1em;}
+ul#menu-mobile {max-width: 70%; height: 100%; display: inline-block; float: left; position: absolute; top: 0; left: 0; background-color: #fff; z-index: 999999999999999;}
 ul#menu-mobile li {padding: 2%; float: left; width: 96%; list-style: none;}
-ul#menu-mobile li a {color: #333; font-size: 1.3em; text-decoration: none; font-weight: bold; font-family: Open Sans;}
+ul#menu-mobile li a {color: #333; font-size: 1em; text-decoration: none; font-weight: bold; font-family: Open Sans;}
