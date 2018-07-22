@@ -1359,7 +1359,6 @@ body:not(.post-template) .post-title {
    button#show {display: none; width: 0px; height: 0px; left: -500px;}
 
    .button-collapse {}
-   .showbutton {display: inline !important;}
 
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
@@ -1526,7 +1525,6 @@ body:not(.post-template) .post-title {
    .titlep {margin-left: 0; font-size: 10px; margin-bottom: 15px;}
 
    .button-collapse {}
-   .showbutton {display: inline !important;}
 
    ul#cursos {width: 100%; margin-bottom: 0; margin-left: -10%; font-size: 10px;}
    ul#curso li {min-width: 96%; margin: 0px 0px 10px;}
@@ -2067,6 +2065,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 .cate-sites {text-transform: uppercase; font-size: 11px; padding: 2px 5px; border-radius: 2px; margin-left: 5px; font-weight: bold; background-color: #42a14f;}
 
 /* Menu mobile */
+@media (max-width: 460px) {
+    .showbutton {display: inline !important;}
+
+}
+@media (max-width: 767px) {
+    .showbutton {display: inline !important;}
+
+}
+@media (min-width: 768px)and (max-width: 991px) {
+    .showbutton {display: inline !important;}
+
+}
+@media (min-width: 992px)and (max-width: 1199px) {
+    .showbutton {display: none !important;}
+
+}
+@media (min-width: 1200px) {
+    .showbutton {display: none !important;}
+
+}
+
 .showbutton {display: none !important;}
 .button-collapse {width: 40px; height: 40px; position: absolute; top: 17px; left: 50px; background-color: transparent; background-image: url('/assets/images/menu.png'); background-repeat: no-repeat; background-size: 28px; background-position: center; padding: 5px; border: 1px solid #fff; border-radius: 2px; color: #fff;}
 button.close-button {right: 2%; position: absolute; top: 2%; color: #000; font-size: 1em; background: transparent; border: 0px; font-family: Open Sans; font-weight: bold;}
