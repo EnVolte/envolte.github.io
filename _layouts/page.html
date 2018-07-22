@@ -60,18 +60,10 @@ style="text-decoration: none; background-image: url(https://envolte.github.io/as
 
             FAQ
 
-            {% endif %}
-
-
-            {% if page.title == "Sobre mim" %}
-
+            {% elsif page.title == "Sobre mim" %}
             Sobre
 
-            {% endif %}
-
-
-            {% if page.title != "Perguntas e respostas" OR "Sobre mim" %}
-
+            {% else %}
             {{ page.title }}
 
             {% endif %}
