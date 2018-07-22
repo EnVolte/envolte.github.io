@@ -4,19 +4,36 @@ title: Cursos
 about: 'about.html'
 ---
 
-<nav id="principal">
-    <nav class="main-nav overlay clearfix">
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="https://envolte.github.io/assets/images/logoev.png" alt="Blog Logo" />
-                </a>
+<!-- menu mobile -->
 
-    <ul>
-        <li><a href="https://envolte.github.io/">Home Page</a></li>
-        <li class="mob"><a href="https://envolte.github.io/about.html">Sobre</a></li>
+   <ul class="side-nav" id="menu-mobile">
+   <button class="close-button">X</button>
+    <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li><a href="https://envolte.github.io/about.html">Sobre</a></li>
         <li><a href="https://envolte.github.io/contato/">Contato</a></li>
         <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
-        <li class="mob"><a href="https://envolte.github.io/faq/">FAQ</a></li>
-        <li class="mob"><a href="">Canal no Youtube</a></li>
+        <li><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li><a href="">Canal no Youtube</a></li>
+    </ul>
+
+
+<nav id="principal">
+    <nav class="main-nav overlay clearfix">
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+        
+    <div class="showbutton"><button class="button-collapse"></button></div>
+
+    <ul class="mob">
+        <li><a href="https://envolte.github.io/">Home Page</a></li>
+        <li><a href="https://envolte.github.io/about.html">Sobre</a></li>
+        <li><a href="https://envolte.github.io/contato/">Contato</a></li>
+        <li><a href="https://envolte.github.io/cursos/">Cursos</a></li>
+        <li><a href="https://envolte.github.io/faq/">FAQ</a></li>
+        <li><a href="">Canal no Youtube</a></li>
     </ul>
 
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Feed</a>
