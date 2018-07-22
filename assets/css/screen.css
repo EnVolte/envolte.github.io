@@ -2066,15 +2066,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 
 /* Menu mobile */
 @media (max-width: 460px) {
-    .showbutton {display: inline !important;}
+    .showbutton {display: block !important;}
 
 }
 @media (max-width: 767px) {
-    .showbutton {display: inline !important;}
+    .showbutton {display: block !important;}
 
 }
 @media (min-width: 768px)and (max-width: 991px) {
-    .showbutton {display: inline !important;}
+    .showbutton {display: block !important;}
 
 }
 @media (min-width: 992px)and (max-width: 1199px) {
