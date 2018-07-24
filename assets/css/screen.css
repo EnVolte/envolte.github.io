@@ -2092,3 +2092,7 @@ button.close-button {right: 2%; position: absolute; top: 2%; color: #000; font-s
 ul#menu-mobile {max-width: 70%; height: 100%; display: none; padding: 4%; float: left; position: absolute; top: 0; left: 0; background-color: #fff; z-index: 999999999999999; box-shadow: 1px 2px 5px rgba(0,0,0,0.2)}
 ul#menu-mobile li {padding: 2% 1%; float: left; width: 96%; list-style: none; line-height: 1em;}
 ul#menu-mobile li a {color: #333; font-size: 1.1em; text-decoration: none; font-weight: bold; background: #f9f9f9; border: 1px solid #eee; padding: 3px 10px; font-family: Open Sans; border-radius: 2px;}
+
+figure {width: auto; border: 1px solid #eee; border-radius: 2px; padding: 5px;}
+figure img {margin: 0px;}
+figure > figcaption {font-size: 10px; color: #777; font-style: italic; text-align: center;}
