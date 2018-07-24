@@ -22,6 +22,7 @@ Agora, que já iniciamos o desenvolvimento da nossa página e aprendemos mais al
 <li><a href="#06">Tabelas</a></li>
 <li><a href="#07">Tipos de elementos</a></li>
 <li><a href="#08">Resumo</a></li>
+<li><a href="#09">Infográfico</a></li>
 
 </ol>
 </section>
@@ -229,3 +230,8 @@ Agora que já aprendemos mais um pouco, vamos iniciar o desenvolvimento da nossa
 <script src="https://gist.github.com/luislorente/03d1b4901899f65534387e6efc78cefe.js"></script>
 
 O código acima [pode ser acessado](https://gist.github.com/luislorente/03d1b4901899f65534387e6efc78cefe#file-index-html) para ser estudado. Lembre-se de que **copiar** e **colar** é ruim para o aprendizado. Faça sua própria página com base no que foi ensinado. Não se preocupe tanto com a aparência, pois em breve iniciaremos em **CSS**.
+
+<span id="09"></span>
+<figure><img src="https://envolte.github.io/arquivos/fotos/tagshtml.png" width="auto" />
+  <figcaption>Resumo das principais tags.</figcaption>
+</figure>
