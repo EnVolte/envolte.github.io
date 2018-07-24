@@ -24,7 +24,7 @@ Nesta 4ª parte, vamos aprender sobre os **formulários**. Não pense que eles s
 
 </ol>
 </section>
-</section><br>
+</section>
 
 <span id="01"></span>
 ### O elemento ``<form>``
