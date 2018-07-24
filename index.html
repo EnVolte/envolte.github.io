@@ -103,7 +103,7 @@ about: 'about.html'
 	<div class="titlep"><span class="ico" style="background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_code_black_48dp.png');"></span> Cursos <a href="https://envolte.github.io/cursos/todos/" style="margin: 0px 0px 3px 5px; font-weight: normal; font-size: 0.4em; font-family: Open Sans; text-transform: uppercase; color: #333;">Últimas atualizações &raquo;</a></div>
 	<ul id="curso" data-masonry>
 
-  {% for curso in site.cursos reversed limit:6 offset: 0 %}
+  {% for curso in site.cursos reversed limit: 6 %}
 
     <li {% if curso.categories contains "PHP" %}
     style="background-image: url({{ site.url  }}/assets/images/fundoliphp.png);"
