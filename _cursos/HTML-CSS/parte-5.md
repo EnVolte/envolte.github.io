@@ -2,7 +2,7 @@
 layout: curso
 title:  "Curso de HTML & CSS (Parte 5)"
 subtitulo: "Cores em HTML."
-date:   2018-07-28 12:00:00
+date:   2018-07-24 02:30:00
 categories: HTMLCSS
 ---
 
