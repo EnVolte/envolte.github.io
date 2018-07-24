@@ -16,4 +16,6 @@ As cores são essenciais nos websites, assim como são essenciais na vida. Sem c
 
 Os valores hexadecimais (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F) representam a formação de todas as cores. São **16** valores, porém, nenhum acima de **F**, que representa o maior valor. As cores são mostradas em uma combinação de **red** (vermelho), **green** (verde) e **blue** (azul), o famoso **RBG**. São escritas usando uma cerquilha (**#**), seguida por três ou seis caracteres. Juntos, esses valores podem alcançar mais de 16 milhões de combinações. É muita coisa, não?
 
-<img src="https://envolte.github.io/arquivos/fotos/cores.png" width="auto" /><legend>Entenda melhor com este infográfico.</legend>
+<figure><img src="https://envolte.github.io/arquivos/fotos/cores.png" width="auto" />
+  <figcaption>Entenda melhor com este infográfico.</legend></figcaption>
+</figure>
