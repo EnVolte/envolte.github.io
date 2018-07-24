@@ -51,13 +51,10 @@ Nós sabemos que é possível estilizar qualquer elemento em HTML através de um
   <head>
   <title>Exemplo</title>
   </head>
-  
-  <body bgcolor="#000000">
-    <h1><font color="#FFFFFF">Cabeçalho na cor branca</font></h1>
-  </body>
-  
+    <body bgcolor="#000000">
+      <h1><font color="#FFFFFF">Cabeçalho na cor branca</font></h1>
+    </body>
 </html>
-    
 ```
 
 Se você testar o código acima, verá que criamos um documento com o fundo **preto** e o cabeçalho **branco**.
