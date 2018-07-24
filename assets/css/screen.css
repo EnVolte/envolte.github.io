@@ -2035,7 +2035,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', end
 background: -moz-linear-gradient(top, rgba(0,31,56,1) 0%, rgba(19,95,124,1) 76%, rgba(48,104,127,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(0,31,56,1) 0%,rgba(19,95,124,1) 76%,rgba(48,104,127,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(0,31,56,1) 0%,rgba(19,95,124,1) 76%,rgba(48,104,127,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', endColorstr='#30687f',GradientType=0 ); margin-bottom: 0--20px; min-height: 52px; position: relative;}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f38', endColorstr='#30687f',GradientType=0 ); margin-bottom: -20px; min-height: 52px; position: relative;}
 #quadro .linha {margin-top: 52px; position: relative; height: 2px; border-bottom: 2px solid #fff; float: left; width: 100%; margin-bottom: 25px;}
 #quadro label {width: auto; text-shadow: 1px 1px 0px rgba(0,0,0,0.1); color: #fff; font-size: 0.9em; line-height: 1.4em; font-family: Open Sans; font-weight: 600; position: absolute; top: 15px; left: 3%;}
 #quadro button {border: 1px solid #fff; background: transparent; font-size: 0.8em; color: #fff; font-family: Open Sans; font-weight: 600; position: absolute; outline: none; cursor: pointer; top: 15px; right: 3%; border-radius: 2px; transition: 0.3s ease;}
@@ -2093,6 +2093,6 @@ ul#menu-mobile {max-width: 70%; height: 100%; display: none; padding: 4%; float:
 ul#menu-mobile li {padding: 2% 1%; float: left; width: 96%; list-style: none; line-height: 1em;}
 ul#menu-mobile li a {color: #333; font-size: 1.1em; text-decoration: none; font-weight: bold; background: #f9f9f9; border: 1px solid #eee; padding: 3px 10px; font-family: Open Sans; border-radius: 2px;}
 
-figure {width: auto;}
+figure {width: auto; margin-bottom: 20px;}
 figure img {margin: 0px;}
 figure > figcaption {font-size: 13px; color: #777; font-style: italic; text-align: center;}
