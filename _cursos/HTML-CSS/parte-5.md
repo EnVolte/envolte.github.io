@@ -24,7 +24,7 @@ Agora, iremos entrar um pouco na parte de *estilização*. Mas calma, ainda não
 
 </ol>
 </section>
-</section>
+</section><br>
 
 <span id="01"></span>
 As cores são essenciais nos websites, assim como são essenciais na vida. Sem cores, uma página ficaria sem vida e difícil de ler. Por padrão, os navedores interpretam os textos sem formatação com a cor **preta**. Você deve ter pecebido isso enquanto fazia alguma de nossas atividades. Elas também podem estar presentes em imagens, bordas, menus, links, blocos de conteúdo e, até mesmo, no plano de fundo de um site.
