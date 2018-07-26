@@ -104,7 +104,7 @@ about: 'about.html'
 	<ul id="curso" data-masonry>
 
   {% assign cursos = (site.cursos | sort: 'date') | reverse %}
-  {% for curso in cursos %}
+  {% for curso in cursos limit: 6 %}
 
     <li {% if curso.categories contains "PHP" %}
     style="background-image: url({{ site.url  }}/assets/images/fundoliphp.png);"
