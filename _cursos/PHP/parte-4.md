@@ -43,6 +43,37 @@ $nome[1] = "Enio";
 Para acessá-los, é fácil. Podemos fazer isso através de seus índices.
 
 ```
-echo $nome[1]; // Retorna "Enio"
+print_r ($nome[1]); // Retorna "Enio"
 ```
 
+Note que fiz o uso da função ```print_r``` ao invés de ```echo```. Isso, porque o PHP não faz a conversão de arrays para strings através dessa função. Com o *print_r*, podemos ver a estrutura do vetor e seus índices. Você verá mais a seguir.
+
+> **Não se esqueça**: os índices começam a partir de **0**, não de *1*!
+
+A partir deste momento, acredito que você esteja com seu servidor PHP ligado e testando todas as funções que estou ensinando. Não se esqueça de que a prática ajuda a fixar o conteúdo.
+
+> Se você está usando o **EasyPHP**, tem uma ferramenta muito legal que pode descomplicar os testes em códigos PHP. Ao ligar seu servidor local, procure por *code tester*. Aqui no meu computador fica em [http://127.0.0.1:1111/codetester.php](http://127.0.0.1:1111/codetester.php).
+
+<figure>
+  <img src="https://envolte.github.io/arquivos/fotos/php01.png" width="auto" />
+  <figcaption>Todo o código em PHP é interpretado ao clicar no botão 'interpret'. Note que a estrutura do array foi mostrada com o uso da função print_r, citada acima.</figcaption>
+  </figure>
+  
+Você pode ter números inteiros, strings e outros tipos de dados juntos em um array.
+
+```
+<?php
+  $array[0] = "Fernando";
+  $array[1] = "<em>ensinou</em>";
+  $array[2] = "21 + 30"; // Dentro das aspas, o valor passa a ser uma string
+  $array[3] = 21 + 30; // Fora das aspas, o valor é interpretado como inteiro
+  
+  echo $array[0]. " me " .$array[1]. " que a soma de " .$array[2]. " é " .$array[3];
+?>
+```
+
+Resultará em:
+
+"Fernando me *ensinou* que a soma de 21 + 30 é 51"
+
+Neste exemplo, repare que fiz o uso de ```echo```. Isso foi possível porque pegamos cada valor de nosso vetor individualmente, como  strings. Para exibir o resultado, também usei o operador de concatenação "**.**", ligando as strings às variáveis. Se você ficou com dúvida aqui, volte um pouco o curso que eu explico mais sobre esse operador.
