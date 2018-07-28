@@ -83,7 +83,7 @@ Arrays associativos são vetores que usam *nomes* como *chaves* que você associ
 
 ```
 <?php
-  $animais = array("Cachorro" => "Canino", "Gato" => "Felino");
+  $animais = array("Cachorro" => "caninos", "Gato" => "felinos");
   // Ou
   $animais['Cachorro'] = "caninos";
   $animais['Gato'] = "felinos";
