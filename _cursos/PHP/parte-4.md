@@ -105,3 +105,48 @@ E se usassemos ```echo $animais;```? Faça o teste e você verá que o PHP retor
   <img src="https://envolte.github.io/arquivos/fotos/php02.png" width="auto" />
   <figcaption>Arrays associativos sendo exibidos de duas formas: a primeira com o comando 'echo', e a segunda com 'print_r'.</figcaption>
   </figure>
+
+#### Arrays multidimensionais
+
+Um array multidimensional é um vetor que contém mais de um array, ou seja, um vetor dentro de outro. A dimensão de um array indica o número de índices que serão precisos para selecionar um elemento. Podemos construir uma estrututa com diversas dimensões, mas as que ultrapassam 3 níveis são mais difíceis de serem gerenciadas.
+
+- Para um array de 2 dimensões (bidimensional), usa-se 2 índices para selecionar um elemento;
+- Para um array de 3 dimensões (tridimensional), usa-se 3 índices para selecionar um elemento e assim por diante.
+
+Para entender melhor como funciona, vamos a um exemplo prático de um array bidimensional.
+
+```
+$pessoas = array( // Array bidimensional
+  'formados' => array('João', 'Maria'), // Primeiro array
+  'cursando' => array('José', 'Alexandre'), // Segundo array
+  'desistentes' => array('Mario', 'Paulo') // Terceiro array
+);
+```
+
+Se você prestar bastante atenção, se questionará o por quê de termos **3** arrays dentro de um outro, se estamos trabalhando com arrays de **duas dimensões**. Isso pode ser um pouco confuso, mas é bem fácil de entender.
+
+O primeiro array, na verdade, é a base do *array multidimensional*. Para trabalhar com esse tipo de vetores, é preciso entender que o seu tamanho não é contado por número de arrays, e sim por dimensões. Dentro do array *pessoas* temos três outros arrays, *formados*, *cursando* e *desistentes*. Este array é bidimensional porque trabalha com dois níveis, ou seja, nós temos três arrays *filhos* dentro de um array *pai*.
+
+Para exibir seus ítens, podemos fazer de duas formas: com o ```print_r``` ou ```echo```.
+
+```
+print_r ($pessoas); // Retorna a estrutura do vetor multidimensional
+
+echo $pessoas['formados'][0];
+echo $pessoas['cursando'][0];
+echo $pessoas['desistentes'][0]; 
+// Retorna o primeiro valor (índice 0) do primeiro vetor de cada array
+```
+
+**Com a função** ```print_r```, **teremos**:
+
+Array ( [formados] => Array ( [0] => **João** [1] => **Maria** ) [cursando] => Array ( [0] => **José** [1] => **Alexandre** ) [desistentes] => Array ( [0] => **Mario** [1] => **Paulo** ) )
+
+Com ```echo $pessoas['formados'][0];```, nós teremos "João" como resultado. A função ```echo``` sempre funciona quando estamos exibindo um ítem de vetor por vez. Entre colchetes, especificamos o array "formados", e o índice, que é **0**. Para que você possa entender melhor, vou exemplificar em uma tabela.
+
+Formados | Cursando | Desistentes
+---------|----------|------------
+João     |José      |Mario
+Maria    |Alexandre |Paulo
+
+As três colunas representam os três *arrays*. O array é bidimensinal porque os três vetores estão dentro do array principal, *$pessoas*. Também pode receber o nome de array de duas dimensões.
