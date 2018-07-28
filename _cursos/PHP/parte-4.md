@@ -21,7 +21,7 @@ $nome3 = "Luciana";
 $nome4 = "Marina";
 ```
 
-Até aí, tudo bem. Mas e se estivermos trabalhando com mais de 50, 100 valores? Não dá para criar uma variável para cada um, já que isso se tornaria algo cansativo. A solução: crie um *array*! Para fazer isso, use a função **array()** do PHP. Mas antes, vamos conhecer um pouco mais sobre cada tipo.
+Até aí, tudo bem. Mas e se estivermos trabalhando com mais de 50, 100 valores? Não dá para criar uma variável para cada um, já que isso se tornaria cansativo. A solução: crie um *array*! Para fazer isso, use a função **array()** do PHP. Mas antes, vamos conhecer um pouco mais sobre cada tipo.
 
 #### Array numérico
 
@@ -31,24 +31,23 @@ Arrays numéricos, ou arrays indexados, associam um índex numérico para cada v
 $nomes = array("Bianca", "Enio", "Luciana", "Marina"); // Repare que todos os valores ficam separados por aspas e vírgula.
 ```
 
-Como alternativa, você pode definir os valores manualmente.
+Como alternativa, você pode definir os índices manualmente.
 
 ```
 $nome[0] = "Bianca";
 $nome[1] = "Enio";
-
 // Nós definimos um array chamado '$nome', que contém 2 valores.
 ```
 
-Para acessá-los, é fácil. Podemos fazer isso através de seus índices.
+Para acessá-los, é fácil. Podemos fazer isso chamando o nome do *array* com o seu índice dentro de colchetes.
 
 ```
 print_r ($nome[1]); // Retorna "Enio"
 ```
 
-Note que fiz o uso da função ```print_r``` ao invés de ```echo```. Isso, porque o PHP não faz a conversão de arrays para strings através dessa função. Com o *print_r*, podemos ver a estrutura do vetor e seus índices. Você verá mais a seguir.
+Note que fiz o uso da função ```print_r``` ao invés de ```echo```. Isso, porque o PHP não faz a conversão de *arrays* para *strings* através dessa função. Com o *print_r*, podemos ver a estrutura do vetor e seus índices. Note que, neste caso, era possível fazer uso de ```echo```, porém introduzi a esta função para futuros testes em que chamamos o array de forma habitual (sem o índex). Você verá mais sobre isso a seguir.
 
-> **Não se esqueça**: os índices começam a partir de **0**, não de *1*!
+> **Não se esqueça**: os índices começam a partir de **0**, não de **1**!
 
 A partir deste momento, acredito que você esteja com seu servidor PHP ligado e testando todas as funções que estou ensinando. Não se esqueça de que a prática ajuda a fixar o conteúdo.
 
@@ -72,8 +71,37 @@ Você pode ter números inteiros, strings e outros tipos de dados juntos em um a
 ?>
 ```
 
-Resultará em:
+**Resultado**:
 
 "Fernando me *ensinou* que a soma de 21 + 30 é 51"
 
 Neste exemplo, repare que fiz o uso de ```echo```. Isso foi possível porque pegamos cada valor de nosso vetor individualmente, como  strings. Para exibir o resultado, também usei o operador de concatenação "**.**", ligando as strings às variáveis. Se você ficou com dúvida aqui, volte um pouco o curso que eu explico mais sobre esse operador.
+
+#### Arrays associativos
+
+Arrays associativos são vetores que usam *nomes* como *chaves* que você associa aos valores. Existem duas maneiras de criar um:
+
+```
+<?php
+  $animais = array("Cachorro" => "Canino", "Gato" => "Felino");
+  // Ou
+  $animais['Cachorro'] = "caninos";
+  $animais['Gato'] = "felinos";
+?>
+```
+
+> No primeiro exemplo, note o uso de **=>** para associar os valores às respectivas chaves.
+
+Mas como eu faço para pegar o valor deste vetor? Simples, use suas chaves nominais, como nos *arrays númericos*.
+
+```
+echo "O cachorro faz parte dos " .$animais['Cachorro'];
+// Retorna "O cachorro faz parte dos caninos"
+```
+
+E se usassemos ```echo $animais;```? Faça o teste e você verá que o PHP retornará um erro informando que não é possível fazer a conversão de arrays para strings, como mencionado anteriormente. Neste caso, use a função ```print_r```.
+
+<figure>
+  <img src="https://envolte.github.io/arquivos/fotos/php02.png" width="auto" />
+  <figcaption>Arrays associativos sendo exibidos de duas formas: a primeira com o comando 'echo', e a segunda com 'print_r'.</figcaption>
+  </figure>
