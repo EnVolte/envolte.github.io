@@ -149,4 +149,25 @@ Formados | Cursando | Desistentes
 João     |José      |Mario
 Maria    |Alexandre |Paulo
 
-As três colunas representam os três *arrays*. O array é bidimensinal porque os três vetores estão dentro do array principal, *$pessoas*. Também pode receber o nome de array de duas dimensões.
+As três colunas representam os três *arrays*. O array é bidimensinal porque os três vetores estão dentro do array principal, *$pessoas*. Também pode ser chamado de array de duas dimensões.
+
+Os arrays tridimensionais são aqueles que possuem três níveis hierárquicos, ou seja, um array, dentro de dois outros arrays. A estrutura funciona de forma parecida com a dos arrays de duas dimensões, veja:
+
+```
+$supermercado = array( // Array tridimensional
+  'produtos' => array( // Array bidimensional
+    'ofertas' => array('frutas', 'legumes'), // Primeiro array
+    'normal' => array('carne', 'verduras') // Segundo array
+  ),
+);
+```
+
+Criamos um array chamado ```supermercado```, e dentro dele temos outro array, chamado ```produtos```, que possui outros dois arrays no mesmo nível. Para acessar este vetor, ao invés de 2 índices, você precisará de 3. Esse valor deverá ser maior ou menor de acordo com o número de dimensões.
+
+```
+echo $supermercado['produtos']['ofertas'][1]; // Retornará "legumes"
+```
+
+Se você quiser saber mais sobre arrays, acesse o [Manual do PHP](https://secure.php.net/manual/pt_BR/language.types.array.php).
+
+Encontrou algum erro ou gostaria de sugerir uma mudança? Comente abaixo!
