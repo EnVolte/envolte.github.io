@@ -8,6 +8,23 @@ categories: PHP
 
 Na [3ª parte do Curso de PHP](https://envolte.github.io/cursos/PHP/parte-3), ensinei sobre os *Operadores aritiméticos*, *Operadores de atribuição*, *Operadores de comparação* e *Operadores lógicos*. Agora, as coisas vão começar a complicar um pouco com a chegada dos **vetores**, mais conhecidos como *arrays*. Apesar de o curso ser básico, e com objetivo de introduzir ao desenvolvimento de sites dinâmicos com PHP, todo este conteúdo que estamos vendo é de suma importância para o aprendizado *intermediário* e *avançado*. PHP não é uma linguagem de programação difícil de ser aprendida, mas exige que prestemos atenção. As linguagens de programação são como os idiomas; quanto mais praticamos, mais rápido estaremos "fluentes".
 
+<section id="quadro">
+<label>Índice</label> <button class="openclose">Abrir/Fechar</button>
+<div class="linha"></div>
+<section id="indice">
+<ol><!-- indice -->
+
+<li><a href="#01">O que são vetores?</a></li>
+<li><a href="#02">Array numérico</a></li>
+<li><a href="#03">Infográfico</a></li>
+<li><a href="#04">Array associativo</a></li>
+<li><a href="#05">Array multidimensional</a></li>
+
+</ol>
+</section>
+</section><br>
+
+<span id="01"></span>
 ### O que são vetores?
 
 Os **vetores**, ou *arrays*, são variáveis especiais que podem conter mais de um valor ao mesmo tempo. Na verdade, pode ser descrito como um mapa ordenado. Um mapa é um tipo que relaciona valores a chaves. Pode ser tratado como um array, uma lista (vetor), hashtable (que é uma implementação de mapa), dicionário, coleção, pilha, fila etc.
@@ -23,6 +40,7 @@ $nome4 = "Marina";
 
 Até aí, tudo bem. Mas e se estivermos trabalhando com mais de 50, 100 valores? Não dá para criar uma variável para cada um, já que isso se tornaria cansativo. A solução: crie um *array*! Para fazer isso, use a função **array()** do PHP. Mas antes, vamos conhecer um pouco mais sobre cada tipo.
 
+<span id="02"></span>
 #### Array numérico
 
 Arrays numéricos, ou arrays indexados, associam um índex numérico para cada valor. O seu índex pode ser definido automaticamente (sempre iniciam a partir de **0**). Vamos a um exemplo:
@@ -53,6 +71,7 @@ A partir deste momento, acredito que você esteja com seu servidor PHP ligado e 
 
 > Se você está usando o **EasyPHP**, tem uma ferramenta muito legal que pode descomplicar os testes em códigos PHP. Ao ligar seu servidor local, procure por *code tester*. Aqui no meu computador fica em [http://127.0.0.1:1111/codetester.php](http://127.0.0.1:1111/codetester.php).
 
+<span id="03"></span>
 <figure>
   <img src="https://envolte.github.io/arquivos/fotos/php01.png" width="auto" />
   <figcaption>Todo o código em PHP é interpretado ao clicar no botão 'interpret'. Note que a estrutura do array foi mostrada com o uso da função print_r, citada acima.</figcaption>
@@ -77,6 +96,7 @@ Você pode ter números inteiros, strings e outros tipos de dados juntos em um a
 
 Neste exemplo, repare que fiz o uso de ```echo```. Isso foi possível porque pegamos cada valor de nosso vetor individualmente, como  strings. Para exibir o resultado, também usei o operador de concatenação "**.**", ligando as strings às variáveis. Se você ficou com dúvida aqui, volte um pouco o curso que eu explico mais sobre esse operador.
 
+<span id="04"></span>
 #### Arrays associativos
 
 Arrays associativos são vetores que usam *nomes* como *chaves* que você associa aos valores. Existem duas maneiras de criar um:
@@ -106,6 +126,7 @@ E se usassemos ```echo $animais;```? Faça o teste e você verá que o PHP retor
   <figcaption>Arrays associativos sendo exibidos de duas formas: a primeira com o comando 'echo', e a segunda com 'print_r'.</figcaption>
   </figure>
 
+<span id="05"></span>
 #### Arrays multidimensionais
 
 Um array multidimensional é um vetor que contém mais de um array, ou seja, um vetor dentro de outro. A dimensão de um array indica o número de índices que serão precisos para selecionar um elemento. Podemos construir uma estrututa com diversas dimensões, mas as que ultrapassam 3 níveis são mais difíceis de serem gerenciadas.
