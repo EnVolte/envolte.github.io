@@ -9,8 +9,8 @@ google_analytics: 'UA-XXXXXXXX-X'
 gems: ["jekyll-paginate", "jekyll-related-posts"]
 paginate: 4
 permalink: /:categories/:year/:title.envolte
-cursophp: 'https://envolte.github.io/assets/images/capaphp.png'
-cursohtmlcss: 'https://envolte.github.io/assets/images/capahtmlcss.png'
+cursophp: '//envolte.github.io/assets/images/capaphp.png'
+cursohtmlcss: '//envolte.github.io/assets/images/capahtmlcss.png'
 
 related:
   max_count: 5
