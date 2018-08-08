@@ -18,7 +18,11 @@ Agora é possível descrever mais precisamente o seu conteúdo com a adição de
 
 ##### Seções e estruturas
 
-Resumidamente, as novas tags mais populares são ```<section>```, ```<article>```, ```<nav>```, ```<header>```, ```<footer>``` e ```<aside>```. Elas definem seções, artigos, menus, cabeçalhos, rodapés e partes do conteúdo de uma página. Para que você possa compreender melhor, veja a tabela a seguir:
+Antes do HTML5, todo o conteúdo era divido em divs, que é a forma como muitos aprenderam a criar páginas inteiras para a web. Se você procurar na internet, ou em livros mais antigos, muitos tutoriais ainda te ensinarão a fazer isso. Não é que seja errado, mas não é a melhor forma de desenvolver sites atualmente.
+
+As novas tags vieram para te ajudar, e ajudar os outros também. Os mecanismos de busca, por exemplo, vão buscar pela parte do conteúdo que contém a informação mais importante. Se você desenvolver páginas sem a nova estrutura, que proporciona uma organização melhor e facilita a **acessibilidade**, é possível que o conteúdo indexado não faça sentido, ou perca posições nas pesquisas. Para resumir, desenvolver seu site estruturado em HTML5 proporciona melhores resultados de SEO e garante que o bom funcionamento dos métodos de acessibilidade.
+
+A seguir, você verá uma tabela com as novas tags e as definições de cada uma. As mais básicas são ```<section>```, ```<article>```, ```<nav>```, ```<header>```, ```<footer>``` e ```<aside>```. Elas definem *seções*, *artigos*, *menus*, *cabeçalhos*, *rodapés* e *partes do conteúdo* de uma página.
 
 Elemento              |    Definição
 ----------------------|-----------------------------------------
@@ -51,16 +55,16 @@ Elemento              |    Definição
 &#60;svg&#62;		      | Define um desenho gráfico usando SVG
 &#60;audio&#62;		    | Define um conteúdo de som ou música
 &#60;embed&#62;		    | Define um contêiner para aplicações externas (como plug-ins)
-&#60;source&#62;		  | Define fonte para &#60;video&#62 e &#60;audio&#62;
+&#60;source&#62;		  | Define fonte para &#60;video&#62; e &#60;audio&#62;
 &#60;track&#62;		    | Define faixas para &#60;video&#62; e &#60;audio&#62;
 &#60;video&#62;		    | Define um conteúdo de vídeo
   
 ### O que mais mudou?
 
-Quando escrevemos documentos em HTML5, uma das primeiras novidades é a declaração *doc type*, que foi simplificada para ```<!DOCTYPE HTML>```. Lembre-se de que esta declaração é necessária para informar ao navegador que estamos trabalhando com HTML.
+Uma das primeiras novidades em relação à escrita de documentos em **HTML5**, é a declaração *doc type*, que foi simplificada para ```<!DOCTYPE html>```. Lembre-se de que esta declaração é necessária para informar ao navegador que estamos trabalhando com HTML.
 
 #### Formulários
 
-Os formulários em HTML5 agora são mais completos para a experiência do usuário. Foram adicionados seletores de cores, datas e controles numéricos, por exemplo. Os inputs agora incluem também os tipos de e-mail, pesquisa, url, range, número etc.
+Os formulários em HTML5 agora são mais completos. Quem trabalha com desenvolvimento de sites, sabe a importância do bom funcionamento dos formulários. E quem pensa que eles só são úteis na hora de criar páginas de contato, se engana; eles estão presentes em várias formas, em praticamente qualquer site, e são muito úteis para inserir informações em bancos de dados. 
 
-Para entender a importância desses novos tipos de inputs, você deve lembrar que os formulários que não os possuíam não faziam a verificação de dados. Isso significa, basicamente, que o HTML em si não verificava os dados ineridos, como, por exemplo, se os endereços de e-mail estavam sendo inseridos corretamente.
+Foram adicionados seletores de cores (color picker), datas (data picker) e controles numéricos (ajustes de *maior* e *menor*), por exemplo. Os inputs agora incluem, também, os tipos *e-mail*, *pesquisa*, *url*, *range*, *número* etc. A importância de se ter um tipo específico para cada uso não está apenas na semântica, mas na forma como o navegador irá interpretar a informação e realizar a checagem dos dados, impedindo que os usuários enviem informações incompletas ou erradas. Já era possível fazer isso através de Javascript, PHP ou outra linguagem de programação. Porém, quanto mais fácil, melhor.
