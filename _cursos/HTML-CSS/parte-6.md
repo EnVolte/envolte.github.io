@@ -38,7 +38,7 @@ Elemento              |    Definição
 &#60;menuitem&#62;		| Define um commando/menu que pode ser usado para invocar um menu popup
 &#60;meter&#62;		    | Define uma medida escalar dentro de uma faixa conhecida
 &#60;progress&#62;		| Define o progresso de uma tarefa
-&#60;rp&#62;		      | Define o que exibir em navegadores que não exibem anotações ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
+&#60;rp&#62;		      | Define o que exibir em navegadores que não exibem anotações<br>ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
 &#60;rt&#62;		      | Define a pronúncia de um caractere (para tipografias do Leste Asiático)
 &#60;ruby&#62;		    | Define uma anotação ruby (para tipografia do Leste Asiático)
 &#60;summary&#62;		  | Define um título visível para um elemento <details>
@@ -51,8 +51,8 @@ Elemento              |    Definição
 &#60;svg&#62;		      | Define um desenho gráfico usando SVG
 &#60;audio&#62;		    | Define um conteúdo de som ou música
 &#60;embed&#62;		    | Define um contêiner para aplicações externas (como plug-ins)
-&#60;source&#62;		  | Define fonte para <video> e <audio>
-&#60;track&#62;		    | Define faixas para <video> e <audio>
+&#60;source&#62;		  | Define fonte para &#60;video&#62 e &#60;audio&#62;
+&#60;track&#62;		    | Define faixas para &#60;video&#62; e &#60;audio&#62;
 &#60;video&#62;		    | Define um conteúdo de vídeo
   
 ### O que mais mudou?
