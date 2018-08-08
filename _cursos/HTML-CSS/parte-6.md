@@ -22,38 +22,38 @@ Resumidamente, as novas tags mais populares são ```<section>```, ```<article>``
 
 Elemento    |    Definição
 ------------|-----------------------------------------
-<article>	  | Define um artigo em uma página
-<header>	  | Define um cabeçalho da página ou seção
-<footer>	  | Define o rodapé da página ou seção
-<section>	  | Define uma seção na página
-<nav>	      | Define links de navegação na página
-<aside>	    | Define um conteúdo, uma parte, do conteúdo da página
-<bdi>       | Define um texto que pode ser formatado em diferentes direções
-<details>	  | Define detalhes adicionais que o usuário pode ver ou ocultar
-<dialog>	  | Define uma caixa de diálogo ou janela
-<figcaption>|	Define uma legenda para um elemento <figure>
-<figure>	  | Define um conteúdo como ilustrações, diagramas, fotos, códigos, listagens, etc
-<main>	    | Define o conteúdo principal de uma página
-<mark>	    | Define um texto marcado ou realçado
-<menuitem>	| Define um commando/menu que pode ser usado para invocar um menu popup
-<meter>	    | Define uma medida escalar dentro de uma faixa conhecida
-<progress>	| Define o progresso de uma tarefa
-<rp>	      | Define o que exibir em navegadores que não exibem anotações ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
-<rt>	      | Define a pronúncia de um caractere (para tipografias do Leste Asiático)
-<ruby>	    | Define uma anotação ruby (para tipografia do Leste Asiático)
-<summary>	  | Define um título visível para um elemento <details>
-<time>	    | Define uma data/hora
-<wbr>	      | Define uma possível quebra de linha
-<datalist>	| Lista opções predefinidas para controles inputs
-<keygen>	  | Define um campo de gerador de par de chaves (para formulários)
-<output>	  | Define o resultado de um cálculo
-<canvas>	  | Define um desenho gráfico usando JavaScript
-<svg>	      | Define um desenho gráfico usando SVG
-<audio>	    | Define um conteúdo de som ou música
-<embed>	    | Define um contêiner para aplicações externas (como plug-ins)
-<source>	  | Define fonte para <video> e <audio>
-<track>	    | Define faixas para <video> e <audio>
-<video>	    | Define um conteúdo de vídeo
+&lsaquo;article>	  | Define um artigo em uma página
+&lsaquo;header>	  | Define um cabeçalho da página ou seção
+&lsaquo;footer>	  | Define o rodapé da página ou seção
+&lsaquo;section>	  | Define uma seção na página
+&lsaquo;nav>	      | Define links de navegação na página
+&lsaquo;aside>	    | Define um conteúdo, uma parte, do conteúdo da página
+&lsaquo;bdi>       | Define um texto que pode ser formatado em diferentes direções
+&lsaquo;details>	  | Define detalhes adicionais que o usuário pode ver ou ocultar
+&lsaquo;dialog>	  | Define uma caixa de diálogo ou janela
+&lsaquo;figcaption>|	Define uma legenda para um elemento <figure>
+&lsaquo;figure>	  | Define um conteúdo como ilustrações, diagramas, fotos, códigos, listagens, etc
+&lsaquo;main>	    | Define o conteúdo principal de uma página
+&lsaquo;mark>	    | Define um texto marcado ou realçado
+&lsaquo;menuitem>	| Define um commando/menu que pode ser usado para invocar um menu popup
+&lsaquo;meter>	    | Define uma medida escalar dentro de uma faixa conhecida
+&lsaquo;progress>	| Define o progresso de uma tarefa
+&lsaquo;rp>	      | Define o que exibir em navegadores que não exibem anotações ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
+&lsaquo;rt>	      | Define a pronúncia de um caractere (para tipografias do Leste Asiático)
+&lsaquo;ruby>	    | Define uma anotação ruby (para tipografia do Leste Asiático)
+&lsaquo;summary>	  | Define um título visível para um elemento <details>
+&lsaquo;time>	    | Define uma data/hora
+&lsaquo;wbr>	      | Define uma possível quebra de linha
+&lsaquo;datalist>	| Lista opções predefinidas para controles inputs
+&lsaquo;keygen>	  | Define um campo de gerador de par de chaves (para formulários)
+&lsaquo;output>	  | Define o resultado de um cálculo
+&lsaquo;canvas>	  | Define um desenho gráfico usando JavaScript
+&lsaquo;svg>	      | Define um desenho gráfico usando SVG
+&lsaquo;audio>	    | Define um conteúdo de som ou música
+&lsaquo;embed>	    | Define um contêiner para aplicações externas (como plug-ins)
+&lsaquo;source>	  | Define fonte para <video> e <audio>
+&lsaquo;track>	    | Define faixas para <video> e <audio>
+&lsaquo;video>	    | Define um conteúdo de vídeo
   
 ### O que mais mudou?
 
