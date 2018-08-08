@@ -20,40 +20,40 @@ Agora é possível descrever mais precisamente o seu conteúdo com a adição de
 
 Resumidamente, as novas tags mais populares são ```<section>```, ```<article>```, ```<nav>```, ```<header>```, ```<footer>``` e ```<aside>```. Elas definem seções, artigos, menus, cabeçalhos, rodapés e partes do conteúdo de uma página. Para que você possa compreender melhor, veja a tabela a seguir:
 
-Elemento    |    Definição
-------------|-----------------------------------------
-&#60;article>	  | Define um artigo em uma página
-&#60;header>	  | Define um cabeçalho da página ou seção
-&#60;footer>	  | Define o rodapé da página ou seção
-&#60;section>	  | Define uma seção na página
-&#60;nav>	      | Define links de navegação na página
-&#60;aside>	    | Define um conteúdo, uma parte, do conteúdo da página
-&#60;bdi>       | Define um texto que pode ser formatado em diferentes direções
-&#60;details>	  | Define detalhes adicionais que o usuário pode ver ou ocultar
-&#60;dialog>	  | Define uma caixa de diálogo ou janela
-&#60;figcaption>|	Define uma legenda para um elemento <figure>
-&#60;figure>	  | Define um conteúdo como ilustrações, diagramas, fotos, códigos, listagens, etc
-&#60;main>	    | Define o conteúdo principal de uma página
-&#60;mark>	    | Define um texto marcado ou realçado
-&#60;menuitem>	| Define um commando/menu que pode ser usado para invocar um menu popup
-&#60;meter>	    | Define uma medida escalar dentro de uma faixa conhecida
-&#60;progress>	| Define o progresso de uma tarefa
-&#60;rp>	      | Define o que exibir em navegadores que não exibem anotações ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
-&#60;rt>	      | Define a pronúncia de um caractere (para tipografias do Leste Asiático)
-&#60;ruby>	    | Define uma anotação ruby (para tipografia do Leste Asiático)
-&#60;summary>	  | Define um título visível para um elemento <details>
-&#60;time>	    | Define uma data/hora
-&#60;wbr>	      | Define uma possível quebra de linha
-&#60;datalist>	| Lista opções predefinidas para controles inputs
-&#60;keygen>	  | Define um campo de gerador de par de chaves (para formulários)
-&#60;output>	  | Define o resultado de um cálculo
-&#60;canvas>	  | Define um desenho gráfico usando JavaScript
-&#60;svg>	      | Define um desenho gráfico usando SVG
-&#60;audio>	    | Define um conteúdo de som ou música
-&#60;embed>	    | Define um contêiner para aplicações externas (como plug-ins)
-&#60;source>	  | Define fonte para <video> e <audio>
-&#60;track>	    | Define faixas para <video> e <audio>
-&#60;video>	    | Define um conteúdo de vídeo
+Elemento              |    Definição
+----------------------|-----------------------------------------
+&#60;article&#62;	    | Define um artigo em uma página
+&#60;header&#62;	    | Define um cabeçalho da página ou seção
+&#60;footer&#62;		  | Define o rodapé da página ou seção
+&#60;section&#62;		  | Define uma seção na página
+&#60;nav&#62;	        | Define links de navegação na página
+&#60;aside&#62;		    | Define um conteúdo, uma parte, do conteúdo da página
+&#60;bdi&#62;	        | Define um texto que pode ser formatado em diferentes direções
+&#60;details&#62;		  | Define detalhes adicionais que o usuário pode ver ou ocultar
+&#60;dialog&#62;		  | Define uma caixa de diálogo ou janela
+&#60;figcaption&#62;	|	Define uma legenda para um elemento <figure>
+&#60;figure&#62;		  | Define um conteúdo como ilustrações, diagramas, fotos, códigos, listagens, etc
+&#60;main&#62;		    | Define o conteúdo principal de uma página
+&#60;mark&#62;		    | Define um texto marcado ou realçado
+&#60;menuitem&#62;		| Define um commando/menu que pode ser usado para invocar um menu popup
+&#60;meter&#62;		    | Define uma medida escalar dentro de uma faixa conhecida
+&#60;progress&#62;		| Define o progresso de uma tarefa
+&#60;rp&#62;		      | Define o que exibir em navegadores que não exibem anotações ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
+&#60;rt&#62;		      | Define a pronúncia de um caractere (para tipografias do Leste Asiático)
+&#60;ruby&#62;		    | Define uma anotação ruby (para tipografia do Leste Asiático)
+&#60;summary&#62;		  | Define um título visível para um elemento <details>
+&#60;time&#62;		    | Define uma data/hora
+&#60;wbr&#62;		      | Define uma possível quebra de linha
+&#60;datalist&#62;		| Lista opções predefinidas para controles inputs
+&#60;keygen&#62;		  | Define um campo de gerador de par de chaves (para formulários)
+&#60;output&#62;		  | Define o resultado de um cálculo
+&#60;canvas&#62;		  | Define um desenho gráfico usando JavaScript
+&#60;svg&#62;		      | Define um desenho gráfico usando SVG
+&#60;audio&#62;		    | Define um conteúdo de som ou música
+&#60;embed&#62;		    | Define um contêiner para aplicações externas (como plug-ins)
+&#60;source&#62;		  | Define fonte para <video> e <audio>
+&#60;track&#62;		    | Define faixas para <video> e <audio>
+&#60;video&#62;		    | Define um conteúdo de vídeo
   
 ### O que mais mudou?
 
