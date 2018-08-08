@@ -31,7 +31,7 @@ Elemento              |    Definição
 &#60;bdi&#62;	        | Define um texto que pode ser formatado em diferentes direções
 &#60;details&#62;		  | Define detalhes adicionais que o usuário pode ver ou ocultar
 &#60;dialog&#62;		  | Define uma caixa de diálogo ou janela
-&#60;figcaption&#62;	|	Define uma legenda para um elemento <figure>
+&#60;figcaption&#62;	|	Define uma legenda para um elemento &#60;figure&#62;
 &#60;figure&#62;		  | Define um conteúdo como ilustrações, diagramas, fotos, códigos, listagens, etc
 &#60;main&#62;		    | Define o conteúdo principal de uma página
 &#60;mark&#62;		    | Define um texto marcado ou realçado
@@ -41,7 +41,7 @@ Elemento              |    Definição
 &#60;rp&#62;		      | Define o que exibir em navegadores que não exibem anotações<br>ruby (anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático.)
 &#60;rt&#62;		      | Define a pronúncia de um caractere (para tipografias do Leste Asiático)
 &#60;ruby&#62;		    | Define uma anotação ruby (para tipografia do Leste Asiático)
-&#60;summary&#62;		  | Define um título visível para um elemento <details>
+&#60;summary&#62;		  | Define um título visível para um elemento &#60;details&#62;
 &#60;time&#62;		    | Define uma data/hora
 &#60;wbr&#62;		      | Define uma possível quebra de linha
 &#60;datalist&#62;		| Lista opções predefinidas para controles inputs
