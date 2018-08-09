@@ -10,7 +10,7 @@ Nesta 6ª parte do curso, iremos finalmente entrar em **HTML5**. Durante as últ
 
 ### O que é HTML5?
 
-O HTML5 é a mais recente atualização da evolução da linguagem de marcação criada por *Tim Berners-Lee*, também conhecido por desenvolver o protocolo **HTTP**, e se encontra, atualmente, na versão **5.2**. São destaques os novos *elementos*, *atributos*, *comportamentos* e um conjunto maior de tecnologias que permitem o desenvolvimento de aplicações e sites mais diversos e poderosos. Mas o que mudou?
+O HTML5 é a mais recente atualização da evolução da linguagem de marcação criada por *Tim Berners-Lee*, também conhecido por desenvolver o protocolo **HTTP**. Atualmente, se encontra na versão **5.2**. São destaques os novos *elementos*, *atributos*, *comportamentos* e um conjunto maior de tecnologias que permitem o desenvolvimento de aplicações e sites mais diversos e poderosos. Mas antes de aprendermos a desenvolver utilizando HTML5, vamos ver o que mudou.
 
 #### Semântica
 
