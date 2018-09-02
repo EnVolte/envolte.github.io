@@ -110,10 +110,14 @@ Este modelo possui um número de elementos em linha em comum com o HTML4. Você 
 
 ##### Flow
 
-Contém a maioria dos elementos em HTML5 que devem ser incluídos em um fluxo normal do documento.
+Contém a maioria dos elementos em HTML5 que devem ser incluídos no fluxo normal de uma página.
 
 #### Sectioning
 
 Define o escopo de cabeçalhos, conteúdo, navegação e rodapés. São exemplos: ``<article>``, ``<aside>``, ``<nav>``, ``<section>``.
 
-> Os diversos modelos de conteúdo se sobrepõe as algumas áreas, dependendo de como eles estão sendo utilizados.
+> Os diversos modelos de conteúdo se sobrepõe em algumas áreas, dependendo de como eles estão sendo utilizados.
+
+<figure><img src="https://envolte.github.io/arquivos/fotos/modelosconteudo.png" width="auto" />
+  <figcaption>Simplificando o esquema dos modelos de conteúdo.</figcaption>
+</figure>
