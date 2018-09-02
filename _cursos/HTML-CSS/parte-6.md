@@ -118,6 +118,6 @@ Define o escopo de cabeçalhos, conteúdo, navegação e rodapés. São exemplos
 
 > Os diversos modelos de conteúdo se sobrepõe em algumas áreas, dependendo de como eles estão sendo utilizados.
 
-<figure><img src="https://envolte.github.io/arquivos/fotos/modelosconteudo.png" width="60%" />
+<figure style="max-width: 80%;"><img src="https://envolte.github.io/arquivos/fotos/modelosconteudo.png" width="auto" />
   <figcaption>Simplificando o esquema dos modelos de conteúdo.</figcaption>
 </figure>
