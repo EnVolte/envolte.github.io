@@ -8,14 +8,34 @@ categories: HTMLCSS
 
 Nesta 6ª parte do curso, iremos finalmente entrar em **HTML5**. Durante as últimas aulas, falei sobre a estrutura básica de uma página em HTML, como formatar textos, separar conteúdos, criar tabelas, formulários etc. Se você está aqui, deve ter feito as nossas atividades propostas ao longo dos posts e já deve estar familiarizado com os códigos. Caso você queira saber um pouco mais sobre a história do *HTML* e suas versões antes de iniciarmos o HTML5, [clique aqui](https://pt.wikipedia.org/wiki/HTML#Hist%C3%B3ria).
 
+<section id="quadro">
+<label>Índice</label> <button class="openclose">Abrir/Fechar</button>
+<div class="linha"></div>
+<section id="indice">
+<ol><!-- indice -->
+<li><a href="#01">O que é HTML5?</a></li>
+<li><a href="#02">Semântica</a></li>
+<li><a href="#03">Seções e estruturas</a></li>
+<li><a href="#04">O que mais mudou?</a></li>
+<li><a href="#05">Formulários</a></li>
+<li><a href="#06">Modelos de conteúdo</a></li>
+<li><a href="#07">Infográfico</a></li>
+</ol>
+</section>
+</section>
+<br>
+
+<span id="01"></span>
 ### O que é HTML5?
 
 O HTML5 é a mais recente atualização da evolução da linguagem de marcação criada por *Tim Berners-Lee*, também conhecido por desenvolver o protocolo **HTTP**. Atualmente, se encontra na versão **5.2**. São destaques os novos *elementos*, *atributos*, *comportamentos* e um conjunto maior de tecnologias que permitem o desenvolvimento de aplicações e sites mais diversos e poderosos. Mas antes de aprendermos a desenvolver utilizando HTML5, vamos ver o que mudou.
 
+<span id="02"></span>
 #### Semântica
 
 Agora é possível descrever mais precisamente o seu conteúdo com a adição de novas tags de *seções* e *conteúdo*. A proposta desta quinta versão do HTML é oferecer mais **organização** e **acessibilidade**. Nós vamos ver mais sobre isso a seguir.
 
+<span id="03"></span>
 #### Seções e estruturas
 
 Antes do HTML5, todo o conteúdo era divido em divs, que é a forma como muitos aprenderam a criar páginas inteiras para a web. Se você procurar na internet, ou em livros mais antigos, muitos tutoriais ainda te ensinarão a fazer isso. Não é que seja errado, mas não é a melhor forma de desenvolver sites atualmente.
@@ -61,16 +81,19 @@ Elemento              |    Definição
 
 Não se preocupe em decorar todas essas tags e seus significados logo de primeira. Atente-se apenas às mais importantes, que foram citadas acima da tabela.
 
+<span id="04"></span>
 ### O que mais mudou?
 
 Uma das primeiras novidades em relação à escrita de documentos em **HTML5**, é a declaração *doc type*, que foi simplificada para ```<!DOCTYPE html>```. Lembre-se de que esta declaração é necessária para informar ao navegador que estamos trabalhando com um documento em HTML.
 
+<span id="05"></span>
 #### Formulários
 
 Os formulários em HTML5 agora são mais completos. Quem trabalha com desenvolvimento de sites, sabe a importância do bom funcionamento de um formulário. E quem pensa que eles só são úteis na hora de criar páginas de contato ou barras de busca, se engana: eles estão presentes em várias formas, em praticamente qualquer site, e são muito úteis para inserir informações nos bancos de dados.
 
 Foram adicionados seletores de cores (color picker), datas (data picker) e controles numéricos (ajustes de *maior* e *menor*), por exemplo. Os inputs agora incluem, também, os tipos *e-mail*, *pesquisa*, *url*, *range*, *número* etc. A importância de se ter um tipo específico para cada uso não está apenas na semântica, mas na forma como o navegador irá interpretar a informação e realizar a checagem dos dados, impedindo que os usuários enviem informações incompletas ou erradas. Já era possível fazer isso através de Javascript, PHP ou outra linguagem de programação, porém, o HTML5 veio para facilitar a forma como desenvolvemos para a web.
 
+<span id="06"></span>
 #### Modelos de conteúdo
 
 Os elementos em HTML são tipicamente divididos entre elementos de bloco e elementos em linha. Com a chegada do HTML5, foram introduzidos 7 novos modelos de conteúdo.
@@ -120,6 +143,7 @@ Define o escopo de cabeçalhos, conteúdo, navegação e rodapés. São exemplos
 
 Para melhor entendimento, veja um exemplo da estrutura desses modelos no *infográfico* abaixo.
 
+<span id="07"></span>
 <figure style="max-width: 50%; margin: auto auto;"><img src="https://envolte.github.io/arquivos/fotos/modelosconteudo.png" width="auto" />
   <figcaption>Simplificando o esquema dos modelos de conteúdo.</figcaption>
 </figure>
