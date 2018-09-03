@@ -112,12 +112,18 @@ Este modelo possui um número de elementos em linha em comum com o HTML4. Você 
 
 Contém a maioria dos elementos em HTML5 que devem ser incluídos no fluxo normal de uma página.
 
-#### Sectioning
+##### Sectioning
 
 Define o escopo de cabeçalhos, conteúdo, navegação e rodapés. São exemplos: ``<article>``, ``<aside>``, ``<nav>``, ``<section>``.
 
 > Os diversos modelos de conteúdo se sobrepõe em algumas áreas, dependendo de como eles estão sendo utilizados.
 
+Para melhor entendimento, veja um exemplo da estrutura desses modelos no *infográfico* abaixo.
+
 <figure style="max-width: 50%; margin: auto auto;"><img src="https://envolte.github.io/arquivos/fotos/modelosconteudo.png" width="auto" />
   <figcaption>Simplificando o esquema dos modelos de conteúdo.</figcaption>
 </figure>
+
+Na próxima parte do Curso de HTML & CSS, iremos aprender sobre a *estrutura básica* de uma página em **HTML5**.
+
+Ficou com alguma dúvida, encontrou algum equivoco ou gostaria de contribuir com o conteúdo? Comente abaixo!
