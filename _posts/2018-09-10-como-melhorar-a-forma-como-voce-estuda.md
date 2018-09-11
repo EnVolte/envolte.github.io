@@ -55,6 +55,9 @@ Para que você possa absorver todos os conselhos dados acima e colocá-los em pr
 
 - **Associe ilustrações ao conteúdo**. Umas das dicas mais importantes que alguém poderia te dar. Nem sempre conseguimos guardar uma grande quantidade de texto na memória, porém, boa parte das pessoas conseguem lembrar de imagens com mais facilidade. Mas vc sabe como transformar um texto em uma imagem? Isso é possível? Sim! Mesmo que você não seja o(a) melhor desenhando, arrisque fazer alguns rabiscos. Por exemplo: se estamos aprendendo sobre as principais tags do conteúdo *head* de uma página, vc poderá desenhar uma ilustração de um cabeçalho e associar as devidas tags às suas posições, como uma espécie de inforgráfico no papel.
 
+- **BÔNUS**: Como uma forma de complementar seus estudos, procure comprar livros que falem sobre o assunto que você está aprendendo. Os livros são, muitas vezes, o ponto de partida para o aprendizado, assim como foram para mim quando comecei a aprender PHP. Hoje em dia, a diversidade de livros é tamanha, que você consegue tirar tanto proveito deles, quanto teria em uma sala de aula com professores renomados. Não deixe de *considerar* esta dica!
+
 Estudar nem sempre é uma tarefa fácil, mas, com essas dicas, espero que você consiga atingir os seus objetivos e aprender bastante. São dicas que sempre uso para estudar, e posso dizer que funcionam muito bem.
 
 A internet é rica em conteúdos, e sempre há pessoas que estão dispostas a compartilhar o seu conhecimento com o próximo. Se você achou que não conseguiria, estou aqui para te ajudar. Você já conhece os nossos [cursos](https://envolte.ga/cursos/)? 
+
