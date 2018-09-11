@@ -19,13 +19,13 @@ A palavra que vai definir todo este processo é o **comprometimento**. Você pre
 
 Para colocar o comprometimento em prática, sugiro que crie uma *rotina de estudos*. Esta rotina deve incluir, também, uma pausa para que você possa respirar um pouco, tomar um copo d'água e pensar sobre aquilo que acabou de aprender. Não adianta querer que o nosso cérebro absorva muita informação em um curto período de tempo. É importante, também, que você tenha se alimentado antes de começar. Nosso corpo precisa estar relaxado para que atividades, como a boa leitura, não sejam negligenciadas.
 
-#### Quanto tempo devo estudar?
+#### Por quanto tempo devo estudar?
 
 O tempo de estudo varia de pessoa para pessoa, no entanto, como dito mais acima, a média deve ser de **30 minutos** à **1 hora** por dia. Você pode, por exemplo, estudar por meia hora, fazer um pequeno descanço de 5, 10 minutos, e estudar mais 30 minutos.
 
 Ao contrário da escola, os cursos online não podem dar um "puxão de orelha" no aluno desatento. Também não sabemos como está o progresso de cada um, se a pessoa precisa ajuda etc. Lembrando, é claro, que nossos *comentários*, *e-mail* e *messenger* estão sempre à disposição para tirar dúvidas sobre os nossos cursos ou tutoriais.
 
-### Não tenha medo
+#### Não tenha medo
 
 Por experiência própria, posso dizer que já aprendi muito com a ajuda da internet. Fui aluno de pessoas que, talvez, nunca cheguem a saber que me ajudaram. E como aluno de primeira viagem, senti um pouco de dificuldade com o conteúdo, com a forma como ele era apresentado e já, inclusive, cheguei a me questionar se eu poderia aprender com aquele material sem a ajuda de um professor. Sim, pois muitos cursos online não oferecem aulas ao vivo com alguém que possa nos acompanhar, ou as dúvidas nem sempre são sanadas em fóruns de ajuda.
 
@@ -33,7 +33,7 @@ Quando digo para não ter medo, faço um pedido para que você tenha coragem de 
 
 Talvez, a dica mais importante: não tenha medo de errar! Sim, os erros são parte importante da nossa vida. Até mesmo a pessoa mais experiente pode cometer um equivoco, e isso não a torna menos do que ela realmente é. Quando falamos de desenvolvimento web e linguagens de programação, é muito provável que cometamos mais de um erro, por diversas vezes, enquanto estivermos aprendendo. É muito comum de acontecer, até mesmo com os profissionais. Quando erramos, cometemos uma falha que precisa ser consertada, e aí está uma ótima oportunidade para aprender algo novo e ganhar experiência.
 
-#### Dicas
+### Dicas
 
 Para que você possa absorver todos os conselhos dados acima e colocá-los em prática, a seguir teremos uma lista de sugestões que te ajudarão a melhorar a forma como você estuda. Vale a pena testar todas, certo?
 
@@ -47,17 +47,17 @@ Para que você possa absorver todos os conselhos dados acima e colocá-los em pr
 
 - **Compartilhe interesses com os amigos**. Isso mesmo, se você tem algum amigo ou amiga que compartilha do mesmo interesse que o seu por aprender sobre linguagens de programação, fale com eles sobre o assunto. Aprender algo sozinho(a), às vezes, pode ser muito solitário. Se você tiver alguém com quem compartilhar suas novas descobertas, o assunto ficará muito mais fácil e interessante de se aprender.
 
-- **Procure inspirações na internet**. Quando comecei a aprender linguagens de programação, já sabia sobre a linguagem de marcação *HTML*. Mas antes de tudo isso, tive o interesse de aprender a desenvolver sites tão bonitos quanto os que eu visitava. Nunca pensei que eu poderia fazer isso apenas com códigos, e aprender tanta coisa assim me parecia impossível. O desejo de conseguir fazer isso [sites] me fez ir em frente. Ainda hoje, quando visito algum site que chame a minha atenção, eu costumo olhar para cada detalhe da página e admirar o trabalho feito. Muitas dessas visitas já me inspiraram na hora de desenvolver algo.
+- **Procure inspirações na internet**. Quando comecei a aprender PHP, por exemplo, já sabia sobre a linguagem de marcação *HTML*. Mas antes de tudo isso, tive o interesse de aprender a desenvolver sites tão bonitos quanto os que eu visitava. Nunca pensei que poderia fazer isso apenas com códigos, e aprender tanta coisa assim me parecia impossível. O desejo de conseguir fazer isso [sites] me fez ir em frente. Ainda hoje, quando visito algum site que chame a minha atenção, costumo olhar para cada detalhe da página e admirar o trabalho feito. Muitas dessas visitas já me inspiraram na hora de desenvolver algo.
 
-- **Entenda que para ser bom, é preciso tempo**. Esta é uma das dicas mais valiosas que se pode dar para uma pessoa. Eu, assim como muitos, me frustrava constantemente com o resultado que eu tinha. Eu sempre comparei o meu "trabalho" com o trabalho alheio, pensei que nunca aprenderia a fazer algo tão bom quanto outras pessoas. Isso, para quem está começando, pode ser a pressão que fará alguém desistir. Eu demorei para entender, mas finalmente compreendo que *para ser bom, é preciso tempo*. Nenhum grande artista começa o seu trabalho de maneira impecável. Todos nós precisamos errar, corrigir, tentar de novo e ir nos aperfeiçoando com o tempo. A criatividade será sua grande amiga quando você estiver em problemas. Aceite o tempo e não se torture por nem sempre conseguir.
+- **Entenda que para ser bom, é preciso tempo**. Esta é uma das dicas mais valiosas que se pode dar para uma pessoa. Eu, assim como muitos, me frustrava constantemente com o resultado que tinha. Sempre comparei o meu "trabalho" com o trabalho alheio, pensei que nunca aprenderia a fazer algo tão bom quanto outras pessoas. Isso, para quem está começando, pode ser a pressão que fará alguém desistir. Eu demorei para entender, mas finalmente compreendo que *para ser bom, é preciso tempo*. Nenhum grande artista começa o seu trabalho de maneira impecável. Todos nós precisamos errar, corrigir, tentar de novo e ir nos aperfeiçoando com o tempo. A criatividade será sua grande amiga quando você estiver em problemas. Aceite o tempo e não se torture por nem sempre conseguir.
 
-- **Faça anotações importantes em post-it**. A dica do caderno funcioná muito bem com esta aqui. Apesar de escrever um resumo das partes mais importantes ser essencial, às vezes precisamos fazer anotações mais simples, mas não menos importantes. Por exemplo, se você está fazendo um curso de HTML5, precisará saber ao menos as tags essenciais que uma página da web possui. Você pode escrever sobre isso no seu resumo, mas se fizer uma anotação em um post-it (aquele papelzinho colorido) e marcar junto à folha, você saberá de qual assunto está falando naquela página. Isso pode ser muito útil, também, para dividir o conteúdo.
+- **Faça anotações importantes em post-it**. A dica do caderno funcioná muito bem com esta aqui. Escrever um resumo do conteúdo é essencial, mas, às vezes, precisamos fazer anotações mais simples, porém não menos importantes. Por exemplo, se você está fazendo um curso de *HTML5*, precisará saber ao menos as tags essenciais que uma página da web possui. Você pode escrever sobre isso no seu resumo, mas se fizer uma anotação em um post-it (aquele papelzinho colorido) e marcar junto à folha, você saberá de qual assunto está falando naquela página. Isso pode ser muito útil, também, para dividir o conteúdo.
 
 - **Associe ilustrações ao conteúdo**. Umas das dicas mais importantes que alguém poderia te dar. Nem sempre conseguimos guardar uma grande quantidade de texto na memória, porém, boa parte das pessoas conseguem lembrar de imagens com mais facilidade. Mas vc sabe como transformar um texto em uma imagem? Isso é possível? Sim! Mesmo que você não seja o(a) melhor desenhando, arrisque fazer alguns rabiscos. Por exemplo: se estamos aprendendo sobre as principais tags do conteúdo *head* de uma página, vc poderá desenhar uma ilustração de um cabeçalho e associar as devidas tags às suas posições, como uma espécie de inforgráfico no papel.
 
 - **BÔNUS**: Como uma forma de complementar seus estudos, procure comprar livros que falem sobre o assunto que você está aprendendo. Os livros são, muitas vezes, o ponto de partida para o aprendizado, assim como foram para mim quando comecei a aprender PHP. Hoje em dia, a diversidade de livros é tamanha, que você consegue tirar tanto proveito deles, quanto teria em uma sala de aula com professores renomados. Não deixe de *considerar* esta dica!
 
-Estudar nem sempre é uma tarefa fácil, mas, com essas dicas, espero que você consiga atingir os seus objetivos e aprender bastante. São dicas que sempre uso para estudar, e posso dizer que funcionam muito bem.
+Estudar nem sempre é uma tarefa fácil, mas com essas dicas, espero que você consiga atingir os seus objetivos e aprender bastante. São truques que sempre uso para estudar, e posso dizer que funcionam muito bem. A internet é rica em conteúdos, e sempre há pessoas que estão dispostas a compartilhar o seu conhecimento com o próximo. Se você achou que não conseguiria, estou aqui para te ajudar. 
 
-A internet é rica em conteúdos, e sempre há pessoas que estão dispostas a compartilhar o seu conhecimento com o próximo. Se você achou que não conseguiria, estou aqui para te ajudar. Você já conhece os nossos [cursos](https://envolte.ga/cursos/)? 
+Você já conhece os nossos [cursos](https://envolte.ga/cursos/)? Inscreva-se agora mesmo!
 
