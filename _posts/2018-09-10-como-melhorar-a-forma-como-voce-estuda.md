@@ -2,7 +2,7 @@
 layout: post
 title:  "Como melhorar a forma como você estuda"
 capa: "https://envolte.github.io/arquivos/fotos/estudos.png"
-capaindex: "https://envolte.github.io/arquivos/fotos/estudos2.png"
+capaindex: "https://envolte.github.io/arquivos/fotos/index/estudosindex.png"
 date:   2018-09-10 20:00:00
 categories: Ajuda
 ---
