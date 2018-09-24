@@ -16,16 +16,10 @@ layout: null
       {% if curso.categories contains "PHP" %}
       <item>
         <title>{{ curso.title | xml_escape }}</title>
-        <description>{{ curso.content | xml_escape }}</description>
+        <description>{{ curso.subtitulo | xml_escape }}</description>
         <pubDate>{{ curo.date | date_to_rfc822 }}</pubDate>
         <link>{{ curso.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ curso.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tags in curso.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in curso.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
       </item>
       {% endif %}
     
