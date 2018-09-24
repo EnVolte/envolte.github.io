@@ -12,6 +12,8 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for curso in site.cursos limit:10 %}
+    
+      {% if curso.categories contains "PHP" %}
       <item>
         <title>{{ curso.title | xml_escape }}</title>
         <description>{{ curso.content | xml_escape }}</description>
@@ -25,6 +27,8 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+      {% endif %}
+    
     {% endfor %}
   </channel>
 </rss>
