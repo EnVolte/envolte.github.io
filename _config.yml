@@ -33,5 +33,5 @@ defaults:
 
 
 # Details for the RSS feed generator
-url:            'https://envolte.ga'
+url:            'https://envolte.ga/'
 author:         'Luís Fernando'
