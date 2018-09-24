@@ -3,7 +3,7 @@ description: O melhor professor é aquele que te faz aprender de verdade ;)
 meta_description: "Um blog para te ajudar com coisas sobre blogs e sites ;)"
 
 logo: true
-baseurl: 'https://envolte.ga/'
+baseurl: 'https://envolte.ga'
 domain_name: 'https://envolte.ga'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: ["jekyll-paginate", "jekyll-related-posts"]
@@ -33,5 +33,5 @@ defaults:
 
 
 # Details for the RSS feed generator
-url:            'https://envolte.ga/'
+url:            ''
 author:         'Luís Fernando'
